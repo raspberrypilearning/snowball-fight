@@ -9,7 +9,7 @@ In this project you're going to make a game in which you have to throw snowballs
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/snowball-fight/print).
 
 
 
