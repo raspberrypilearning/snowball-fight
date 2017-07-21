@@ -4,7 +4,7 @@ Let's make a snowball, that you can throw around your stage.
 
 
 
-+ Open the ‘Snowball Fight’ Scratch project online at [jumpto.cc/snowball-go](http://jumpto.cc/snowball-go){target="_blank"} or download from [jumpto.cc/snowball-get](http://jumpto.cc/snowball-get) and then open if you are using the offline editor.
++ Open the ‘Snowball Fight’ Scratch project online at [jumpto.cc/snowball-go](http://jumpto.cc/snowball-go){:target="_blank"} or download from [jumpto.cc/snowball-get](http://jumpto.cc/snowball-get){:target="_blank"} and then open if you are using the offline editor.
 
 + The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
 
