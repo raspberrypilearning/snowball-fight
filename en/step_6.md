@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: Improve this game!
+## Challenge: improve your game!
 Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
 
 + Change the numbers in your code, to make the snowball move faster, higher or further;
