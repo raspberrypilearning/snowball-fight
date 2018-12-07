@@ -27,7 +27,7 @@ Let's make a snowball, that you can throw around your stage.
 
 	![screenshot](images/snow-mouse.png)
 
-+ Let's also allow the player to deicde on how powerful the snowball should be thrown. Create a new variable called `power`{:class="blockdata"}.
++ Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="blockdata"}.
 
 	![screenshot](images/snow-power.png)
 
