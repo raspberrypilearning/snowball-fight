@@ -27,6 +27,8 @@ The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows 
 
 First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
 
+![snowball sprite](images/snowball-sprite.png)
+
 ```blocks
 when flag clicked
 wait (0.5) secs
@@ -68,6 +70,8 @@ Drag your new variable display to the bottom of the stage, near the snowball. Ri
 
 Add code to set your new `power`{:class="blockdata"} variable to 0 when the flag is clicked.
 
+![snowball sprite](images/snowball-sprite.png)
+
 ```blocks
 when flag clicked
 + set [power v] to (0)
@@ -78,6 +82,8 @@ when flag clicked
 --- task ---
 
 Now that you have a `power`{:class="blockdata"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+
+![snowball sprite](images/snowball-sprite.png)
 
 ```blocks
 repeat until <mouse down?>

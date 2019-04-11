@@ -16,6 +16,8 @@ Add in another sprite to your project.
 
 Add this code to your new sprite, so that it says "You got me!" when it gets hit:
 
+![target sprite](images/target-sprite.png)
+
 ```blocks
 when flag clicked
 forever
@@ -47,6 +49,8 @@ Let's do a couple of things to make the game harder. First, let's move the bear 
 
 To do this, first add a `broadcast`{:class="blockcontrol"} to your snowball, near the top of your `forever`{:class="blockcontrol"} loop. This will let your bear know that a new shot is about to be taken.
 
+![snowball sprite](images/snowball-sprite.png)
+
 ```blocks
 when flag clicked
 forever
@@ -57,10 +61,10 @@ go to x:(-200) y:(-130)
 point in direction (90 v)
 switch costume to [snowball-aim v]
 show
-repeat until <key [space v] pressed?>
+repeat until <mouse down?>
 	point towards [mouse-pointer v]
 end
-repeat until < not <key [space v] pressed?> >
+repeat until < not <mouse down?> >
 	change [power v] by (1)
 	wait (0.1) secs
 end
@@ -69,6 +73,8 @@ end
 ```
 
 When your bear receives this message, move it to a new random position with this code:
+
+![target sprite](images/target-sprite.png)
 
 ```blocks
 when I receive [new shot v]
@@ -94,6 +100,8 @@ You can also make your game harder by adding a rock in front of your snowball.
 --- task ---
 
 You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock. 
+
+![snowball sprite](images/snowball-sprite.png)
 
 ```blocks
 when I receive [throw v]
