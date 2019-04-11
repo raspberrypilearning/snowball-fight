@@ -2,57 +2,101 @@
 
 Let's make a snowball, that you can throw around your stage.
 
+--- task ---
+Open the Scratch starter project.
 
+**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-+ Open the ‘Snowball Fight’ Scratch project online at [jumpto.cc/snowball-go](http://jumpto.cc/snowball-go){:target="_blank"} or download from [jumpto.cc/snowball-get](http://jumpto.cc/snowball-get){:target="_blank"} and then open if you are using the offline editor.
+**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
 
-+ The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-	![screenshot](images/snow-costume.png)
+In the starter project, you should see a blank stage and snowball sprite ....
 
-+ First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+--- /task ---
 
-	```blocks
-		when flag clicked
-		wait (0.5) secs
-		go to x:(-200) y:(-130)
-		point in direction (90 v)
-		switch costume to [snowball-aim v]
-		repeat until <key [space v] pressed?>
-			point towards [mouse-pointer v]
-		end
-	```
+--- task ---
 
-+ Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the space bar.
+The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
 
-	![screenshot](images/snow-mouse.png)
+![snowball costumes](images/snow-costume.png)
 
-+ Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="blockdata"}.
+--- /task ---
 
-	![screenshot](images/snow-power.png)
+--- task ---
 
-+ Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
 
-	![screenshot](images/snow-slider.png)
+```blocks
+when flag clicked
+wait (0.5) secs
+go to x:(-200) y:(-130)
+point in direction (90 v)
+switch costume to [snowball-aim v]
+repeat until <mouse down?>
+	point towards [mouse-pointer v]
+end
+```
 
-+ Add code to set your new `power`{:class="blockdata"} variable to 0 when the flag is clicked.
+--- /task ---
 
-	```blocks
-		set [power v] to (0)
-	```
+--- task ---
 
-+ Now that you have a `power`{:class="blockdata"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
 
-	```blocks
-		repeat until < not <key [space v] pressed?> >
-			change [power v] by (1)
-			wait (0.1) secs
-		end
-	```
+![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
 
-	This code means that you have to _keep the space bar held down_ after choosing the direction, to choose the snowball's power.
+--- /task ---
 
-+ Test your snowball, to see if you can choose its angle and power.
+--- task ---
 
-	![screenshot](images/snow-test.png)
+Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="blockdata"}.
 
+[[[generic-scratch-add-variable]]]
+
+--- /task ---
+
+--- task ---
+
+Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+
+![variable changed to slider](images/snow-slider.png)
+
+--- /task ---
+
+--- task ---
+
+Add code to set your new `power`{:class="blockdata"} variable to 0 when the flag is clicked.
+
+```blocks
+when flag clicked
++ set [power v] to (0)
+```
+
+--- /task ---
+
+--- task ---
+
+Now that you have a `power`{:class="blockdata"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+
+```blocks
+repeat until <mouse down?>
+	point towards [mouse-pointer v]
+end
++repeat until < not <mouse down?> >
+	change [power v] by (1)
+	wait (0.1) secs
+end
+```
+
+This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+
+--- /task ---
+
+--- task ---
+
+Test your snowball, to see if you can choose its angle and power.
+
+![power variable at 35 next to snowball aim](images/snow-test.png)
+
+--- /task ---
