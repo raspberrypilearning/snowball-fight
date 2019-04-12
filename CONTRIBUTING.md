@@ -4,7 +4,7 @@ All contributions are assumed to be licensed under the same licence as the sourc
 
 ## Issues
 
-If you find a mistake, bug, or other problem, please [open an issue](https://github.com/raspberrypilearning/snowvall-fight/issues) in this repository.
+If you find a mistake, bug, or other problem, please [open an issue](https://github.com/raspberrypilearning/snowball-fight/issues) in this repository.
 
 ## Pull requests
 
