@@ -11,7 +11,7 @@ Open the Scratch starter project.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite ....
+In the starter project, you should see a blank stage and snowball sprite.
 
 --- /task ---
 
@@ -29,14 +29,14 @@ First, let's allow the player to change the angle of the snowball. Add this code
 
 ![snowball sprite](images/snowball-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
-wait (0.5) secs
+wait (0.5) seconds
 go to x:(-200) y:(-130)
-point in direction (90 v)
-switch costume to [snowball-aim v]
+point in direction (90)
+switch costume to (snowball-aim v)
 repeat until <mouse down?>
-	point towards [mouse-pointer v]
+	point towards (mouse-pointer v)
 end
 ```
 
@@ -52,9 +52,9 @@ Test out your project by clicking the green flag. You should see that your snowb
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="blockdata"}.
+Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 --- /task ---
 
@@ -68,11 +68,11 @@ Drag your new variable display to the bottom of the stage, near the snowball. Ri
 
 --- task ---
 
-Add code to set your new `power`{:class="blockdata"} variable to 0 when the flag is clicked.
+Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
 
 ![snowball sprite](images/snowball-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 + set [power v] to (0)
 ```
@@ -81,17 +81,18 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="blockdata"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
 
 ![snowball sprite](images/snowball-sprite.png)
 
-```blocks
+```blocks3
 repeat until <mouse down?>
-	point towards [mouse-pointer v]
+	point towards (mouse-pointer v)
 end
 +repeat until < not <mouse down?> >
+	point towards (mouse-pointer v)
 	change [power v] by (1)
-	wait (0.1) secs
+	wait (0.1) seconds
 end
 ```
 
