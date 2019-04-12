@@ -29,14 +29,14 @@ First, let's allow the player to change the angle of the snowball. Add this code
 
 ![snowball sprite](images/snowball-sprite.png)
 
-```blocks3
+```blocks
 when flag clicked
-wait (0.5) seconds
+wait (0.5) secs
 go to x:(-200) y:(-130)
 point in direction (90 v)
-switch costume to (snowball-aim v)
+switch costume to [snowball-aim v]
 repeat until <mouse down?>
-	point towards (mouse-pointer v)
+	point towards [mouse-pointer v]
 end
 ```
 
@@ -52,9 +52,9 @@ Test out your project by clicking the green flag. You should see that your snowb
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="blockdata"}.
 
-[[[generic-scratch3-add-variable]]]
+[[[generic-scratch-add-variable]]]
 
 --- /task ---
 
@@ -68,11 +68,11 @@ Drag your new variable display to the bottom of the stage, near the snowball. Ri
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Add code to set your new `power`{:class="blockdata"} variable to 0 when the flag is clicked.
 
 ![snowball sprite](images/snowball-sprite.png)
 
-```blocks3
+```blocks
 when flag clicked
 + set [power v] to (0)
 ```
@@ -81,17 +81,17 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Now that you have a `power`{:class="blockdata"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
 
 ![snowball sprite](images/snowball-sprite.png)
 
-```blocks3
+```blocks
 repeat until <mouse down?>
-	point towards (mouse-pointer v)
+	point towards [mouse-pointer v]
 end
 +repeat until < not <mouse down?> >
 	change [power v] by (1)
-	wait (0.1) seconds
+	wait (0.1) secs
 end
 ```
 

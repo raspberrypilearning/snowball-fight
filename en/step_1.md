@@ -1,9 +1,3 @@
---- no-print ---
-
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
-
---- /no-print ---
-
 ## Introduction
 
 In this project you're going to make a game in which you have to throw snowballs at a target. 
@@ -39,11 +33,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+The starter project can be found [here](http://rpf.io/p/en/snowvall-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -66,10 +60,10 @@ title: Additional information for educators
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowvall-fight/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can [find the solution for this project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+You can [find the solution for this project here](http://rpf.io/p/en/snowvall-fight-get){:target="_blank"}.
 
 --- /collapse ---
