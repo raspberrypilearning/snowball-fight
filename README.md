@@ -1,11 +1,11 @@
-# snowvall-fight
+# snowball-fight
 
-![snowvall-fight](en/images/banner.png)
+![snowball-fight](en/images/banner.png)
 
-Find the project online at [projects.raspberrypi.org/en/projects/snowvall-fight](https://projects.raspberrypi.org/en/projects/snowvall-fight)
+Find the project online at [projects.raspberrypi.org/en/projects/snowball-fight](https://projects.raspberrypi.org/en/projects/snowball-fight)
 
 ## Resources
-For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/snowvall-fight/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/snowvall-fight/tree/master/en/solutions).
+For project materials and solutions, see [en/resources](https://github.com/raspberrypilearning/snowball-fight/tree/master/en/resources) and [en/solutions](https://github.com/raspberrypilearning/snowball-fight/tree/master/en/solutions).
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md)

@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-The starter project can be found [here](http://rpf.io/p/en/snowvall-fight-go){:target="_blank"}.
+The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -60,10 +60,10 @@ title: Additional information for educators
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowvall-fight/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can [find the solution for this project here](http://rpf.io/p/en/snowvall-fight-get){:target="_blank"}.
+You can [find the solution for this project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
