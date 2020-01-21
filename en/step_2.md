@@ -3,6 +3,7 @@
 Let's make a snowball, that you can throw around your stage.
 
 --- task ---
+
 Open the Scratch starter project.
 
 **Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
