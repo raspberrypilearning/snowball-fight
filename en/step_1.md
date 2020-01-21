@@ -28,7 +28,6 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 --- /print-only ---
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
@@ -48,7 +47,6 @@ The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:t
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---
