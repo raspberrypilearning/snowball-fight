@@ -3,23 +3,23 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Snowball fight
-description: Make a game in which you have to throw snowballs at a target
+title: Sneeuwballen gevecht
+description: Maak een spel waarin je sneeuwballen naar een doel moet gooien
 version: 4
 last_tested: 2018-04-11
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Making a snowball
+    title: Een sneeuwbal maken
   - 
-    title: Throwing a snowball
+    title: Een sneeuwbal gooien
   - 
-    title: Realistic movement
+    title: Realistische beweging
   - 
-    title: The target
+    title: Het doelwit
   - 
-    title: "Challenge: improve your game!"
+    title: "Uitdaging: verbeter je spel!"
     challenge: true
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
