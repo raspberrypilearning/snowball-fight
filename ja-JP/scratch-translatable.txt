@@ -1,0 +1,13 @@
+snowball-aim
+
+normal
+
+power
+
+throw
+
+snowball
+
+You got me!
+
+new shot
