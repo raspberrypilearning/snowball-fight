@@ -1,12 +1,12 @@
-## Challenge: improve your game!
-Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
+## Uitdaging: verbeter je spel!
+Nu je het basisspel hebt gemaakt, kijk je wat je kunt doen om het te verbeteren. Hier zijn enkele ideeën, maar voel je vrij om ook je eigen ideeën te gebruiken.
 
-+ Add a winter backdrop to your project.
-+ Change the numbers in your code, to make the snowball move faster, higher or further
-+ Change the graphics
-+ Add music and sound effects
-+ Change sprite costumes when the target is hit
-+ Add a score and a high score
-+ The reindeer could move around so that it's harder to hit
-+ You could add snowflakes or birds that stop the snowball
-+ You could add a second player, so that you could both throw snowballs at the reindeer...or each other!
++ Voeg een winterachtergrond toe aan je project.
++ Wijzig de cijfers in je code om de sneeuwbal sneller, hoger of verder te laten bewegen
++ Verander de afbeeldingen
++ Voeg muziek en geluidseffecten toe
++ Wijzig sprite uiterlijken wanneer het doelwit wordt geraakt
++ Voeg een score en een topscore toe
++ Het rendier kan rond bewegen zodat het moeilijker is om te raken
++ Je kunt sneeuwvlokken of vogels toevoegen die de sneeuwbal stoppen
++ Je kunt een tweede speler toevoegen, zodat je allebei sneeuwballen naar het rendier kunt gooien... of elkaar!
