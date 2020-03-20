@@ -1,55 +1,55 @@
-## Realistic movement
+## Realistische beweging
 
-You now have a snowball, but let's make it move a bit more realistically.
+Je hebt nu een sneeuwbal, maar laten we deze wat realistischer laten bewegen.
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+Laten we eerst een maximaal vermogensniveau instellen, zodat de sneeuwbal niet te hard kan worden gegooid.
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+In de code `wanneer op de groene vlag wordt geklikt`{:class="block3events"} van de sneeuwbal, moeten we de kracht alleen vergroten als het minder dan 20 is. Wijzig je code in:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-repeat until< not <mouse down?> >
-+   if < (power) < [20] > then
-        change [power v] by (1)
-        wait (0.1) seconds
-    end
-end
+herhaal < niet <muis ingedrukt?> >
++ als < (kracht) < [20] > dan
+        verander [kracht v] met (1)
+        wacht (0.1) sec.
+    einde
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+Test je sneeuwbal opnieuw en je zult zien dat de kracht nooit boven de 20 komt.
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+Nu de maximale kracht van je sneeuwbal 20 is, kun je dit ook instellen als de maximale waarde voor de schuifregelaar van de variabele. Klik met de rechtermuisknop op je krachtvariabele en klik op 'verander schuifbereik'.
 
-![min max of slider range](images/snow-minmax.png)
+![min max van schuifbereik](images/snow-minmax.png)
 
 
 --- /task ---
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+Je kunt de sneeuwbal ook vertragen door het vermogen iets te verminderen terwijl het door de lucht vliegt. Voeg dit codeblok toe aan de sneeuwbalcode `wanneer ik signaal [gooi] ontvang`{:class="block3events"}:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
-repeat until < touching [edge v]? >
-    move (power) steps
-+   change [power v] by (-0.25)
-end
-hide
+wanneer ik signaal [gooi v] ontvang
+verander uiterlijk naar (snowball v)
+herhaal tot < raak ik [rand v]? >
+    neem (kracht) stappen
++ verander [kracht v] met (-0.25)
+einde
+verdwijn
 ```
 
 --- /task ---
@@ -57,50 +57,50 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+Test deze nieuwe code - werkt het zoals je had verwacht? Je merkt misschien dat het vermogen steeds minder wordt en uiteindelijk de sneeuwbal achteruit beweegt!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+Om dit op te lossen, kun je een `als`{:class="block3control"} blok aan je code toevoegen, zodat het vermogen alleen wordt verlaagd als het hoger is dan 0:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
-repeat until < touching [edge v]? >
-    move (power) steps
-+   if < (power) > (0) > then
-        change [power v] by (-0.25)
-    end
-end
-hide
+wanneer ik bericht [gooi v] ontvang
+verander uiterlijk naar (snowball v)
+herhaal tot < raak ik [rand v]? >
+    neem (kracht) stappen
++ als < (kracht) > (0) > dan
+        verander [kracht v] met (-0.25)
+    einde
+einde
+verdwijn
 ```
 
 --- /task ---
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+Je bent er bijna, maar je moet ook wat zwaartekracht toevoegen aan je sneeuwbal, zodat deze op de grond valt. Je kunt de zwaartekracht toevoegen door de sneeuwbal gewoon continu naar beneden te bewegen met deze code:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
-repeat until < touching [edge v]? >
-+   change y by (-5)
-    move (power) steps
-    if < (power) > (0) > then
-        change [power v] by (-0.25)
-    end
-end
-hide
+wanneer ik bericht [gooi v] ontvang
+verander uiterlijk naar (snowball v)
+herhaal tot < raak ik [rand v]? >
++ verander y met (-5)
+    neem (kracht) stappen
+    als < (kracht) > (0) > dan
+        verander [kracht v] met (-0.25)
+    einde
+einde
+verdwijn
 ```
 
 --- /task ---
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+Test je sneeuwbal opnieuw en je zou moeten zien dat je sneeuwbal veel realistischer beweegt.
 
 --- /task ---
 
