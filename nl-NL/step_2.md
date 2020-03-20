@@ -1,61 +1,61 @@
-## Making a snowball
+## Een sneeuwbal maken
 
-Let's make a snowball, that you can throw around your stage.
+Laten we een sneeuwbal maken, die je rond kunt gooien.
 
 --- task ---
 
-Open the Scratch starter project.
+Open het Scratch startproject.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: open het [startproject](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Offline**: open het [startproject](http://rpf.io/p/en/snowball-fight-go){:target="_ blank"} in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kun je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+In het startproject zou je een leeg podium en een sneeuwbal sprite moeten zien.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+De sprite 'Snowball' bevat 2 uiterlijken, een normaal uiterlijk en een uiterlijk dat aangeeft in welke richting de sneeuwbal kijkt.
 
-![snowball costumes](images/snow-costume.png)
+![sneeuwbal uiterlijken](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+Laten we eerst zorgen dat de speler de hoek van de sneeuwbal kan veranderen. Voeg deze code toe aan je sneeuwbal sprite:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when flag clicked
-wait (0.5) seconds
-go to x:(-200) y:(-130)
-point in direction (90)
-switch costume to (snowball-aim v)
-repeat until <mouse down?>
-    point towards (mouse-pointer v)
-end
+wanneer op de groene vlag wordt geklikt
+wacht (0.5) sec.
+ga naar x:(- 200) y:(- 130)
+richt naar (90) graden
+verander uiterlijk naar (snowball-aim v)
+herhaal tot <mouse down?>
+    richt naar (muisaanwijzer v)
+einde
 ```
 
 --- /task ---
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+Test je project door op de groene vlag te klikken. Je zou moeten zien dat je sneeuwbal de muis volgt, totdat je op de muisknop klikt.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![snowball aim sprite gericht op muis](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Laten we de speler ook laten beslissen hoe hard de sneeuwbal moet worden gegooid. Maak een nieuwe variabele met de naam `kracht`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,50 +63,50 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Sleep je nieuwe variabele naar de onderkant van het speelveld, in de buurt van de sneeuwbal. Klik met de rechtermuisknop op de variabele weergave en klik op 'schuifregelaar'.
 
-![variable changed to slider](images/snow-slider.png)
+![variabele gewijzigd in schuifregelaar](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Voeg code toe om je nieuwe `kracht`{:class="block3variables"} variabele in te stellen op 0 wanneer op de vlag wordt geklikt.
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when flag clicked
-+ set [power v] to (0)
+wanneer op de groene vlag wordt geklikt
++ maak [kracht v] (0)
 ```
 
 --- /task ---
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Nu je een `kracht`{:class="block3variables"} variabele hebt, kun je de kracht van de sneeuwbal verhogen _nadat_ de richting is gekozen met deze code:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-repeat until <mouse down?>
-    point towards (mouse-pointer v)
-end
-+repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
-    change [power v] by (1)
-    wait (0.1) seconds
-end
+herhaal tot <mouse down?>
+    punt richt naar (muisaanwijzer v)
+einde
++ herhaal tot < niet >muis ingedrukt?> >
+    richt naar (muisaanwijzer v)
+    verandering [kracht v] met (1)
+    wacht (0.1) sec.
+einde
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Deze code betekent dat je _de muisknop ingedrukt moet houden_ na het kiezen van de richting, om de kracht van de sneeuwbal te kiezen.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Test je sneeuwbal om te zien of je de hoek en kracht kunt kiezen.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![vermogensvariabele op 35 naast het doel van de sneeuwbal](images/snow-test.png)
 
 --- /task ---
