@@ -1,108 +1,108 @@
-## Throwing a snowball
+## Een sneeuwbal gooien
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+Voeg een blok toe aan het _einde_ van je sneeuwbal code, naar `zend signaal`{:class="block3control"} voor het gooien van een sneeuwbal:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when flag clicked
-set [power v] to (0)
-wait (0.5) seconds
-go to x:(-200) y:(-130)
-point in direction (90)
-switch costume to (snowball-aim v)
-repeat until <mouse down?>
-    point towards (mouse-pointer v)
-end
-repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
-    change [power v] by (1)
-    wait (0.1) seconds
-end
-+ broadcast (throw v) and wait
+wanneer op groene vlag wordt geklikt
+maak [kracht v] (0)
+wacht (0.5) sec.
+ga naar x:(- 200) y:(- 130)
+richt naar (90) graden
+verander uiterlijk naar (snowball-aim v)
+herhaal tot <muis ingedrukt?>
+    richt naar (muisaanwijzer v)
+einde
+herhaal tot < niet <muis ingedrukt?> >
+    richt naar (muisaanwijzer v)
+    verander [kracht v] met (1)
+    wachten (0.1) sec.
+einde
++ zend signaal (gooi v) en wacht
 ```
 
 --- /task ---
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+Voeg deze code toe aan je sneeuwbal, zodat hij beweegt tot hij de rand van het speelveld bereikt:
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
-repeat until < touching [edge v]? >
-    move (power) steps
-end
-hide
+wanneer ik signaal [gooi v] ontvang
+verander uiterlijk naar (snowball v)
+herhaal tot < raak ik [rand v]? >
+    neem (kracht) stappen
+einde
+verdwijn
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+De code gebruikt de variabele `kracht`{:class="block3variables"} om te beslissen hoe snel je je verplaatst.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+Nu je de sneeuwbal verbergt wanneer deze de rand raakt, voeg je code `verschijn`{:class="block3looks"} toe aan de sneeuwbal wanneer op de vlag wordt geklikt, _vlak_ nadat de sneeuwbal overschakelt naar het `snowball-aim`{:class="block3looks"} uiterlijk.
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when flag clicked
-set [power v] to (0)
-wait (0.5) seconds
-go to x:(-200) y:(-130)
-point in direction (90)
-switch costume to (snowball-aim v)
-+show
-repeat until <mouse down?>
-    point towards (mouse-pointer v)
-end
-repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
-    change [power v] by (1)
-    wait (0.1) seconds
-end
-broadcast (throw v) and wait
+wanneer op de groene vlag wordt geklikt
+maak [kracht v] (0)
+wacht (0.5) sec.
+ga naar x:(- 200) y:(- 130)
+richt naar (90) graden
+verander uiterlijk naar (snowball-aim v)
++verschijn
+herhaal tot <muis ingedrukt?>
+    richt naar (muisaanwijzer v)
+einde
+herhaal tot < niet <muis ingedrukt?> >
+    richt naar (muisaanwijzer v)
+    verander [kracht v] met (1)
+    wachten (0.1) sec.
+einde
+zend signaal (gooi v) en wacht
 ```
 
 --- /task ---
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+Test je sneeuwbal een paar keer. Beweegt het onder verschillende hoeken en verschillende snelheden?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+Als je je sneeuwbal vaak wilt gooien, voeg je gewoon een `herhaal`{:class="block3control"} lus rond je sneeuwbal `wanneer op de groene vlag wordt geklikt`{:class="block3events"} code toe.
 
-![snowball sprite](images/snowball-sprite.png)
+![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-when flag clicked
-+forever
-set [power v] to (0)
-wait (0.5) seconds
-go to x:(-200) y:(-130)
-point in direction (90)
-switch costume to (snowball-aim v)
-show
-repeat until <mouse down?>
-    point towards (mouse-pointer v)
-end
-repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
-    change [power v] by (1)
-    wait (0.1) seconds
-end
-broadcast (throw v) and wait
-end
+wanneer op de groene vlag wordt geklikt
++herhaal
+maak [kracht v] (0)
+wacht (0.5) sec.
+ga naar x:(- 200) y:(- 130)
+richt naar (90) graden
+verander uiterlijk naar (snowball-aim v)
+verschijn
+herhaal tot <muis ingedrukt?>
+    richt naar (muisaanwijzer v)
+einde
+herhaal tot < niet <muis ingedrukt?> >
+    richt naar (muisaanwijzer v)
+    verander [kracht v] met (1)
+    wachten (0.1) sec.
+einde
+zend signaal (gooi v) en wacht
+einde
 ```
 
 --- /task ---
