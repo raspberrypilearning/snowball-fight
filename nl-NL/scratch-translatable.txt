@@ -1,13 +1,13 @@
 snowball-aim
 
-normal
+normaal
 
-power
+kracht
 
-throw
+gooi
 
 snowball
 
-You got me!
+Je hebt me geraakt!
 
-new shot
+nieuwe worp
