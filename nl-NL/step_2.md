@@ -38,7 +38,7 @@ wacht (0.5) sec.
 ga naar x:(-200) y:(-130)
 richt naar (90) graden
 verander uiterlijk naar (snowball-aim v)
-herhaal tot <mouse down?>
+herhaal tot <muis ingedrukt?>
     richt naar (muisaanwijzer v)
 einde
 ```
