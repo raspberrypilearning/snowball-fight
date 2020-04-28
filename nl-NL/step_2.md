@@ -35,7 +35,7 @@ Laten we eerst zorgen dat de speler de hoek van de sneeuwbal kan veranderen. Voe
 ```blocks3
 when green flag clicked
 wacht (0.5) sec.
-ga naar x:(- 200) y:(- 130)
+ga naar x:(-200) y:(-130)
 richt naar (90) graden
 verander uiterlijk naar (snowball-aim v)
 herhaal tot <mouse down?>
@@ -63,7 +63,7 @@ Laten we de speler ook laten beslissen hoe hard de sneeuwbal moet worden gegooid
 
 --- task ---
 
-Sleep je nieuwe variabele naar de onderkant van het speelveld, in de buurt van de sneeuwbal. Klik met de rechtermuisknop op de variabele weergave en klik op 'schuifregelaar'.
+Sleep je nieuwe variabele naar de onderkant van het speelveld, in de buurt van de sneeuwbal. Klik met de rechtermuisknop op de variabele weergave en klik op 'schuif'.
 
 ![variabele gewijzigd in schuifregelaar](images/snow-slider.png)
 
@@ -89,14 +89,14 @@ Nu je een `kracht`{:class="block3variables"} variabele hebt, kun je de kracht va
 ![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-herhaal tot <mouse down?>
-    punt richt naar (muisaanwijzer v)
-einde
-+ herhaal tot < niet >muis ingedrukt?> >
-    richt naar (muisaanwijzer v)
-    verandering [kracht v] met (1)
-    wacht (0.1) sec.
-einde
+repeat until <muis ingedrukt?>
+	point towards (muisaanwijzer v)
+end
++repeat until < not <muis ingedrukt?> >
+	point towards (muisaanwijzer v)
+	change [kracht v] by (1)
+	wait (0.1) seconds
+end
 ```
 
 Deze code betekent dat je _de muisknop ingedrukt moet houden_ na het kiezen van de richting, om de kracht van de sneeuwbal te kiezen.

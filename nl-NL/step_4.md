@@ -64,7 +64,7 @@ Om dit op te lossen, kun je een `als`{:class="block3control"} blok aan je code t
 ![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-wanneer ik bericht [gooi v] ontvang
+wanneer ik signaal [gooi v] ontvang
 verander uiterlijk naar (snowball v)
 herhaal tot < raak ik [rand v]? >
     neem (kracht) stappen
@@ -84,7 +84,7 @@ Je bent er bijna, maar je moet ook wat zwaartekracht toevoegen aan je sneeuwbal,
 ![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-wanneer ik bericht [gooi v] ontvang
+wanneer ik signaal [gooi v] ontvang
 verander uiterlijk naar (snowball v)
 herhaal tot < raak ik [rand v]? >
 + verander y met (-5)

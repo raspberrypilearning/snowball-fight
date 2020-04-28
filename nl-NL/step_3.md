@@ -7,10 +7,10 @@ Voeg een blok toe aan het _einde_ van je sneeuwbal code, naar `zend signaal`{:cl
 ![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+when green flag clicked
 maak [kracht v] (0)
 wacht (0.5) sec.
-ga naar x:(- 200) y:(- 130)
+ga naar x:(-200) y:(-130)
 richt naar (90) graden
 verander uiterlijk naar (snowball-aim v)
 herhaal tot <muis ingedrukt?>
@@ -19,7 +19,7 @@ einde
 herhaal tot < niet <muis ingedrukt?> >
     richt naar (muisaanwijzer v)
     verander [kracht v] met (1)
-    wachten (0.1) sec.
+    wait (0.1) seconds
 einde
 + zend signaal (gooi v) en wacht
 ```
@@ -52,10 +52,10 @@ Nu je de sneeuwbal verbergt wanneer deze de rand raakt, voeg je code `verschijn`
 ![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 maak [kracht v] (0)
 wacht (0.5) sec.
-ga naar x:(- 200) y:(- 130)
+ga naar x:(-200) y:(-130)
 richt naar (90) graden
 verander uiterlijk naar (snowball-aim v)
 +verschijn
@@ -65,7 +65,7 @@ einde
 herhaal tot < niet <muis ingedrukt?> >
     richt naar (muisaanwijzer v)
     verander [kracht v] met (1)
-    wachten (0.1) sec.
+    wait (0.1) seconds
 einde
 zend signaal (gooi v) en wacht
 ```
@@ -85,11 +85,11 @@ Als je je sneeuwbal vaak wilt gooien, voeg je gewoon een `herhaal`{:class="block
 ![sneeuwbal sprite](images/snowball-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
+when green flag clicked
 +herhaal
 maak [kracht v] (0)
 wacht (0.5) sec.
-ga naar x:(- 200) y:(- 130)
+ga naar x:(-200) y:(-130)
 richt naar (90) graden
 verander uiterlijk naar (snowball-aim v)
 verschijn
@@ -99,7 +99,7 @@ einde
 herhaal tot < niet <muis ingedrukt?> >
     richt naar (muisaanwijzer v)
     verander [kracht v] met (1)
-    wachten (0.1) sec.
+    wait (0.1) seconds
 einde
 zend signaal (gooi v) en wacht
 einde

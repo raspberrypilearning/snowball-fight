@@ -19,12 +19,12 @@ Voeg deze code toe aan je nieuwe sprite, zodat er staat: "Je hebt me geraakt!" w
 ![doelwit sprite](images/target-sprite.png)
 
 ```blocks3
-when green flag clicked
-herhaal
-    als < raak ik [snowball v] dan? > 
-        zeg [Je hebt me geraakt!] (1) sec.
-    einde
-einde
+when flag clicked
+forever
+	if < touching [snowball v]? > then
+		say [Je hebt me geraakt!] for (1) seconds
+	end
+end
 ```
 
 --- /task ---
@@ -51,7 +51,7 @@ herhaal
 maak [kracht v] (0)
 + zend signaal (nieuwe worp v)
 wacht (0.5) sec.
-ga naar x:(- 200) y:(- 130)
+ga naar x:(-200) y:(-130)
 richt naar (90) graden
 verander uiterlijk naar (snowball-aim v)
 verschijn
@@ -61,7 +61,7 @@ einde
 herhaal tot < niet <muis ingedrukt?> >
     richt naar (muisaanwijzer v)
     verander [kracht v] met (1)
-    wachten (0.1) sec.
+    wait (0.1) seconds
 einde
 zend signaal (gooi v) en wacht
 einde
