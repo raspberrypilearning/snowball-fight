@@ -12,7 +12,7 @@ In dit project ga je een spel maken waarin je sneeuwballen naar een doel moet go
 
 --- no-print ---
 
-Gebruik de muisaanwijzer om de sneeuwbal te kantelen en houd de muisknop ingedrukt om de kracht van de sneeuwbal te kiezen.
+Gebruik de muisaanwijzer om de sneeuwbal te richten en houd de muisknop ingedrukt om de kracht van de sneeuwbal te kiezen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/389755986/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -64,7 +64,7 @@ title: Aanvullende informatie voor docenten
 
 --- no-print ---
 
-Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/snowball-fight/print){:target ="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/snowball-fight/print){:target="_blank"}.
 
 --- /no-print ---
 
