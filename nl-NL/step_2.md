@@ -63,7 +63,7 @@ Laten we de speler ook laten beslissen hoe hard de sneeuwbal moet worden gegooid
 
 --- task ---
 
-Sleep je nieuwe variabele naar de onderkant van het speelveld, in de buurt van de sneeuwbal. Klik met de rechtermuisknop op de variabele weergave en klik op 'schuif'.
+Sleep je nieuwe variabele naar de onderkant van het speelveld, in de buurt van de sneeuwbal. Klik met de rechtermuisknop op de variabele weergave en klik op 'schuifregelaar'.
 
 ![variabele gewijzigd in schuifregelaar](images/snow-slider.png)
 

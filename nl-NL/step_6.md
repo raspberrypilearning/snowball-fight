@@ -1,5 +1,4 @@
 ## Uitdaging: verbeter je spel!
-
 Nu je het basisspel hebt gemaakt, kijk je wat je kunt doen om het te verbeteren. Hier zijn enkele ideeën, maar voel je vrij om ook je eigen ideeën te gebruiken.
 
 + Voeg een winterachtergrond toe aan je project.
