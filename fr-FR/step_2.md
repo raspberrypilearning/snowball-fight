@@ -1,36 +1,36 @@
-## Making a snowball
+## Faire une boule de neige
 
-Let's make a snowball, that you can throw around your stage.
+Faisons une boule de neige, que tu peux lancer autour de ta scène.
 
 --- task ---
 
-Open the Scratch starter project.
+Ouvre le projet de démarrage Scratch.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**En ligne** : ouvre le [projet de démarrage](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Hors-ligne** : ouvre le [projet de démarrage](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} dans l'éditeur hors-ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si tu dois télécharger et installer l'éditeur hors-ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+Dans le projet de démarrage, tu devrais voir une scène vide et un sprite de boule de neige.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+Le sprite « Boule de neige » contient 2 costumes, un costume normal et un qui montre dans quelle direction la boule de neige se dirige.
 
-![snowball costumes](images/snow-costume.png)
+![costumes de boule de neige](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+Tout d'abord, laissons le joueur changer l'inclinaison de la boule de neige. Ajoute ce code à ton sprite de boule de neige :
 
-![snowball sprite](images/snowball-sprite.png)
+![sprite de boule de neige](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+Teste ton projet en cliquant sur le drapeau vert. Tu devrais voir que ta boule de neige suit la souris, jusqu'à ce que tu appuies sur le bouton de la souris.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![sprite boule de neige visée pointant vers la souris](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Permettons également au joueur de décider de la puissance de la boule de neige. Crée une nouvelle variable appelée `puissance`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Fais glisser ta nouvelles variable d'affichage vers le bas de la scène, près de la boule de neige. Fais un clic droit sur l'affichage de la variable et clique sur « barre de défilement ».
 
-![variable changed to slider](images/snow-slider.png)
+![variable changée en barre de défilement](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Ajoute du code pour définir ta nouvelle variable `puissance`{:class="block3variables"} à 0 quand le drapeau est cliqué.
 
-![snowball sprite](images/snowball-sprite.png)
+![sprite de boule de neige](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Maintenant que tu as une variable `puissance`{:class="block3variables"}, tu peux augmenter la puissance de la boule de neige _après_ que la direction ait été choisie avec ce code :
 
-![snowball sprite](images/snowball-sprite.png)
+![sprite de boule de neige](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Ce code signifie que tu dois _garder le bouton de la souris enfoncé_ après avoir choisi la direction, pour choisir la puissance de la boule de neige.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Teste ta boule de neige pour voir si tu peux choisir son inclinaison et sa puissance.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![variable de puissance à 35 à côté de la visée de la boule de neige](images/snow-test.png)
 
 --- /task ---
