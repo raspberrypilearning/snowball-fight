@@ -1,0 +1,25 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Guerra de nieve
+description: Crea un juego en el que tienes que lanzar bolas de nieve a un blanco
+version: 4
+last_tested: 2018-04-11
+steps:
+  - 
+    title: Introducción
+  - 
+    title: Hacer una bola de nieve
+  - 
+    title: Lanzar una bola de nieve
+  - 
+    title: Movimiento realista
+  - 
+    title: El blanco
+  - 
+    title: "Desafío: mejora tu juego!"
+    challenge: true
+  - 
+    title: '¿Qué sigue?'
