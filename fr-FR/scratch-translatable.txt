@@ -1,13 +1,13 @@
-snowball-aim
+boule de neige-visée
 
 normal
 
-power
+puissance
 
-throw
+lancer
 
-snowball
+boule de neige
 
-You got me!
+Tu m'as eu !
 
-new shot
+nouveau tir
