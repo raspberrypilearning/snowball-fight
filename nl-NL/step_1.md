@@ -12,7 +12,7 @@ In dit project ga je een spel maken waarin je sneeuwballen naar een doel moet go
 
 --- no-print ---
 
-Gebruik de muisaanwijzer om de sneeuwbal te kantelen en houd de muisknop ingedrukt om de kracht van de sneeuwbal te kiezen.
+Gebruik de muisaanwijzer om de sneeuwbal te richten en houd de muisknop ingedrukt om de kracht van de sneeuwbal te kiezen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
