@@ -1,0 +1,13 @@
+Bola de nieve-dirección
+
+normal
+
+fuerza
+
+lanza
+
+bolanieve
+
+¡Me diste!
+
+nuevo tiro
