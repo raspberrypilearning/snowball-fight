@@ -1,12 +1,12 @@
-## The target
+## La cible
 
-Let's add in a target for your snowballs!
+Ajoutons une cible pour tes boules de neige !
 
 --- task ---
 
-Add in another sprite to your project.
+Ajoute un autre sprite à ton projet.
 
-![a target sprite on the stage](images/snow-deer.png)
+![un sprite cible sur la scène](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+Ajoute ce code à ton nouveau sprite, pour qu'il dise « Tu m'as eu ! » quand il sera touché :
 
-![target sprite](images/target-sprite.png)
+![sprite cible](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+Teste ton nouveau code.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![sprite cible disant que tu m'as eu !](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+Faisons plusieurs choses pour rendre le jeu plus difficile. Tout d'abord, déplaçons le renne chaque fois que le joueur lance la boule de neige.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+Pour cela, ajoute d'abord un `envoyer à tous`{:class="block3control"} à ta boule de neige, près du haut de ta boucle `répéter indéfiniment`{:class="block3control"}. Cela fera savoir à ton renne qu'un nouveau tir est sur le point d'être fait.
 
-![snowball sprite](images/snowball-sprite.png)
+![sprite de boule de neige](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+Lorsque ton renne reçoit ce message, déplace-le à une nouvelle position aléatoire avec ce code :
 
-![target sprite](images/target-sprite.png)
+![sprite cible](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+Teste ton projet en lançant quelques boules de neige. Est-ce que la position de ta cible se déplace à chaque fois ?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+Tu peux également rendre ton jeu plus difficile en ajoutant un rocher devant ta boule de neige.
 
-![rock sprite on the stage](images/snow-rock.png)
+![sprite rocher sur la scène](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+Tu peux maintenant changer le code de ta boule de neige, pour qu'elle s'arrête quand elle touche le bord de l'écran _ou_ quand elle touche le rocher.
 
-![snowball sprite](images/snowball-sprite.png)
+![sprite de boule de neige](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+Enfin, tu peux rendre ton jeu plus difficile en rétrécissant ta boule de neige et ton renne.
 
-![small snowball and target sprite](images/snow-small.png)
+![petite boule de neige et sprite cible](images/snow-small.png)
 
 --- /task ---
