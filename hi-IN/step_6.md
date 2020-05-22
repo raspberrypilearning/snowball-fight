@@ -1,12 +1,12 @@
-## Challenge: improve your game!
-Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
+## चुनौती: अपने खेल को सुधारें!
+अब जब आपने मूल (basic) गेम बना लिया है तो देखें कि आप इसे बेहतर बनाने के लिए क्या कर सकते हैं। यहाँ कुछ विचार (ideas) हैं लेकिन अपने स्वयं के विचारों का भी उपयोग कर सकते हैं।
 
-+ Add a winter backdrop to your project.
-+ Change the numbers in your code, to make the snowball move faster, higher or further
-+ Change the graphics
-+ Add music and sound effects
-+ Change sprite costumes when the target is hit
-+ Add a score and a high score
-+ The reindeer could move around so that it's harder to hit
-+ You could add snowflakes or birds that stop the snowball
-+ You could add a second player, so that you could both throw snowballs at the reindeer...or each other!
++ अपने प्रोजेक्ट में विंटर बैकड्रॉप (winter backdrop) जोड़ें
++ अपने बर्फ़गोले में नंबर बदलें ताकि वह तेज़, और ऊँचा या और आगे जाये
++ ग्राफिक्स (graphics) बदलें
++ संगीत और आवाज़ के प्रभाव जोड़ें
++ जब लक्ष्य लग जाये तो स्प्राइट के पोशाक (costumes) बदलें
++ अंक (score) और एक उच्च स्कोर (high score) जोड़ें
++ बारहसिंगा इधर-उधर घुमाइए ताकि उसे मारना मुश्किल हो
++ अपने बर्फ़गोले के ऊपर बर्फ के टुकड़े या पक्षी जोड़ें
++ आप दूसरा खिलाड़ी जोड़ सकते हैं ताकि आप दोनों बारासिंघा पर बर्फ़गोले फेंक सकें...या एक-दूसरे पर!
