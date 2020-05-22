@@ -1,36 +1,36 @@
-## Making a snowball
+## Hacer una bola de nieve
 
-Let's make a snowball, that you can throw around your stage.
+Hagamos una bola de nieve que puedas lanzar por todo el escenario.
 
 --- task ---
 
-Open the Scratch starter project.
+Abre el proyecto inicial de Scratch.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**En línea**: abre el [proyecto inicial](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta Scratch puedes hacer una copia al hacer clic en **Reinventar**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Sin conexión**: abre el [proyecto inicial](http://rpf.io/p/en/snowball-fight-go){:target=_blank"} en el editor sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+En el proyecto inicial, deberías ver un escenario en blanco y un objeto bola de nieve.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+El objeto «Bolanieve» contiene 2 disfraces, un disfraz normal y otro que muestra en qué dirección se dirige la bola de nieve.
 
-![snowball costumes](images/snow-costume.png)
+![disfraces de bola de nieve](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+Primero, permitamos que el jugador cambie el angulo de dirección de la bola de nieve. Añade este código al objeto bola de nieve:
 
-![snowball sprite](images/snowball-sprite.png)
+![objeto bola de nieve](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,7 +47,7 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+Prueba tu proyecto haciendo clic en la bandera verde. Deberías ver que tu bola de nieve sigue la dirección del mouse, hasta que hagas clic.
 
 ![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
 
