@@ -6,13 +6,13 @@ Esta es la versión **Scratch 3** del proyecto. También hay una [versión Scrat
 
 ## Introducción
 
-In this project you're going to make a game in which you have to throw snowballs at a target.
+En este proyecto vas a crear un juego en el que tienes que lanzar bolas de nieve a un blanco.
 
 ### Lo que harás
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+Utiliza el puntero del mouse para inclinar la bola de nieve y mantén presionado el botón del mouse para elegir el poder de la bola de nieve.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -42,18 +42,18 @@ title: Lo que necesitarás
 
 ### Descargas
 
-The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+El proyecto de iniciación se puede encontrar [aquí](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Lo que aprenderás
 ---
 
-- How to animated sprites
-- How to react to mouse input
-- how to use broadcasts
+- Cómo animar objetos
+- Cómo hacer reacciones ante los clics del mouse
+- Como usar los bloques de envío
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+Puedes encontrar el [proyecto completo aquí](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
