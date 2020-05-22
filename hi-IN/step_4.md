@@ -59,7 +59,7 @@ hide
 
 इस नए कोड का परीक्षण करें - क्या यह आपकी अपेक्षा के अनुरूप काम करता है? आप देख सकते हैं कि Power (शक्ति) कम हो रही है और इसके नतीजे बर्फ का गोला पीछे की ओर बढ़ने लगता है!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+इसे ठीक करने के लिए आप `if`{:class="block3control"} ब्लॉक अपने कोड में जोड़ सकते हैं ताकि 0 से ऊपर होने पर ही Power (शक्ति) कम हो।
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -79,7 +79,7 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+आप लगभग वहाँ हैं लेकिन आपको बर्फ़गोले में ग्रेविटी (gravity) जोड़ने कि ज़रूरत है ताकि वो ज़मीन पे वापस गिर सके | आप इस कोड के साथ बर्फ़गोले को नीचे ले जाकर ग्रेविटी (gravity) जोड़ सकते हैं:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+अपने बर्फ़गोले का फिर से परीक्षण करें और आपको दिखना चाहिए कि आपका बर्फ़गोला अब काफी वास्तविक रूप से चलता है।
 
 --- /task ---
 
