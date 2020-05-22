@@ -4,7 +4,7 @@
 
 أضف كتلة إلى _نهاية_ التعليمة البرمجية كرة الثلج الخاص بك، لـ `بث `{:class="block3control"} أنك ترمى كرة الثلج:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-أضف هذه التعليمات البرمجية إلى كرة الثلج الخاصة بك، للتحرك حتى تصل إلى حافة المرحلة:
+أضف هذه التعليمات البرمجية إلى كرة الثلج الخاصة بك، لتتحرك حتى تصل إلى حافة المنصة:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+التعليمة البرمجية تستخدم متغير `القوة`{:class="block3variables"} لتحديد سرعة التحرك.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+الآن بعد أن تخفي كرة الثلج عندما تلامس الحافة، أضف تعليمة برمجية لـ`عرض `{:class="block3looks"} كرة الثلج عند النقر على العلم، _فقط _ بعد تبديل كرة الثلج إلى المظهر `هدف كرة الثلج `{:class="block3looks"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+اختبر كرة الثلج عدة مرات. هل تتحرك بزوايا مختلفة وبسرعات مختلفة؟
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+إذا كنت تريد أن تكون قادراً على رمي كرة الثلج الخاص بك مرات عديدة، فقط قم بإضافة حلقة `للأبد`{:class="block3control"} حول كرة الثلج الخاصة بك `عند النقر فوق العلم `{:class="block3events"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
