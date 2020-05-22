@@ -1,10 +1,10 @@
 ## लक्ष्य
 
-Let's add in a target for your snowballs!
+चलिए आपके बर्फगोलो के लिए एक लक्ष्य जोड़ा जाये!
 
 --- task ---
 
-Add in another sprite to your project.
+अपने प्रोजेक्ट में एक और स्प्राइट जोड़ें।
 
 ![a target sprite on the stage](images/snow-deer.png)
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+इस कोड को अपने नए स्प्राइट में जोड़ें ताकि यह कहे कि "You got me!" जब बर्फ़गोला सफलता पूर्वक उसे मार पाए:
 
-![target sprite](images/target-sprite.png)
+![लक्ष्य स्प्राइट](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,7 +31,7 @@ end
 
 --- task ---
 
-Test out your new code.
+अपने नए कोड का परीक्षण करें।
 
 ![target sprite saying you got me!](images/snow-hit.png)
 
@@ -39,9 +39,9 @@ Test out your new code.
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+चलिए कुछ और चीज़ें करते है ताकि गेम और कठिन हो जाये | सबसे पहले हर बार जब खिलाड़ी बर्फ का गोला फेंकता है, तो बारासिंघा को हिलाते हैं।
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+ऐसा करने के लिए पहले `broadcast`{:class="block3control"} को अपने बर्फ़गोले में जोड़ें जो आपके `forever`{:class="block3control"} लूप के ऊपर होगा | यह आपके बारासिंघा को यह बता देगा कि एक नया शॉट(shot) लिया जाने वाला है।
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -67,7 +67,7 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+जब आपका बारासिंघा को यह संदेश मिलता है तो उसे इस कोड के साथ एक नई यादृच्छिक (random) जगह में ले जाएं:
 
 ![target sprite](images/target-sprite.png)
 
@@ -80,13 +80,13 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+कुछ बर्फ़गोले फेंककर अपनी प्रोजेक्ट का परीक्षण करें। क्या आपका लक्ष्य हर बार जगह बदलता है?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+आप अपने बर्फ़गोले के सामने एक चट्टान जोड़कर अपने खेल को कठिन बना सकते हैं।
 
 ![rock sprite on the stage](images/snow-rock.png)
 
@@ -94,7 +94,7 @@ You can also make your game harder by adding a rock in front of your snowball.
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+अब आप अपने बर्फ़गोले का कोड बदल सकते हैं ताकि वो रुक जाये जब वह स्क्रीन (screen) के किनारे को छूता है _या_ जब यह चट्टान को छूता है।
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -115,7 +115,7 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+अंत में आप अपने बर्फ़गोले और अपने बारासिंघा को छोटा बनाकर अपने खेल को और कठिन बना सकते हैं।
 
 ![small snowball and target sprite](images/snow-small.png)
 
