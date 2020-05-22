@@ -4,22 +4,22 @@ listed: true
 ingredient: false
 copyedit: false
 title: معركة كرة الثلج
-description: Make a game in which you have to throw snowballs at a target
+description: اصنع لعبة عليك فيها رمي كرات الثلج على هدف
 version: 4
 last_tested: 2018-04-11
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Making a snowball
+    title: صنع كرة ثلج
   - 
-    title: Throwing a snowball
+    title: رمي كرة ثلج
   - 
-    title: Realistic movement
+    title: حركة واقعية
   - 
-    title: The target
+    title: الهدف
   - 
-    title: "Challenge: improve your game!"
+    title: "التحدي: قم بتحسين لعبتك!"
     challenge: true
   - 
-    title: What next?
+    title: ما التالي؟
