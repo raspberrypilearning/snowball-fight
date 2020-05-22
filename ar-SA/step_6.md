@@ -1,12 +1,12 @@
-## Challenge: improve your game!
-Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
+## التحدي: قم بتحسين لعبتك!
+الآن بعد أن صنعت اللعبة الأساسية، راجع ما يمكنك فعله لتحسينها. إليك بعض الأفكار، ولكن لا تتردد في استخدام أفكارك الخاصة أيضاً.
 
-+ Add a winter backdrop to your project.
-+ Change the numbers in your code, to make the snowball move faster, higher or further
-+ Change the graphics
-+ Add music and sound effects
-+ Change sprite costumes when the target is hit
-+ Add a score and a high score
-+ The reindeer could move around so that it's harder to hit
-+ You could add snowflakes or birds that stop the snowball
-+ You could add a second player, so that you could both throw snowballs at the reindeer...or each other!
++ أضف خلفية الشتاء إلى مشروعك.
++ قم بتغيير الأرقام في التعليمات البرمجية الخاصة بك، لجعل كرة الثلج تتحرك أسرع أو أعلى أو أبعد
++ تغيير الرسومات
++ إضافة تأثيرات موسيقية وصوتية
++ تغيير مظاهرالكائن عند اصابة الهدف
++ إضافة النتيجة و واعلى نتيجة
++ يمكن أن يتحرك غزال الرنة بحيث يصعب ضربه
++ يمكنك إضافة رقائق الثلج أو الطيور التي توقف كرة الثلج
++ يمكنك إضافة لاعب ثان، حتى تتمكن من رمي كرات الثلج على غزال الرنة... أو بعضكم البعض!
