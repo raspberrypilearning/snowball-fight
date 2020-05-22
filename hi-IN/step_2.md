@@ -28,7 +28,7 @@ In the starter project, you should see a blank stage and snowball sprite.
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+सबसे पहले आइए खिलाड़ी को बर्फ़गोला के कोण (angle) को बदलने की अनुमति दें। Add this code to your snowball sprite:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -47,7 +47,7 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+हरे झंडे पर क्लिक करके अपने प्रोजेक्ट का परीक्षण करें। You should see that your snowball follows the mouse, until you press the mouse button.
 
 ![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
 
@@ -55,7 +55,7 @@ Test out your project by clicking the green flag. You should see that your snowb
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+आइए खिलाड़ी को यह तय करने की भी अनुमति दें कि बर्फ़गोला को कितनी ताकत से फेंकना चाहिए। Create a new variable called `power`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,7 +63,7 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Drag your new variable display to the bottom of the stage, near the snowball. स्टेज पर वेरिएबल प्रदर्शक(display) पर राइट क्लिक करें और 'slider' पर क्लिक करें।
 
 ![variable changed to slider](images/snow-slider.png)
 
@@ -84,7 +84,7 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+अब आपके पास `power` {"class =" block3variables "} वेरिएबल है, अब आप बर्फ़गोले की शक्ति बढ़ा सकते हैं लेकिन सिर्फ़ नीचे दिए गए कोड से दिशा चुनने के _बाद_ ही:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -99,7 +99,7 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+इस कोड का मतलब है कि आपको _माउस बटन को दबाकर रखना है_ दिशा चुनने के बाद, बर्फ़गोला की शक्ति को चुनने के लिए।
 
 --- /task ---
 
