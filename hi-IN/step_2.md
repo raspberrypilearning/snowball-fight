@@ -1,18 +1,18 @@
-## Making a snowball
+## बर्फ़गोले बनाना
 
-Let's make a snowball, that you can throw around your stage.
+चलिए बर्फ़गोले बनाते है ताकि हम उसे स्टेज (stage) के आस पास फ़ेंक सकें |
 
 --- task ---
 
-Open the Scratch starter project.
+Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**ऑनलाइन**: [स्टार्टर प्रोजेक्ट खोलें](http://rpf.io/snowball-fight-on){:target="_blank"} |
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं |
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} को ऑफलाइन एडिटर (offline editor) में खोलिये।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल (download and install) करने की आवश्यकता है तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
 In the starter project, you should see a blank stage and snowball sprite.
 
@@ -20,7 +20,7 @@ In the starter project, you should see a blank stage and snowball sprite.
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+'बर्फ़गोला' स्प्राइट के 2 पोशाक (costumes) है| एक सामान्य पोशाक है और एक है जिसमें दिखाया गया है कि बर्फ़गोला किस दिशा में जाएगा।
 
 ![snowball costumes](images/snow-costume.png)
 
