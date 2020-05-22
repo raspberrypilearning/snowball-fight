@@ -1,12 +1,12 @@
-## Realistic movement
+## वास्तविक संचलन
 
-You now have a snowball, but let's make it move a bit more realistically.
+अब आपके पास एक बर्फ़गोला है लेकिन चलिए इसे थोड़ा और वास्तविक रूप से आगे बढ़ाएं।
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+सबसे पहले हम इसका अधिकतम शक्ति स्तर (maximum power level) सेट करें ताकि बर्फ़गोले को बहुत तेज़ से फेंका न जा सके।
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+आपके बर्फ़गोले के `when flag clicked`{:class="block3events"} कोड में हमें केवल 20 से कम होने पर शक्ति बढ़ाने की आवश्यकता है। अपना कोड बदलें:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -23,13 +23,13 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+अपने बर्फ़गोले का फिर से परीक्षण करें और आप देखेंगे कि शक्ति (power) कभी भी 20 से ऊपर नहीं जाता है।
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+अब जब आपकी बर्फ़गोले की अधिकतम शक्ति 20 है तो आप इसे वेरिएबल के स्लाइडर में भी अधिकतम मूल्य के रूप में सेट कर सकते हैं। अपने शक्ति (power) वेरिएबल पर राइट-क्लिक करें और 'set slider min and max' पर क्लिक करें।
 
 ![min max of slider range](images/snow-minmax.png)
 
@@ -38,7 +38,7 @@ Now that your snowball's maximum power is 20, you can set this as the maximum va
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+आप बर्फ़गोले को धीमा भी कर सकते हैं| Power (शक्ति) को थोड़ा कम करके जब बर्फ का गोला हवा में उड़ता है। इस कोड को अपने बर्फ़गोले `when I receive [throw]`{:class="block3events"} के कोड में जोड़ें:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -57,7 +57,7 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+इस नए कोड का परीक्षण करें - क्या यह आपकी अपेक्षा के अनुरूप काम करता है? आप देख सकते हैं कि Power (शक्ति) कम हो रही है और इसके नतीजे बर्फ का गोला पीछे की ओर बढ़ने लगता है!
 
 To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
 
