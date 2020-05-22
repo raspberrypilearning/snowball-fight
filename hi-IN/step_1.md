@@ -1,18 +1,18 @@
 --- no-print ---
 
-यह इस प्रोजेक्ट का **Scratch 3** वर्ज़न (version) है। There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+यह इस प्रोजेक्ट का **Scratch 3** वर्ज़न (version) है। [इस प्रोजेक्ट का Scratch 2 वर्ज़न ](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2) भी है।
 
 --- /no-print ---
 
 ## परिचय
 
-In this project you're going to make a game in which you have to throw snowballs at a target.
+इस प्रोजेक्ट में आप एक गेम बनाने जा रहे हैं जिसमें आपको एक लक्ष्य पर बर्फ के गोले फेंकने होंगे।
 
 ### आप क्या बनाएँगे
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+बर्फ़गोले को एक कोण (angle) देने के लिए माउस पॉइंटर का उपयोग करें और बर्फ़गोले की शक्ति को चुनने के लिए माउस बटन को दबाए रखें।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -34,15 +34,15 @@ title: आपको किन चीजों की आवश्यकता �
 
 ### हार्डवेयर
 
-+ A computer capable of running Scratch
++ Scratch चलाने में सक्षम कंप्यूटर
 
 ### सॉफ्टवेयर
 
 + Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफ़लाइन](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
-The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+स्टार्टर प्रोजेक्ट [यहाँ पाया जा सकता है](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} |
 
 --- /collapse ---
 
@@ -51,9 +51,9 @@ The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:t
 title: आप क्या सीखेंगे
 ---
 
-- How to animated sprites
+- स्प्राइट्स (sprites) को एनिमेटे कैसे करते है
 - माउस इनपुट पर प्रतिक्रिया (react) कैसे करते है
-- how to use broadcasts
+- Broadcasts (ब्राडकास्ट) का उपयोग कैसे करते है
 
 --- /collapse ---
 
