@@ -1,12 +1,12 @@
-## The target
+## الهدف
 
-Let's add in a target for your snowballs!
+دعنا نضيف هدفًا لكرات الثلج الخاصة بك!
 
 --- task ---
 
-Add in another sprite to your project.
+أضف كائن آخر إلى مشروعك.
 
-![a target sprite on the stage](images/snow-deer.png)
+![كائن مستهدف على المسرح](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+أضف هذه التعليمات البرمجية إلى الكائن الجديد الخاص بك، بحيث تقول "امسكت بي!" عندما تضرب:
 
-![target sprite](images/target-sprite.png)
+![كائن الهدف](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+اختبر الكود الجديد الخاص بك.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![الكائن المستهدف يقول أنك حصلت علي!](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+دعونا نفعل بعض الأشياء لجعل اللعبة أصعب. أولا، دعونا نحرك غزال الرنة في كل مرة يرمي فيها اللاعب كرة الثلج.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+للقيام بذلك، أولاً أضف `بث `{:class="block3control"} إلى كرة الثلج، بالقرب من أعلى حلقة `للأبد`{:class="block3control"}. وهذا سيجعل غزال الرنة يعرف أن طلقة جديدة على وشك أن تطلق.
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+عندما يتلقى غزال الرنة هذه الرسالة، قم بنقلها إلى موضع عشوائي جديد باستخدام هذه التعليمة البرمجية:
 
-![target sprite](images/target-sprite.png)
+![كائن الهدف](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+اختبر مشروعك برمي بعض كرات الثلج. هل يتحرك الهدف الخاص بك في كل مرة؟
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+يمكنك أيضا جعل لعبتك أصعب من خلال إضافة صخرة أمام كرة الثلج.
 
-![rock sprite on the stage](images/snow-rock.png)
+![كائن الصخرة على المسرح](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+يمكنك الآن تغيير التعليمة البرمجية لكرة الثلج الخاص بك، للتوقف عندما يلمس حافة الشاشة _أو_ عندما يلمس الصخور.
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+أخيرًا ، يمكنك أن تجعل لعبتك أكثر صعوبة من خلال جعل كرة الثلج الخاصة بك وحيوان الرنة أصغر.
 
-![small snowball and target sprite](images/snow-small.png)
+![كرة الثلج الصغيرة والكائن المستهدف](images/snow-small.png)
 
 --- /task ---
