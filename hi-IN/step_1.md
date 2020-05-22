@@ -1,14 +1,14 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+यह इस प्रोजेक्ट का **Scratch 3** वर्ज़न (version) है। There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## परिचय
 
 In this project you're going to make a game in which you have to throw snowballs at a target.
 
-### What you will make
+### आप क्या बनाएँगे
 
 --- no-print ---
 
@@ -29,16 +29,16 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- collapse ---
 ---
-title: What you will need
+title: आपको किन चीजों की आवश्यकता होगी
 ---
 
-### Hardware
+### हार्डवेयर
 
 + A computer capable of running Scratch
 
-### Software
+### सॉफ्टवेयर
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफ़लाइन](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -48,26 +48,26 @@ The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:t
 
 --- collapse ---
 ---
-title: What you will learn
+title: आप क्या सीखेंगे
 ---
 
 - How to animated sprites
-- How to react to mouse input
+- माउस इनपुट पर प्रतिक्रिया (react) कैसे करते है
 - how to use broadcasts
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: शिक्षकों के लिए अतिरिक्त जानकारी
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल वर्ज़न](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_ blank"} का उपयोग करें।
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+आप इधर [पूरा प्रोजेक्ट](http://rpf.io/p/en/snowball-fight-get){:target="_blank"} देख सकते हैं ।
 
 --- /collapse ---
