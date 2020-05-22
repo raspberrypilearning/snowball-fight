@@ -1,8 +1,8 @@
-## Throwing a snowball
+## बर्फ़गोला फेकना
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+एक ब्लॉक अपने बर्फ़गोले के कोड के _अंत_ में जोड़ें ताकि सबको `broadcast`{:class="block3control"} (प्रसारित) हो सके कि आप बर्फ़गोला फ़ेंक रहे हैं:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -28,7 +28,7 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+इस कोड को अपने बर्फ़गोले में जोड़ें ताकि वो हिलता रहे जब तक वह मंच के किनारे न पहुँच जाए:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -41,13 +41,13 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+यह कोड `power`{:class="block3variables"} (शक्ति) वेरिएबल का उपयोग करेगा यह तय करने के लिए कि कितनी तेजी से चलना चाहिए।
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+क्योंकि अब आप बर्फ़गोले को छिपायेगा जब वह स्क्रीन के कोने को छूता है तो ज़रूरी है कि आप बर्फ़गोले पर `show`{:class="block3looks"} कोड जोड़ें जब हरे झंडे पर क्लिक किया जाये, _ठीक बाद_ जब बर्फ़गोला अपना पोशाक (costume) `snowball-aim`{:class="block3looks"} में बदलता है |
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -74,13 +74,13 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+अपने बर्फ़गोले को कुछ दफे परिक्षण करें | क्या यह विभिन्न कोणों (angles) और अलग-अलग गति से चलता है?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+यदि आप अपना बर्फ़गोला बहुत बार फेंकना चाहते हैं तो बस `forever`{:class="block3control"} (हमेशा के लिए) लूप अपने बर्फ़गोले के चारों ओर `when flag clicked`{:class="block3events"} कोड में जोड़ें |
 
 ![snowball sprite](images/snowball-sprite.png)
 
