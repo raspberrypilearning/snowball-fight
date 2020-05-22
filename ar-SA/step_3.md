@@ -1,8 +1,8 @@
-## Throwing a snowball
+## رمي كرة ثلج
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+أضف كتلة إلى _نهاية_ التعليمة البرمجية كرة الثلج الخاص بك، لـ `بث `{:class="block3control"} أنك ترمى كرة الثلج:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -28,7 +28,7 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+أضف هذه التعليمات البرمجية إلى كرة الثلج الخاصة بك، للتحرك حتى تصل إلى حافة المرحلة:
 
 ![snowball sprite](images/snowball-sprite.png)
 
