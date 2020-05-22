@@ -1,36 +1,36 @@
-## Making a snowball
+## صنع كرة ثلج
 
-Let's make a snowball, that you can throw around your stage.
+دعونا نصنع كرة ثلج، يمكنك رميها حول المنصة الخاص بك.
 
 --- task ---
 
-Open the Scratch starter project.
+افتح مشروع Scratch للبدء.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**على الإنترنت**: افتح مشروع البدء [](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**دون اتصال بالانترنت**: افتح [المشروع المبدئي](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+في بداية المشروع ، يجب ان أن ترى خلفية فارغة مع كائن كرة الثلج.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+كائن "كرة الثلج" يحتوي على مظهرين، مظهر عادي، ومظهر يظهر الاتجاه الذي تواجهه كرة الثلج.
 
-![snowball costumes](images/snow-costume.png)
+![مظاهر كرة الثلج](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+أولاً، دعونا نسمح للاعب بتغيير زاوية كرة الثلج. أضف هذه التعليمة البرمجية إلى كائن كرة الثلج الخاص بك:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+اختبر مشروعك بالنقر على العلم الأخضر. يجب أن ترى أن كرة الثلج الخاصة بك تتبع اتجاه الفأرة، حتى تضغط على زر الفأرة.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![كائن هدف كرة الثلج الذي يشير إلى الماوس](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+دعونا أيضا نسمح للاعب أن يقرر كيف يمكن رمي كرة الثلج بقوة. إنشاء متغير جديد يسمى `قوة`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+اسحب المتغير الجديد الخاص بك إلى أسفل المنصة، بالقرب من كرة الثلج. انقر بزر الماوس الأيمن على الشاشة المتغيرة على المسرح وانقر فوق "شريط التمرير".
 
-![variable changed to slider](images/snow-slider.png)
+![تم تغيير المتغير إلى شريط التمرير](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+أضف تعليمة برمجية لتعيين متغير `قوة`{:class="block3variables"} الجديد إلى 0 عند النقر على العلم.
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+الآن بعد أن اصبح لديك متغير `قوة`{:class="block3variables"}، يمكنك زيادة قوة كرة الثلج _بعد _ اختيار الاتجاه مع هذه التعليمية البرمجية:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+هذه التعليمات البرمجية تعني أنه يجب عليك _ إبقاء زر الماوس منخفض _ بعد اختيار الاتجاه، لاختيار قوة كرة الثلج.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+اختبر كرة الثلج الخاصة بك، لمعرفة ما إذا كان يمكنك اختيار الزاوية والقوة الخاصة بها.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![متغير الفوة عند 35 بجوار هدف كرة الثلج](images/snow-test.png)
 
 --- /task ---
