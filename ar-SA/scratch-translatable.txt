@@ -1,13 +1,13 @@
-snowball-aim
+هدف كرة الثلج
 
-normal
+طبيعي
 
-power
+قوة
 
-throw
+رمي
 
-snowball
+كرة الثلج
 
-You got me!
+أمسكت بي!
 
-new shot
+لقطة جديدة
