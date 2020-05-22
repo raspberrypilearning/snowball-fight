@@ -1,4 +1,4 @@
-## The target
+## लक्ष्य
 
 Let's add in a target for your snowballs!
 
