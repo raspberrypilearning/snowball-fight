@@ -1,14 +1,14 @@
-## Realistic movement
+## الحركة الواقعية
 
-You now have a snowball, but let's make it move a bit more realistically.
+لديكم الآن كرة ثلج، ولكن دعونا نجعلها تتحرك بشكل أكثر واقعية.
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+أولاً، دعونا نضع أقصى مستوى للطاقة، بحيث لا يمكن إلقاء كرة الثلج بصعوبة كبيرة.
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+في كرة الثلج الخاص بك `عند نقر العلم `{:class="block3events"} ، نحتاج إلى زيادة الطاقة فقط إذا كانت أقل من 20. تغيير تعليماتك البرمجية إلى:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -23,24 +23,24 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+اختبر كرة الثلج مرة أخرى، وسترى أن الطاقة لن ترتفع أبدا عن 20.
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+الآن بعد أن بلغت القوة القصوى لكرة الثلج 20 ، يمكنك تعيين هذا كقيمة قصوى لشريط تمرير المتغير أيضا. انقر بالزر الأيمن على متغير الطاقة الخاص بك، وانقر فوق 'تعيين دقيق شريط التمرير والحد الأقصى'.
 
-![min max of slider range](images/snow-minmax.png)
+![الحد الاقصى لنطاق شريط التمرير](images/snow-minmax.png)
 
 
 --- /task ---
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+يمكنك ايضا إبطاء كرة الثلج عن طريق تقليل الطاقة قليلا أثناء تحليقها عبر الهواء. أضف هذه الكتلة البرمجية إلى تعليمة كرة الثلج الخاص بك `عندما أتلقى [throw]`{:class="block3events"}:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -57,11 +57,11 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+اختبر هذه التعليمات البرمجية الجديدة - هل تعمل كما توقعت؟ قد تلاحظ أن القوة تنخفض وفي نهاية المطاف تتحرك كرة الثلج إلى الخلف!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+لإصلاح هذا، يمكنك إضافة تعليمة برمجية`اذا`{:class="block3control"} إلى التعليمة البرمجية الخاص بك، بحيث يتم خفض الطاقة فقط إذا كانت أعلى من 0:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+أنت على وشك الانتهاء، لكنك تحتاج أيضًا إلى إضافة بعض الجاذبية لكرة الثلج، حتى تقع على الأرض. يمكنك إضافة الجاذبية بمجرد تحريك كرة الثلج إلى الأسفل باستمرار باستخدام هذه التعليمة  البرمجية:
 
-![snowball sprite](images/snowball-sprite.png)
+![كائن كرة الثلج](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+اختبر كرة الثلج مرة أخرى، وينبغي أن ترى أن كرة الثلج تتحرك بشكل أكثر واقعية.
 
 --- /task ---
 
