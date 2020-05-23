@@ -38,7 +38,7 @@ Ahora que la potencia máxima de tu bola de nieve es 20, también puedes estable
 
 --- task ---
 
-También puedes bajar la velocidad de la bola de nieve, al reducir la potencia de manera ligera, a medida que vuela por el aire. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+También puedes bajar la velocidad de la bola de nieve, al reducir la potencia de manera ligera, a medida que vuela por el aire. Agrega este bloque de código a tu código de bola de nieve `cuando reciba [throw]`{:class="block3events"}:
 
 ![objeto bola de nieve](images/snowball-sprite.png)
 
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-Ya casi finalizas, pero primero necesitas añadir algo de gravedad a tu bola de nieve, así caerá al suelo. You can add gravity by just moving the snowball down continuously with this code:
+Ya casi finalizas, pero primero necesitas añadir algo de gravedad a tu bola de nieve, así caerá al suelo. Puedes añadir gravedad al mover la bola de nieve continuamente con este código:
 
-![snowball sprite](images/snowball-sprite.png)
+![objeto bola de nieve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+Prueba de nuevo tu bola de nieve, deberías ver que tu bola de nieve se mueve de forma mucho más realista.
 
 --- /task ---
 
