@@ -3,23 +3,23 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Snowball fight
-description: Make a game in which you have to throw snowballs at a target
+title: 雪球大戰
+description: 製作一個遊戲，您必須向目標扔雪球
 version: 4
 last_tested: 2018-04-11
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: Making a snowball
+    title: 製作雪球
   - 
-    title: Throwing a snowball
+    title: 扔雪球
   - 
     title: Realistic movement
   - 
-    title: The target
+    title: 目標
   - 
     title: "Challenge: improve your game!"
     challenge: true
   - 
-    title: What next?
+    title: 然後呢？
