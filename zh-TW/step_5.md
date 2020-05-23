@@ -1,10 +1,10 @@
 ## The target
 
-Let's add in a target for your snowballs!
+讓我們為你的雪球添加一個目標！
 
 --- task ---
 
-Add in another sprite to your project.
+在你的專案中添加另一個角色。
 
 ![a target sprite on the stage](images/snow-deer.png)
 
