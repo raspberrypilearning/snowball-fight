@@ -8,7 +8,7 @@
 
 在你的雪球`當旗子被點擊` {：class =“ block3events”}程式碼，僅當如果力量小於20時，我們才需要增加力量。 將你的程式更改為：
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -31,7 +31,7 @@ end
 
 現在，雪球的最大力量為20，您也可以將其設置為變量滑桿的最大值。 右鍵點擊你的力量變數，然後點擊「設置滑桿的最小值和最大值」。
 
-![min max of slider range](images/snow-minmax.png)
+![滑桿範圍的最小值最大值](images/snow-minmax.png)
 
 
 --- /task ---
@@ -40,14 +40,14 @@ end
 
 你還可以通過在空中飛行時略微降低力量來減慢雪球運動的速度。 添加此程式積木到您的雪球` 當我收到 [丟]時` {：class =“ block3events”}程式碼：
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
+when I receive [丟 v]
+switch costume to (雪球 v)
 repeat until < touching [edge v]? >
-    move (power) steps
-+   change [power v] by (-0.25)
+    move (力量) steps
++   change [力量 v] by (-0.25)
 end
 hide
 ```
@@ -57,19 +57,19 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+測試此新程式-它是否如預期工作？ 你可能會注意到力量不斷降低，雪球最後向後移動！
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+要解決此問題，您可以添加` 如果` {：class =“ block3control”}積木到您的程式，以使力量僅在大於0時才會降低：
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
+when I receive [丟 v]
+switch costume to (雪球 v)
 repeat until < touching [edge v]? >
-    move (power) steps
-+   if < (power) > (0) > then
-        change [power v] by (-0.25)
+    move (力量) steps
++   if < (力量) > (0) > then
+        change [力量 v] by (-0.25)
     end
 end
 hide
@@ -79,18 +79,18 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+你快要完成了，但是你還需要在雪球上添加一些重力，以使其落在地上。 您可以使用以下程式透過連續向下移動雪球來增加重力：
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
+when I receive [丟 v]
+switch costume to (雪球 v)
 repeat until < touching [edge v]? >
 +   change y by (-5)
-    move (power) steps
-    if < (power) > (0) > then
-        change [power v] by (-0.25)
+    move (力量) steps
+    if < (力量) > (0) > then
+        change [力量 v] by (-0.25)
     end
 end
 hide
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+再次測試你的雪球，您應該看到雪球的運動更加真實。
 
 --- /task ---
 
