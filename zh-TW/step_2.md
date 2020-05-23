@@ -37,7 +37,7 @@ when flag clicked
 wait (0.5) seconds
 go to x:(-200) y:(-130)
 point in direction (90)
-switch costume to (snowball-aim v)
+switch costume to (雪球瞄準 v)
 repeat until <mouse down?>
     point towards (mouse-pointer v)
 end
@@ -65,7 +65,7 @@ end
 
 將你新的可變顯示器拉到靠近雪球的舞台底部。 在可變顯示器上點右鍵，然後選擇"滑桿"
 
-![滑塊的可變量](images/snow-slider.png)
+![滑桿的可變量](images/snow-slider.png)
 
 --- /task ---
 
@@ -73,11 +73,11 @@ end
 
 當你點擊綠旗時，增加程式碼來設置新的`力量`{：class =“ block3variables”}變數為0，。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
-+ set [power v] to (0)
++ set [力量 v] to (0)
 ```
 
 --- /task ---
@@ -86,7 +86,7 @@ when flag clicked
 
 現在您有了一個`力量` {：class =“ block3variables”}變數，選擇了雪球的方向_之後_你可以透過此程式碼來增加雪球的力量：
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -94,7 +94,7 @@ repeat until <mouse down?>
 end
 +repeat until < not <mouse down?> >
     point towards (mouse-pointer v)
-    change [power v] by (1)
+    change [力量 v] by (1)
     wait (0.1) seconds
 end
 ```
@@ -107,6 +107,6 @@ end
 
 測試你的雪球，看看你是否可以選擇它的角度和力量。
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![雪球瞄準鏡旁的力量改變量為35](images/snow-test.png)
 
 --- /task ---
