@@ -12,7 +12,7 @@
 
 **離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+如果你需要 Scratch 離線版編輯器，可以在這找到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
 
 在入門專案中，你應該可以看到空白的舞台以及雪球角色。
 
@@ -20,17 +20,17 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+「雪球」角色包含兩種造型，一種是普通造型，另一種是顯示雪球面向哪個方向的造型。
 
-![snowball costumes](images/snow-costume.png)
+![雪球造型](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+首先，讓玩家改變雪球的角度。 為你的雪球編寫程式
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+點擊綠旗測試你的程式 你將會看到雪球跟著滑鼠移動，直到你按下滑鼠按鍵。
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![雪球瞄準角色指向滑鼠位置](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+讓玩家決定應該扔多大力。 建立一個新的變數，名稱叫`力量`{:class="block3variables"}。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,15 +63,15 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+將你新的可變顯示器拉到靠近雪球的舞台底部。 在可變顯示器上點右鍵，然後選擇"滑桿"
 
-![variable changed to slider](images/snow-slider.png)
+![滑塊的可變量](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+當你點擊綠旗時，增加程式碼來設置新的`力量`{：class =“ block3variables”}變數為0，。
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -84,7 +84,7 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+現在您有了一個`力量` {：class =“ block3variables”}變數，選擇了雪球的方向_之後_你可以透過此程式碼來增加雪球的力量：
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -99,13 +99,13 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+此程式碼表示您必須在選擇方向後_按住滑鼠按鍵_，選擇雪球的力量。
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+測試你的雪球，看看你是否可以選擇它的角度和力量。
 
 ![power variable at 35 next to snowball aim](images/snow-test.png)
 
