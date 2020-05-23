@@ -1,4 +1,4 @@
-## The target
+## 目標物
 
 讓我們為你的雪球添加一個目標！
 
@@ -6,7 +6,7 @@
 
 在你的專案中添加另一個角色。
 
-![a target sprite on the stage](images/snow-deer.png)
+![一個在舞台上的目標角色](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,15 +14,15 @@
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+將此程式添加到新的角色中。讓它被擊中時，它會說「你打到我了！」：
 
-![target sprite](images/target-sprite.png)
+![目標角色](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
 forever
-    if < touching [snowball v]? > then
-        say [You got me!] for (1) seconds
+    if < touching [雪球 v]? > then
+        say [你打到我了!] for (1) seconds
     end
 end
 ```
@@ -31,48 +31,48 @@ end
 
 --- task ---
 
-Test out your new code.
+測試你的新程式。
 
-![target sprite saying you got me!](images/snow-hit.png)
+![目標角色說你打到我了！](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+讓我們來做一些讓遊戲變得更加困難的事情。 首先，讓我們在玩家每次扔雪球時馴鹿都會移動。
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+為了這個，要先添加一個`廣播` {：class =“ block3control”}到你的雪球，在你的`重複無限次` {：class =“ block3control”}迴圈的最上面。 這將讓你的馴鹿知道新的一輪即將開始了。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
 forever
-set [power v] to (0)
-+broadcast (new shot v)
+set [力量 v] to (0)
++broadcast (新的一輪 v)
 wait (0.5) seconds
 go to x:(-200) y:(-130)
 point in direction (90)
-switch costume to (snowball-aim v)
+switch costume to (雪球瞄準 v)
 show
 repeat until <mouse down?>
     point towards (mouse-pointer v)
 end
 repeat until < not <mouse down?> >
     point towards (mouse-pointer v)
-    change [power v] by (1)
+    change [力量 v] by (1)
     wait (0.1) seconds
 end
-broadcast (throw v) and wait
+broadcast (丟 v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+當你的馴鹿接收到這個訊息，它將會利用這個程式移動到新的隨機位置：
 
-![target sprite](images/target-sprite.png)
+![目標角色](images/target-sprite.png)
 
 ```blocks3
-when I receive [new shot v]
+when I receive [新的一輪 v]
 set x to (pick random (0) to (200))
 ```
 
@@ -80,32 +80,32 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+扔一些雪球來測試你的專案。 目標每次都會移動位置嗎？
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+您還可以在雪球前面加一塊石頭來增加遊戲難度。
 
-![rock sprite on the stage](images/snow-rock.png)
+![舞台上的石頭角色](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+您現在可以更改雪球程式，讓它在碰到螢幕邊緣_或_碰到石頭時會停止。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪球角色](images/snowball-sprite.png)
 
 ```blocks3
-when I receive [throw v]
-switch costume to (snowball v)
-+ repeat until << touching [edge v]? > or <touching [Rocks v]?>>
+when I receive [丟 v]
+switch costume to (雪球 v)
++ repeat until << touching [邊緣 v]? > or < touching [石頭 v]? >>
     change y by (-5)
-    move (power) steps
-    if <(power) > [0]> then
-    change [power v] by (-0.25)
+    move (力量) steps
+    if <(力量) > [0]> then
+    change [力量 v] by (-0.25)
     end
 end
 hide
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+最後，您可以讓雪球和麋鹿變小來提高遊戲的難度。
 
-![small snowball and target sprite](images/snow-small.png)
+![小的雪球和目標角色](images/snow-small.png)
 
 --- /task ---
