@@ -94,9 +94,9 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Τώρα μπορείς να αλλάξεις τον κώδικα της χιονόμπαλας, για να σταματήσει,όταν αγγίξει την άκρη της οθόνης _ή_ όταν αγγίξει το β ράχο.
+Τώρα μπορείς να αλλάξεις τον κώδικα της χιονόμπαλας, για να σταματήσει,όταν αγγίξει την άκρη της οθόνης _ή_ όταν αγγίξει τον βράχο.
 
-![snowball sprite](images/snowball-sprite.png)
+![αντικείμενο χιονόμπαλα](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+Τέλος, μπορείς να κάνεις το παιχνίδι σου πιο δύσκολο κάνοντας τη χιονόμπαλα και τον τάρανδό σου μικρότερα.
 
-![small snowball and target sprite](images/snow-small.png)
+![μικρή χιονόμπαλα και αντικείμενο στόχος](images/snow-small.png)
 
 --- /task ---
