@@ -1,13 +1,13 @@
-snowball-aim
+χιονόμπαλα-στόχος
 
-normal
+κανονικό
 
-power
+δύναμη
 
-throw
+ρίψη
 
-snowball
+χιονόμπαλα
 
-You got me!
+Με πέτυχες!
 
-new shot
+νέα ρίψη
