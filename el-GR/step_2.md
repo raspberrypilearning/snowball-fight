@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Τώρα που έχεις τη μεταβλητή `δύναμη`{:class="block3variables"}, μπορείς να αυξήσεις τη δύναμη εκτόξευσης της χιονόμπαλας _μετά_ την επιλογή κατεύθυνσης, με αυτόν τον κώδικα:
 
-![snowball sprite](images/snowball-sprite.png)
+![αντικείμενο χιονόμπαλα](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Αυτός ο κώδικας σημαίνει ότι πρέπει να _κρατήσεις πατημένο το κουμπί του ποντικιού_ αφού επιλέξεις την κατεύθυνση, για να επιλέξεις τη δύναμη εκτόξευσης της χιονόμπαλας.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Δοκίμασε τη χιονόμπαλά σου, για να δεις αν μπορείς να επιλέξεις τη γωνία και τη δύναμη της εκτόξευσης.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![μεταβλητή δύναμης στην τιμή 35 κοντά στη χιονόμπαλα-στόχος](images/snow-test.png)
 
 --- /task ---
