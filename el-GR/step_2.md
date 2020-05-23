@@ -55,7 +55,7 @@ end
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Ας επιτρέψουμε επίσης στον παίκτη να αποφασίσει με πόση δύναμη θα εκτοξευτεί η χιονόμπαλα. Δημιούργησε μία νέα μεταβλητή με όνομα `δύναμη`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Σύρε το νέο παράθυρο της μεταβλητής στο κάτω μέρος του σκηνικού, κοντά στη χιονόμπαλα. Κάνε δεξί κλικ στο παράθυρο της μεταβλητής και ξανά κλικ στη "γραμμή κύλισης".
 
-![variable changed to slider](images/snow-slider.png)
+![αλλαγή μεταβλητής στη γραμμή κύλισης](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Πρόσθεσε κώδικα για να ορίσεις τη νέα σου μεταβλητή `δύναμη`{:class="block3variables"} ίση με 0 όταν γίνεται κλικ στη σημαία.
 
-![snowball sprite](images/snowball-sprite.png)
+![αντικείμενο χιονόμπαλα](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
