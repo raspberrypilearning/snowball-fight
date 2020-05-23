@@ -1,12 +1,12 @@
 ## Challenge: improve your game!
-Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
+現在，您已經完成了基本的遊戲，來看如何改進它。 這裡有一些點子，但是也可以使用您自己的點子。
 
-+ Add a winter backdrop to your project.
-+ Change the numbers in your code, to make the snowball move faster, higher or further
-+ Change the graphics
-+ Add music and sound effects
-+ Change sprite costumes when the target is hit
-+ Add a score and a high score
-+ The reindeer could move around so that it's harder to hit
-+ You could add snowflakes or birds that stop the snowball
-+ You could add a second player, so that you could both throw snowballs at the reindeer...or each other!
++ 在專案中增加冬天的背景。
++ 更改程式中的數字，讓雪球移動得更快、更高或更遠
++ 改變圖形
++ 增加音樂以及音效
++ 當目標被打中時改變角色造型
++ 增加一個計分器和最高得分
++ 讓馴鹿可以四處移動，更難打到它
++ 您可以增加阻止雪球的雪花或是小鳥
++ 你可以增加第二個玩家，讓你們都可以對馴鹿扔雪球……或對彼此！
