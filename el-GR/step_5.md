@@ -1,12 +1,12 @@
-## The target
+## Ο στόχος
 
-Let's add in a target for your snowballs!
+Ας προσθέσουμε έναν στόχο για τις χιονόμπαλές σου!
 
 --- task ---
 
-Add in another sprite to your project.
+Πρόσθεσε ακόμη ένα αντικείμενο στο έργο σου.
 
-![a target sprite on the stage](images/snow-deer.png)
+![ένα αντικείμενο στόχος στο σκηνικό](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+Πρόσθεσε αυτόν τον κώδικα στο νέο σου αντικείμενο, ώστε να λέει "Με πέτυχες!" όταν χτυπηθεί:
 
-![target sprite](images/target-sprite.png)
+![αντικείμενο στόχος](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,9 +31,9 @@ end
 
 --- task ---
 
-Test out your new code.
+Δοκίμασε το νέο σου κώδικα.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![αντικείμενο στόχος που λέει με πέτυχες!](images/snow-hit.png)
 
 --- /task ---
 
