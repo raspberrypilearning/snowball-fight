@@ -1,13 +1,13 @@
-snowball-aim
+雪球瞄準
 
-normal
+一般
 
-power
+力量
 
-throw
+扔
 
-snowball
+雪球
 
-You got me!
+你打到我了！
 
-new shot
+新一輪！
