@@ -49,13 +49,13 @@ end
 
 Prueba tu proyecto haciendo clic en la bandera verde. Deberías ver que tu bola de nieve sigue la dirección del mouse, hasta que hagas clic.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![objeto bola de nieve dirigiéndose hacia el puntero del mouse](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Permitamos que el jugador también decida qué tan fuerte se debe lanzar la bola de nieve. Crea una nueva variable que se llame `fuerza`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Arrastra tu nueva variable a la parte inferior del escenario, cerca de la bola de nieve. Haz clic con el botón derecho en la variable y haz clic en «deslizador».
 
-![variable changed to slider](images/snow-slider.png)
+![variable cambiada a deslizador](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Añade código para configurar el nuevo nivel de `fuerza`{:class = "block3variables"} variable a 0 cuando haces clic en la bandera.
 
-![snowball sprite](images/snowball-sprite.png)
+![objeto bola de nieve](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Ahora que tienes una variable `fuerza`{: class="block3variables"}, puedes aumentar la potencia del lanzamiento de la bola de nieve, _después_ de elegir la dirección, con este código:
 
-![snowball sprite](images/snowball-sprite.png)
+![objeto bola de nieve](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Este código significa que debes _mantener presionado el botón del mouse_ después de elegir la dirección, para elegir la fuerza con la que se lanzará la bola de nieve.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Prueba tu bola de nieve para ver si puedes elegir el angulo de dirección y la potencia.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![variable de fuerza a 35 junto al objeto dirección bola de nieve](images/snow-test.png)
 
 --- /task ---
