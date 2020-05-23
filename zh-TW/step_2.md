@@ -1,20 +1,20 @@
-## Making a snowball
+## 製作雪球
 
-Let's make a snowball, that you can throw around your stage.
+讓我們做一個雪球，讓你可以在舞台上亂扔。
 
 --- task ---
 
-Open the Scratch starter project.
+打開Scratch入門專案。
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**線上版**: 開啟 [入門專案](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}。
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+在入門專案中，你應該可以看到空白的舞台以及雪球角色。
 
 --- /task ---
 
