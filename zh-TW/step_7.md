@@ -1,6 +1,6 @@
-## What next?
+## 然後呢？
 
-Try these other projects to build you knowledge of other programming languages.
+嘗試其他專案，以使你了解其他編譯語言。
 
-- [About me](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) is a great introduction to Python.
-- [Happy birthday](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) introduces HTML and CSS.
+- [關於我](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)是Python的絕佳入門介紹！
+- [生日快樂](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)是HTML和CSS的入門介紹！
