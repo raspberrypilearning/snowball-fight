@@ -1,34 +1,34 @@
-## Throwing a snowball
+## 扔雪球
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+添加一個積木在你的雪球程式 _結尾_，來`廣播`{:class="block3control"} 你正在扔一顆雪球：
 
 ![snowball sprite](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
-set [power v] to (0)
+set [力量 v] to (0)
 wait (0.5) seconds
 go to x:(-200) y:(-130)
 point in direction (90)
-switch costume to (snowball-aim v)
+switch costume to (雪球瞄準 v)
 repeat until <mouse down?>
     point towards (mouse-pointer v)
 end
 repeat until < not <mouse down?> >
     point towards (mouse-pointer v)
-    change [power v] by (1)
+    change [力量 v] by (1)
     wait (0.1) seconds
 end
-+ broadcast (throw v) and wait
++ broadcast (丟 v) and wait
 ```
 
 --- /task ---
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+添加這個程式碼到你的雪球來移動它，直到它接觸舞台邊緣：
 
 ![snowball sprite](images/snowball-sprite.png)
 
