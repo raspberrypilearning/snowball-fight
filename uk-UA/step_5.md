@@ -6,7 +6,7 @@
 
 Додай ще один спрайт до свого проєкту.
 
-![a target sprite on the stage](images/snow-deer.png)
+![спрайт цілі на сцені](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -16,7 +16,7 @@
 
 Додай цей код до свого нового спрайту, щоб він казав "Ти в мене попав!", коли в нього влучаєш:
 
-![target sprite](images/target-sprite.png)
+![спрайт цілі](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,7 +33,7 @@ end
 
 Протестуй свій новий код.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![спрайт цілі, що говорить ти в мене попав!](images/snow-hit.png)
 
 --- /task ---
 
@@ -43,7 +43,7 @@ end
 
 Щоб це зробити, додай `оповіщення`{:class="block3control"} до своєї сніжки біля початку циклу `завжди`{:class="block3control"}. Це дасть оленю знати, що готується новий кидок.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -69,7 +69,7 @@ end
 
 Коли олень отримає це повідомлення, перемісти його в нове випадкове положення за допомогою цього коду:
 
-![target sprite](images/target-sprite.png)
+![спрайт цілі](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -88,7 +88,7 @@ set x to (pick random (0) to (200))
 
 Також ти можеш зробити гру складнішою, додавши скелю (rocks) перед твоєю сніжкою.
 
-![rock sprite on the stage](images/snow-rock.png)
+![спрайт скелі на сцені](images/snow-rock.png)
 
 --- /task ---
 
@@ -96,7 +96,7 @@ set x to (pick random (0) to (200))
 
 Тепер ти можеш змінити свій код для сніжки, щоб вона зупинялася, коли торкається краю сцени, _або_ коли торкається скелі.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -117,6 +117,6 @@ hide
 
 Нарешті, ти можеш ускладнити гру, зробивши сніжку та оленя меншими.
 
-![small snowball and target sprite](images/snow-small.png)
+![маленькі спрайти сніжки та цілі](images/snow-small.png)
 
 --- /task ---
