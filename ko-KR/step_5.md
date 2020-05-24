@@ -1,12 +1,12 @@
-## The target
+## 목표물
 
-Let's add in a target for your snowballs!
+눈덩이의 목표물을 추가합시다!
 
 --- task ---
 
-Add in another sprite to your project.
+프로젝트에 다른 스프라이트를 추가하세요.
 
-![a target sprite on the stage](images/snow-deer.png)
+![스테이지의 목표 스프라이트](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+이 코드를 새로운 스프라이트에 추가해 눈덩이와 부딪힐 때 '맞았다!'라고 말하도록 하세요:
 
-![target sprite](images/target-sprite.png)
+![타겟 스프라이트](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+새 코드를 테스트해보세요.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![맞았다! 라고 말하는 목표물 스프라이트](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+게임을 더 어렵게 만들기 위해 몇 가지 작업을 해 봅시다. 먼저 플레이어가 눈덩이를 던질 때마다 순록이 움직이도록 합시다.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+이렇게 하려면, 먼저 `방송하기`{:class="block3control"} 블럭을 눈덩이의 `반복하기`{:class="block3control"} 블럭 윗쪽에 추가하세요. 이렇게 하면 순록에게 새로운 눈덩이가 던져질 것이라는 것을 알려줄 수 있습니다.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+순록이 이 메시지를 받으면 이 코드로 랜덤한 위치로 움직이도록 하세요.
 
-![target sprite](images/target-sprite.png)
+![타겟 스프라이트](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+눈덩이를 몇 번 던져 테스트해보세요. 매번 목표물의 위치가 바뀌나요?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+눈덩이 앞에 바위를 추가해서 게임을 더 어렵게 만들 수도 있습니다.
 
-![rock sprite on the stage](images/snow-rock.png)
+![스테이지의 바위 스프라이트](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+눈덩이의 코드를 수정해서 화면 가장자리 _또는_ 바위에 부딪히면 멈추게 하세요.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+마지막으로 눈덩이와 순록의 크기를 줄여서 게임을 어렵게 만들어 보세요.
 
-![small snowball and target sprite](images/snow-small.png)
+![작은 눈덩이와 목표물 스프라이트](images/snow-small.png)
 
 --- /task ---
