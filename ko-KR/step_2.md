@@ -1,36 +1,36 @@
-## Making a snowball
+## 눈덩이 만들기
 
-Let's make a snowball, that you can throw around your stage.
+스테이지 주변에 던질 수 있는 눈덩이를 만들어봅시다.
 
 --- task ---
 
-Open the Scratch starter project.
+스크래치 스타터 프로젝트를 엽니다.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**온라인**: [스타터 프로젝트](http://rpf.io/snowball-fight-on){:target="_ blank"}을 엽니다.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+스크래치 계정이 있는 경우 **리믹스**를 클릭하여 복사본을 만들 수 있습니다.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**오프라인**: [스타터 프로젝트](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} 를 오프라인 에디터에서 여세요.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} 에서 다운로드 받을 수 있습니다.
 
-In the starter project, you should see a blank stage and snowball sprite.
+스타터 프로젝트에서 빈 배경과 눈덩이 스프라이트를 확인할 수 있을 것입니다.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+'눈덩이' 스프라이트는 기본 모양과 궤적을 보여주는 모양, 총 2가지의 모양을 포함하고 있습니다.
 
-![snowball costumes](images/snow-costume.png)
+![눈덩이 모양](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+먼저 플레이어가 눈덩이의 각도를 조절할 수 있도록 합시다. 이 코드를 눈덩이 스프라이트에 추가해 보세요:
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+녹색 깃발을 클릭하여 프로젝트를 테스트 해보세요. 마우스를 클릭하기 전까지 눈덩이가 마우스 커서를 따라다니는 것을 볼 수 있습니다.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![마우스를 가리키는 눈덩이 궤적 스프라이트](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+플레이어가 눈덩이를 얼마나 세게 던질지 결정할 수 있게 합시다. `세기`{:class="block3variables"}라는 이름의 새로운 변수를 추가해보세요.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+새 변수 표시창을 배경 하단, 눈덩이 근처로 드래그하세요. 스테이지 위의 변수 표시창을 우클릭 해서 '슬라이더 사용하기'를 눌러 보세요.
 
-![variable changed to slider](images/snow-slider.png)
+![슬라이더로 변경한 변수](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+깃발을 클릭하면 새로운 `세기`{:class="block3variables"} 변수가 0으로 설정되게 코드를 추가하세요.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+이제 `세기`{:class="block3variables"} 변수가 생겼으므로 _눈덩이를 던질 방향을 정한 다음_ 눈덩이를 던지는 세기를 늘릴 수 있습니다.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+이 코드는 눈덩이의 각도를 조절한 후 눈덩이의 세기를 조절하기 위해서 _마우스 버튼을 꾹 누르고 있어야 한다_는 내용입니다.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+눈덩이를 테스트하기 위해서 각도와 세기를 조절할 수 있는지 확인해보세요.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![눈덩이 궤적 옆의 35의 세기 변수](images/snow-test.png)
 
 --- /task ---
