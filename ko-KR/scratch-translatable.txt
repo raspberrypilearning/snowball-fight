@@ -1,13 +1,13 @@
-snowball-aim
+눈덩이 궤적
 
-normal
+기본
 
-power
+세기
 
-throw
+던지기
 
-snowball
+눈덩이
 
-You got me!
+맞혔다!
 
-new shot
+새로운 눈덩이
