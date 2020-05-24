@@ -1,10 +1,10 @@
-## Throwing a snowball
+## 눈덩이 던지기
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+눈덩이 코드의 _마지막 부분_에 블럭을 추가해서, 눈덩이를 던진다고 `방송`{:class="block3control"}합시다.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+눈덩이에 이 코드를 추가하여 눈덩이가 스테이지의 가장자리에 닿기 전까지 움직이도록 하세요:
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+이 코드는 `세기`{:class="block3variables"} 변수를 사용해 얼마나 빨리 움직일 지를 결정합니다.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+눈덩이가 가장자리에 닿을 때 눈덩이는 숨겨지므로, 눈덩이를 `눈덩이 궤적 모양`{:class="block3looks"}으로 바꾼 _직후_, 깃발을 클릭하면 눈덩이를 `보여주는`{:class="block3looks"} 코드를 추가하세요.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+눈덩이 던지기를 몇 번 테스트하세요. 다른 각도와 속도로 움직이나요?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+눈덩이를 많이 던질 수 있게 하고 싶다면 `깃발을 클릭했을 때`{:class="block3events"} 코드에 `반복하기`{:class="block3control"}를 추가하세요.
 
-![snowball sprite](images/snowball-sprite.png)
+![눈덩이 스프라이트](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
