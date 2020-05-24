@@ -3,23 +3,23 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Snowball fight
-description: Make a game in which you have to throw snowballs at a target
+title: Гра в сніжки
+description: Створи гру, в якій ти будеш кидати сніжками по цілі
 version: 4
 last_tested: 2018-04-11
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Making a snowball
+    title: Створення сніжки
   - 
-    title: Throwing a snowball
+    title: Кидання сніжки
   - 
-    title: Realistic movement
+    title: Реалістичний рух
   - 
-    title: The target
+    title: Ціль
   - 
     title: "Challenge: improve your game!"
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
