@@ -22,7 +22,7 @@
 
 Спрайт "Сніжка" має 2 образи: звичайний костюм та костюм з прицілом.
 
-![snowball costumes](images/snow-costume.png)
+![образи сніжки](images/snow-costume.png)
 
 --- /task ---
 
@@ -30,7 +30,7 @@
 
 Спочатку давай дозволимо гравцеві змінювати кут польоту сніжки. Додай цей код до свого спрайта сніжки:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -49,7 +49,7 @@ end
 
 Протестуй свій проєкт, клацнувши на зелений прапор. Ти повинен бачити, як сніжка вказує на мишку, поки ти не натиснеш клавішу мишки.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![приціл сніжки, що вказує на курсор мишки](images/snow-mouse.png)
 
 --- /task ---
 
@@ -65,7 +65,7 @@ end
 
 Перетягни відображення нової змінної вниз сцени поруч зі сніжкою. Клацни правою кнопкою мишки по відображенню змінної та вибери "слайдер".
 
-![variable changed to slider](images/snow-slider.png)
+![змінна перетворена на слайдер](images/snow-slider.png)
 
 --- /task ---
 
@@ -73,7 +73,7 @@ end
 
 Додай код, щоб встановлювати значення нової змінної `сила`{:class="block3variables"} рівним 0, коли натискають зелений прапор.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Тепер, коли в тебе з’явилася змінна `сила`{:class="block3variables"}, ти можеш збільшувати силу кидка сніжки _після_ того, як вибрано напрям, за допомогою наступного коду:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Цей код означає, що після вибору напрямку, ти маєш _утримувати клавішу мишки натиснутою_ для задання сили кидка сніжки.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Протестуй свою сніжку, щоб впевнитися, що ти можеш задавати напрям та силу.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![змінна сили із значенням 34 поруч із прицілом сніжки](images/snow-test.png)
 
 --- /task ---
