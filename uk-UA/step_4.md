@@ -38,7 +38,7 @@ end
 
 --- task ---
 
-Також ти можеш сповільнювати сніжку, потроху знижуючи силу, поки вона летить у повітрі. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+Також ти можеш сповільнювати сніжку, потроху знижуючи силу, поки вона летить у повітрі. Додай наступний блок до коду сніжки `коли я отримую [кидок]`{:class="block3events"}:
 
 ![snowball sprite](images/snowball-sprite.png)
 
