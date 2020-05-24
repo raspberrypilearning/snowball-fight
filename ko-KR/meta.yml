@@ -3,23 +3,23 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Snowball fight
-description: Make a game in which you have to throw snowballs at a target
+title: 눈싸움
+description: 목표물에 눈덩이를 던지는 게임 만들기
 version: 4
 last_tested: 2018-04-11
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Making a snowball
+    title: 눈덩이 만들기
   - 
-    title: Throwing a snowball
+    title: 눈덩이 던지기
   - 
-    title: Realistic movement
+    title: 사실적인 움직임
   - 
-    title: The target
+    title: 목표물
   - 
-    title: "Challenge: improve your game!"
+    title: "도전과제: 더 멋진 게임 만들기!"
     challenge: true
   - 
-    title: What next?
+    title: 더 나아가기
