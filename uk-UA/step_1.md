@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує [версія проєкту для Скретч 2](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Вступ
 
-In this project you're going to make a game in which you have to throw snowballs at a target.
+У цьому проєкті ти створиш гру, в якій треба кидати сніжками по цілі.
 
-### What you will make
+### Що ти зробиш
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+Використовуй вказівник мишки для вибору кута польоту сніжки і затримуй ліву клавішу мишки для задання сили.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -23,51 +23,51 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![завершений проєкт](images/snow-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Що тобі знадобиться
 ---
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch
++ Комп'ютер, що підтримує Скретч
 
-### Software
+### Програмне забезпечення
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Завантаження
 
-The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+Початковий проєкт можна знайти [тут](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Чого ти навчишся
 ---
 
-- How to animated sprites
-- How to react to mouse input
-- how to use broadcasts
+- Як анімувати спрайти
+- Як обробляти ввід мишки
+- Як використовувати оповіщення
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Додаткова інформація для викладачів
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
