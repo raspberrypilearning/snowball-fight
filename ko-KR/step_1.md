@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+이 프로젝트에 사용된 버전은 **스크래치 3** 입니다. [스크래치 2](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2) 버전으로 진행되는 프로젝트도 있습니다.
 
 --- /no-print ---
 
-## Introduction
+## 소개
 
-In this project you're going to make a game in which you have to throw snowballs at a target.
+이 프로젝트에서는 눈덩이를 목표물에 던져야 하는 게임을 만들 것입니다.
 
-### What you will make
+### 만들 작품
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+마우스 포인터를 사용해 눈덩이를 던지는 각도를 조절하고 마우스를 꾹 클릭하여 눈덩이를 던지는 강도를 조절하세요.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -23,51 +23,51 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![완료된 프로젝트](images/snow-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: 준비물
 ---
 
-### Hardware
+### 하드웨어
 
-+ A computer capable of running Scratch
++ 스크래치를 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ([온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### 다운로드
 
-The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+스타터 프로젝트는 [여기](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}를 클릭하면 열 수 있습니다.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 배울 내용
 ---
 
-- How to animated sprites
-- How to react to mouse input
-- how to use broadcasts
+- 스프라이트를 움직이는 방법
+- 마우스 입력에 반응하는 방법
+- 방송 사용법
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 교육자를 위한 추가 정보
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
+이 프로젝트를 인쇄하기 위해서는 [프린트용 버전](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}을 사용해 주십시오.
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+완성된 프로젝트는 [여기](http://rpf.io/p/en/snowball-fight-get){:target="_ blank"}에서 확인할 수 있습니다.
 
 --- /collapse ---
