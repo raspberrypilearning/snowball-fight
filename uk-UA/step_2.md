@@ -71,7 +71,7 @@ end
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Додай код, щоб встановлювати значення нової змінної `сила`{:class="block3variables"} рівним 0, коли натискають зелений прапор.
 
 ![snowball sprite](images/snowball-sprite.png)
 
