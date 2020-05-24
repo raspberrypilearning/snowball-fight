@@ -1,26 +1,26 @@
-## Making a snowball
+## Створення сніжки
 
-Let's make a snowball, that you can throw around your stage.
+Давай створимо сніжку, якою можна кидатися на сцені.
 
 --- task ---
 
-Open the Scratch starter project.
+Відкрий початковий проєкт у Скретч.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Онлайн**: відкрий [початковий проєкт](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Офлайн**: відкрий [початковий проєкт](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} в офлайн-редакторі.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+В початковому проєкті ти маєш побачити порожню сцену та спрайт сніжки.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+Спрайт "Сніжка" має 2 образи: звичайний костюм та костюм з прицілом.
 
 ![snowball costumes](images/snow-costume.png)
 
@@ -28,7 +28,7 @@ The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows 
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+Спочатку давай дозволимо гравцеві змінювати кут польоту сніжки. Додай цей код до свого спрайта сніжки:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -47,7 +47,7 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+Протестуй свій проєкт, клацнувши на зелений прапор. Ти повинен бачити, як сніжка вказує на мишку, поки ти не натиснеш клавішу мишки.
 
 ![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
 
@@ -55,7 +55,7 @@ Test out your project by clicking the green flag. You should see that your snowb
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Давай також дозволимо гравцеві вирішувати, наскільки сильно треба кидати сніжку. Створи нову змінну із назвою `сила`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,7 +63,7 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Перетягни відображення нової змінної вниз сцени поруч зі сніжкою. Клацни правою кнопкою мишки по відображенню змінної та вибери "слайдер".
 
 ![variable changed to slider](images/snow-slider.png)
 
