@@ -1,13 +1,13 @@
-snowball-aim
+сніжка з прицілом
 
-normal
+звичайний
 
-power
+сила
 
-throw
+кидок
 
-snowball
+сніжка
 
-You got me!
+Ти в мене попав!
 
-new shot
+новий кидок
