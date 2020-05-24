@@ -1,6 +1,6 @@
-## What next?
+## 더 나아가기
 
-Try these other projects to build you knowledge of other programming languages.
+프로그래밍 언어에 대한 새로운 지식을 쌓으려면 다음과 같은 프로젝트에 도전해보세요!
 
-- [About me](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) is a great introduction to Python.
-- [Happy birthday](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) introduces HTML and CSS.
+- [나에 대하여](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)는 파이썬의 훌륭한 시작 프로젝트입니다.
+- [생일 축하해](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)는 HTML과 CSS를 소개합니다.
