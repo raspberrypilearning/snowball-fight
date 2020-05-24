@@ -1,12 +1,12 @@
-## Realistic movement
+## Реалістичний рух
 
-You now have a snowball, but let's make it move a bit more realistically.
+Тепер в тебе є сніжка, але давай зробимо, щоб вона рухалася трохи більш реалістично.
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+Спочатку встановимо максимальну силу, щоб сніжку не можна було кинути занадто сильно.
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+В коді для сніжки `коли прапор натиснуто`{:class="block3events"} нам потрібно збільшувати силу, тільки якщо вона менша за 20. Зміни свій код:
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -23,13 +23,13 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+Протестуй сніжку знову, і ти побачиш, що сила ніколи не піднімається вище 20.
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+Тепер, коли максимальна сила для сніжки дорівнює 20, ти також можеш встановити це значення як максимальне для змінної слайдера. Клацни правою кнопкою мишки на змінній сили і вибери "змінити діапазон слайдера".
 
 ![min max of slider range](images/snow-minmax.png)
 
@@ -38,7 +38,7 @@ Now that your snowball's maximum power is 20, you can set this as the maximum va
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+Також ти можеш сповільнювати сніжку, потроху знижуючи силу, поки вона летить у повітрі. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
 
 ![snowball sprite](images/snowball-sprite.png)
 
