@@ -1,10 +1,10 @@
-## The target
+## Ціль
 
-Let's add in a target for your snowballs!
+Давай додамо ціль для твоїх сніжок!
 
 --- task ---
 
-Add in another sprite to your project.
+Додай ще один спрайт до свого проєкту.
 
 ![a target sprite on the stage](images/snow-deer.png)
 
@@ -14,7 +14,7 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+Додай цей код до свого нового спрайту, щоб він казав "Ти в мене попав!", коли в нього влучаєш:
 
 ![target sprite](images/target-sprite.png)
 
@@ -31,7 +31,7 @@ end
 
 --- task ---
 
-Test out your new code.
+Протестуй свій новий код.
 
 ![target sprite saying you got me!](images/snow-hit.png)
 
@@ -39,9 +39,9 @@ Test out your new code.
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+Давай зробимо декілька речей, щоб зробити гру складнішою. Спочатку, давай переміщувати оленя (reindeer) кожного разу, коли гравець кидає сніжку.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+Щоб це зробити, додай `оповіщення`{:class="block3control"} до своєї сніжки біля початку циклу `завжди`{:class="block3control"}. Це дасть оленю знати, що готується новий кидок.
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -67,7 +67,7 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+Коли олень отримає це повідомлення, перемісти його в нове випадкове положення за допомогою цього коду:
 
 ![target sprite](images/target-sprite.png)
 
@@ -80,13 +80,13 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+Протестуй свій код, кидаючи декілька сніжок. Чи переміщується твоя ціль кожного разу?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+Також ти можеш зробити гру складнішою, додавши скелю (rocks) перед твоєю сніжкою.
 
 ![rock sprite on the stage](images/snow-rock.png)
 
@@ -94,7 +94,7 @@ You can also make your game harder by adding a rock in front of your snowball.
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+Тепер ти можеш змінити свій код для сніжки, щоб вона зупинялася, коли торкається краю сцени, _або_ коли торкається скелі.
 
 ![snowball sprite](images/snowball-sprite.png)
 
@@ -115,7 +115,7 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+Нарешті, ти можеш ускладнити гру, зробивши сніжку та оленя меншими.
 
 ![small snowball and target sprite](images/snow-small.png)
 
