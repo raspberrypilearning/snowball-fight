@@ -8,7 +8,7 @@
 
 В коді для сніжки `коли прапор натиснуто`{:class="block3events"} нам потрібно збільшувати силу, тільки якщо вона менша за 20. Зміни свій код:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -31,7 +31,7 @@ end
 
 Тепер, коли максимальна сила для сніжки дорівнює 20, ти також можеш встановити це значення як максимальне для змінної слайдера. Клацни правою кнопкою мишки на змінній сили і вибери "змінити діапазон слайдера".
 
-![min max of slider range](images/snow-minmax.png)
+![мінімальне та максимальне значення слайдера](images/snow-minmax.png)
 
 
 --- /task ---
@@ -40,7 +40,7 @@ end
 
 Також ти можеш сповільнювати сніжку, потроху знижуючи силу, поки вона летить у повітрі. Додай наступний блок до коду сніжки `коли я отримую [кидок]`{:class="block3events"}:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -57,11 +57,11 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+Протестуй цей новий код, чи працює він так, як ти очікуєш? Ти можеш бачити, як сила продовжує знижуватися, і врешті-решт сніжка починає рухатися назад!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+Щоб це виправити, ти можеш додати до свого коду блок `якщо`{:class="block3control"}, щоб сила знижувалася, лише коли вона більша 0:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+Вже майже готово, але тобі треба додати гравітацію для сніжки, щоб вона падала на землю. Ти можеш це зробити, просто переміщуючи сніжку рівномірно вниз за допомогою цього коду:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+Протестуй свою сніжку знову, і ти маєш побачити, що вона рухається більш реалістично.
 
 --- /task ---
 
