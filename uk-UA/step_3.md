@@ -1,10 +1,10 @@
-## Throwing a snowball
+## Кидання сніжки
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+Додай _в кінці_ коду сніжки блок для `оповіщення`{:class="block3control"} про те, що ти її кидаєш:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+Додай наступний код до сніжки, щоб вона летіла, поки не досягне краю сцени:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+Цей код використовує змінну `сила`{:class="block3variables"}, щоб визначати, як швидко рухатися.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+Тепер як ти ховаєш сніжку, коли та досягає краю, додай код, щоб `показати`{:class="block3looks"} її, коли прапор натиснуто, _прямо_ після того, як сніжка перемикається на образ `сніжка з прицілом`{:class="block3looks"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+Протестуй свою сніжку декілька разів. Чи рухається вона під різними кутами та з різною швидкістю?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+Якщо ти хочеш мати можливість кидати сніжку багато разів, просто додай цикл `завжди`{:class="block3control"} навколо коду сніжки під блоком `коли прапор натиснуто`{:class="block3events"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт сніжки](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
