@@ -35,7 +35,7 @@ end
 ```blocks3
 when I receive [丟 v]
 switch costume to (雪球 v)
-repeat until < touching [edge v]? >
+repeat until < touching [邊緣 v]? >
     move (力量) steps
 end
 hide
