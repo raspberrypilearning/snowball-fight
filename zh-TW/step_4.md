@@ -45,7 +45,7 @@ end
 ```blocks3
 when I receive [丟 v]
 switch costume to (雪球 v)
-repeat until < touching [edge v]? >
+repeat until < touching [邊緣 v]? >
     move (力量) steps
 +   change [力量 v] by (-0.25)
 end
@@ -66,7 +66,7 @@ hide
 ```blocks3
 when I receive [丟 v]
 switch costume to (雪球 v)
-repeat until < touching [edge v]? >
+repeat until < touching [邊緣 v]? >
     move (力量) steps
 +   if < (力量) > (0) > then
         change [力量 v] by (-0.25)
@@ -86,7 +86,7 @@ hide
 ```blocks3
 when I receive [丟 v]
 switch costume to (雪球 v)
-repeat until < touching [edge v]? >
+repeat until < touching [邊緣 v]? >
 +   change y by (-5)
     move (力量) steps
     if < (力量) > (0) > then
