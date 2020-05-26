@@ -1,0 +1,18 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Χιονοπόλεμος
+description: Κάνε ένα παιχνίδι στο οποίο θα ρίχνεις χιονόμπαλες σε έναν στόχο
+version: 4
+last_tested: 2018-04-11
+steps:
+  - title: Εισαγωγή
+  - title: Δημιουργώντας μία χιονόμπαλα
+  - title: Πετώντας μία χιονόμπαλα
+  - title: Ρεαλιστική κίνηση
+  - title: Ο στόχος
+  - title: "Πρόκληση: βελτίωσε το παιχνίδι σου!"
+    challenge: true
+  - title: Τι υπάρχει στη συνέχεια;
