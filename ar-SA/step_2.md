@@ -6,7 +6,7 @@
 
 افتح مشروع Scratch للبدء.
 
-**على الإنترنت**: افتح مشروع البدء [](https://scratch.mit.edu/projects/399479609){:target="_blank"}.
+**على الإنترنت**:  [افتح مشروع البدء](https://scratch.mit.edu/projects/399479609){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
