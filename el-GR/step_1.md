@@ -1,6 +1,6 @@
 --- no-print ---
 
-Αυτή είναι η **Scratch 3** έκδοση του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
 
 --- /no-print ---
 
@@ -32,13 +32,13 @@
 title: Τι θα χρειαστείς
 ---
 
-### Υλικό (Hardware)
+### Υλικό
 
-+ Ένας υπολογιστής ικανός να τρέχει το Scratch
++ Έναν υπολογιστή ικανό να εκτελεί το Scratch
 
 ### Λογισμικό
 
-+ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (είτε [σε σύνδεση](http://rpf.io/scratchon){:target="_blank"} είτε [εκτός σύνδεσης](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Λήψεις
 
@@ -68,6 +68,6 @@ title: Πρόσθετες πληροφορίες για εκπαιδευτικο
 
 --- /no-print ---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+Μπορείς να βρεις [ολοκληρωμένο το έργο εδώ](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
