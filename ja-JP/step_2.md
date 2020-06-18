@@ -1,36 +1,36 @@
-## Making a snowball
+## 雪玉を作る
 
-Let's make a snowball, that you can throw around your stage.
+ステージ上で投げる雪玉を作ってみましょう。
 
 --- task ---
 
-Open the Scratch starter project.
+基本（きほん）のScratchプロジェクトを開きます。
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**オンライン**: [基本のプロジェクト](http://rpf.io/snowball-fight-on){:target="_blank"}を開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Scratch アカウントを持っている場合は、 **リミックス**ボタンをクリックしてプロジェクトをコピーできます。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**オフライン**: オフラインエディターで[基本のプロジェクト](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}を開きます。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から Scratch オフラインエディターをダウンロードしてインストールできます。
 
-In the starter project, you should see a blank stage and snowball sprite.
+基本のプロジェクトには、何もないステージと雪玉のスプライトがあります。
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+「雪玉」のスプライトには2つのコスチュームがあります。ふつうのコスチュームと、雪玉の向きをしめすコスチュームです。
 
-![snowball costumes](images/snow-costume.png)
+![雪玉のコスチューム](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+まず、プレーヤーが雪玉の角度をかえられるようにしましょう。 このコードを雪玉のスプライトに追加 (ついか) します。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+緑の旗 (はた) をクリックしてプロジェクトをテストしましょう。 マウスボタンを押すまで、雪玉がマウスについてくることがわかります。
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![雪玉 (ねらい) のスプライトがマウスポインターをさしている](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+プレーヤーが雪玉を投げる力を決められるようにしましょう。 `力`{:class="block3variables"}という新しい変数 (へんすう) を作成 (さくせい) します。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+新しい変数の表示 (ひょうじ) を、雪玉の近くのステージの下部にドラッグします。 変数の表示を右クリックし、「スライダー」をクリックします。
 
-![variable changed to slider](images/snow-slider.png)
+![変数をスライダーに変えた](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+旗が押されたときに、`力`{:class="block3variables"}変数を0に設定 (せってい) するコードを追加します。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+これで`力`{:class="block3variables"} 変数ができたので、方向を_決めたあとで_、このコードを使って雪玉を投げる力を強くすることができます。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+このコードは、雪玉を投げる力を決めるには、方向を決めたあとに_マウスボタンを押したまま_にしておく必要があることを意味します。
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+雪玉をテストして、角度と投げる力をえらべるかどうかをたしかめます。
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![雪玉 (ねらい) の横にある、34をしめしている「力」変数](images/snow-test.png)
 
 --- /task ---
