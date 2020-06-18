@@ -1,12 +1,12 @@
-## The target
+## El objetivo
 
-Let's add in a target for your snowballs!
+¡Vamos a añadir un objetivo para tus bolas de nieve!
 
 --- task ---
 
-Add in another sprite to your project.
+Añade otro objeto a tu proyecto.
 
-![a target sprite on the stage](images/snow-deer.png)
+![un objeto objetivo en el escenario](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+Añade este código a tu nuevo objeto para que diga "¡Me has dado!" cuando reciba un golpe:
 
-![target sprite](images/target-sprite.png)
+![objeto objetivo](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+Pon a prueba tu nuevo código.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![objeto objetivo diciendo ¡me has dado!](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+Vamos a hacer un par de cosas para hacer el juego más difícil. Primero, vamos a mover el reno cada vez que el jugador lance la bola de nieve.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+Para hacer esto, primero añade un `evento` {: class = "block3control"} a tu bola de nieve, cerca de la parte superior de tu bucle ` por siempre ` {: class = "block3control"}. Esto permitirá que tu reno sepa que alguien está a punto de lanzar una nueva bola de nieve.
 
-![snowball sprite](images/snowball-sprite.png)
+![objeto bola de nieve](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+Cuando tu reno reciba este mensaje, desplázalo a una nueva posición aleatoria con este código:
 
-![target sprite](images/target-sprite.png)
+![objeto objetivo](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+Prueba tu proyecto lanzando unas cuantas bolas de nieve. ¿Tu objetivo se mueve cada vez?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+También puedes aumentar la dificultad del juego añadiendo una roca delante de tu bola de nieve.
 
-![rock sprite on the stage](images/snow-rock.png)
+![objeto roca en el escenario](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+Ahora puedes cambiar el código de tu bola de nieve para que se detenga cuando toque el borde de la pantalla _o_ cuando toque la roca.
 
-![snowball sprite](images/snowball-sprite.png)
+![objeto bola de nieve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+Por último, puedes aumentar la dificultad de tu juego reduciendo el tamaño de tu bola de nieve y de tu reno.
 
-![small snowball and target sprite](images/snow-small.png)
+![pequeña bola de nieve y objeto objetivo](images/snow-small.png)
 
 --- /task ---
