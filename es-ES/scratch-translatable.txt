@@ -1,13 +1,13 @@
-snowball-aim
+objetivo de la bola de nieve
 
 normal
 
-power
+potencia
 
-throw
+lanzar
 
-snowball
+bola de nieve
 
-You got me!
+¡Me has dado!
 
-new shot
+nuevo lanzamiento
