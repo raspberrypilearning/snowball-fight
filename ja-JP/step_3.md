@@ -1,10 +1,10 @@
-## Throwing a snowball
+## 雪玉を投げる
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+雪玉のコードの_さいごに_ブロックを追加して、雪玉を投げるという`メッセージを送ります`{:class="block3control"} 。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+このコードを雪玉に追加して、雪玉がステージの端 (はし) まで移動 (いどう) するようにします。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+このコードは、`力`{:class="block3variables"}変数を使って移動する速度を決定します。
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+今は、雪玉がステージの端に触れる (ふれる) と隠れる (かくれる) ようになっています。 旗が押されたときに、コスチュームを`雪玉 (ねらい)`{:class="block3looks"}に切りかえた_すぐ_後で、雪玉が`表示`{:class="block3looks"} (ひょうじ) されるようにします。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+雪玉を何回かテストしましょう。 雪玉はちがう角度や速度で動きますか？
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+雪玉を何回も投げたい場合は、雪玉の`旗が押されたとき`{:class="block3events"}のコードに`ずっと`{:class="block3control"}ループを追加します。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
