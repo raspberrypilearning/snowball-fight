@@ -1,10 +1,10 @@
-## Throwing a snowball
+## Einen Schneeball werfen
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+Füge einen Block zum _end_ (Ende) deines Schneeballcodes hinzu, um `eine Nachricht zu senden`{:class="block3control"}, dass du einen Schneeball wirfst:
 
-![snowball sprite](images/snowball-sprite.png)
+![Schneeball Figur](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+Füge diesen Code deinem Schneeball hinzu, um ihn zu bewegen, bis er den Rand der Bühne erreicht:
 
-![snowball sprite](images/snowball-sprite.png)
+![Schneeball Figur](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+Der Code verwendet die `Kraft`{:class="block3variables"} Variable um zu entscheiden, wie schnell er sich bewegen soll.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+Nun, da du den Schneeball versteckst, wenn er den Rand berührt, füge diesen Code hinzu, um den Schneeball zu `zeigen`{:class="block3looks"}, wenn die Flagge angeklickt wird, _genau_ nachdem der Schneeball zum `Schneeball-zielen`{:class="block3looks"}-Kostüm gewechselt hat.
 
-![snowball sprite](images/snowball-sprite.png)
+![Schneeball Figur](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+Teste deinen Schneeball ein paar Mal. Bewegt er sich in verschiedenen Winkeln und Geschwindigkeiten?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+Wenn du deinen Schneeball viele Male werfen möchtest, füge einfach eine `wiederhole fortlaufend`{:class="block3control"} Schleife um deinen Schneeball-Code, unter dem `Wenn Flagge angeklickt wird`{:class="block3events"}-Block hinzu.
 
-![snowball sprite](images/snowball-sprite.png)
+![Schneeball Figur](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
