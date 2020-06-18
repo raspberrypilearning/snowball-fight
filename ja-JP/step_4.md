@@ -1,14 +1,14 @@
-## Realistic movement
+## リアルな動き
 
-You now have a snowball, but let's make it move a bit more realistically.
+これで雪玉ができましたが、もう少し動きをリアルにしてみましょう。
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+まず、雪玉があまりに強く投げられないように、力の上限 (じょうげん) を設定しましょう。
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+雪玉の`旗が押されたとき`{:class="block3events"}のコードでは、力が20より下の場合のときにのみ、力を上げる必要があります。 コードを次のようにかえます。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -23,24 +23,24 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+もう一度雪玉をテストしてみると、力が20をこえないことがわかります。
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+雪玉を投げる力の上限が20になったので、これを変数のスライダーの最大値 (さいだいち) としても設定できます。 力変数を右クリックし、「スライダーの指定範囲 (していはんい) を変更 (へんこう) 」をクリックします。
 
-![min max of slider range](images/snow-minmax.png)
+![スライダー指定範囲の最小値と最大値](images/snow-minmax.png)
 
 
 --- /task ---
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+また、雪玉が空中をとんでいるときに力を下げることで、雪玉の速度を下げることもできます。 `[投げる]を受け取ったとき`{:class="block3events"}のコードにこのコードブロックを追加します。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -57,11 +57,11 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+新しいコードをテストしましょう。コードは思った通りに動きますか？ 力が下がりつづけて、最後には雪玉がぎゃくの方向に動いてしまうことに気づいたかも知れませんね。
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+`もし`{:class="block3control"}ブロックをコードに追加すると、力が0より上のときにのみ、力が下がるようになります。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+もうすぐプロジェクトが仕上がりますが、その前に雪玉が地面に落ちるように、雪玉に重力を加える必要があります。 このコードを使って、雪玉を下に移動させつづけることで重力を加えることができます。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+雪玉をもう一度テストしてみましょう。雪玉がよりリアルに動くことが分かるはずです。
 
 --- /task ---
 
