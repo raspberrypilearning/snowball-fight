@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+これはプロジェクトの **Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2)もあります。
 
 --- /no-print ---
 
-## Introduction
+## はじめに
 
-In this project you're going to make a game in which you have to throw snowballs at a target.
+このプロジェクトでは、まとに雪玉を当てるゲームを作ります。
 
-### What you will make
+### 作るもの
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+マウスポインタを使って雪玉の角度を調整（ちょうせい）し、マウスボタンを押して (おして) 雪玉を投げる力を決めます。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -23,51 +23,51 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![完成 (かんせい) したプロジェクト](images/snow-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: 必要 (ひつよう) なもの
 ---
 
-### Hardware
+### ハードウェア
 
-+ A computer capable of running Scratch
++ Scratch を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ダウンロード
 
-The starter project can be found [here](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+基本 (きほん) のプロジェクトは [こちら](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: 学ぶこと
 ---
 
-- How to animated sprites
-- How to react to mouse input
-- how to use broadcasts
+- スプライトの動かし方
+- マウスの入力に反応させる方法
+- メッセージの使い方
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: 指導者向けの追加情報
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_ blank"}を使用してください。
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+[完成したプロジェクトはここ](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}にあります。
 
 --- /collapse ---
