@@ -1,6 +1,6 @@
-## What next?
+## Y ahora ¿qué?
 
-Try these other projects to build you knowledge of other programming languages.
+Prueba estos otros proyectos para aumentar tus conocimientos de otros lenguajes de programación.
 
-- [About me](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) is a great introduction to Python.
-- [Happy birthday](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) introduces HTML and CSS.
+- [Acerca de mí](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) es una excelente introducción a Python.
+- [Feliz cumpleaños](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) te introduce a HTML y CSS.
