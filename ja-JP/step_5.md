@@ -1,12 +1,12 @@
-## The target
+## まと
 
-Let's add in a target for your snowballs!
+雪玉を当てるまとを作りましょう！
 
 --- task ---
 
-Add in another sprite to your project.
+プロジェクトにべつのスプライトを追加します。
 
-![a target sprite on the stage](images/snow-deer.png)
+![ステージ上のまとのスプライト](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+このコードを新しいスプライトに追加して、雪玉が当たったときに「やられた！」と言うようにします。
 
-![target sprite](images/target-sprite.png)
+![まとのスプライト](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+コードをテストしましょう。
 
-![target sprite saying you got me!](images/snow-hit.png)
+![まとが「やられた！」と言っているスプライト](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+ゲームをむずかしくしてみましょう。 まず、プレーヤーが雪玉を投げるたびにトナカイが動くようにします。
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+こうするには、雪玉の`ずっと`{:class="block3control"}ループの上部に`新しいメッセージ`{:class="block3control"}を追加します。 こうすることで、トナカイはプレーヤーが新しい雪玉を投げることを知ります。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+このメッセージを受け取ったとき、トナカイはこのコードを使ってランダムな位置 (いち) に移動します。
 
-![target sprite](images/target-sprite.png)
+![まとのスプライト](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+雪玉を数回投げて、プロジェクトをテストしましょう。 まとは毎回位置を移動していますか？
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+雪玉の前に岩を追加することで、ゲームをむずかしくすることもできます。
 
-![rock sprite on the stage](images/snow-rock.png)
+![ステージ上の岩のスプライト](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+コードをかえて、雪玉がスクリーンの端_または_岩に触れると止まるようにします。
 
-![snowball sprite](images/snowball-sprite.png)
+![雪玉のスプライト](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+最後に、雪玉とトナカイを小さくすることでゲームがむずかしくなります。
 
-![small snowball and target sprite](images/snow-small.png)
+![雪玉のスプライトとまとのスプライト](images/snow-small.png)
 
 --- /task ---
