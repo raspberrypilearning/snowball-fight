@@ -1,12 +1,12 @@
-## Challenge: improve your game!
-Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
+## Desafío: ¡Mejora tu juego!
+Ahora que has hecho el juego básico, mira lo que puedes hacer para mejorarlo. Aquí tienes algunas ideas, pero eres libre de usar tus propias ideas también.
 
-+ Add a winter backdrop to your project.
-+ Change the numbers in your code, to make the snowball move faster, higher or further
-+ Change the graphics
-+ Add music and sound effects
-+ Change sprite costumes when the target is hit
-+ Add a score and a high score
-+ The reindeer could move around so that it's harder to hit
-+ You could add snowflakes or birds that stop the snowball
-+ You could add a second player, so that you could both throw snowballs at the reindeer...or each other!
++ Añade a tu proyecto un fondo de pantalla invernal.
++ Cambia los números en tu código para conseguir que la bola de nieve se mueva con mayor rapidez, para que llegue más alto o más lejos
++ Cambia las imágenes gráficas
++ Añade música y efectos de sonido
++ Cambia los disfraces del objeto cuando el objetivo es alcanzado
++ Añade un marcador y un récord de puntuación
++ El reno podría moverse por el escenario así será más difícil acertar a darle
++ Puedes añadir copos de nieve o pájaros que detengan la bola de nieve
++ Podrías añadir un segundo jugador así ambos pueden lanzar bolas de nieve al reno... ¡o el uno al otro!
