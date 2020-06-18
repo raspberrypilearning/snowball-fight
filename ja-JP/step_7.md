@@ -1,6 +1,6 @@
-## What next?
+## 次は何をしましょうか？
 
-Try these other projects to build you knowledge of other programming languages.
+このプロジェクトで、他のプログラミング言語を学びましょう。
 
-- [About me](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) is a great introduction to Python.
-- [Happy birthday](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) introduces HTML and CSS.
+- [私 (わたし) について](https://projects.raspberrypi.org/en/projects/about-me?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)は、Python の入門にぴったりです。
+- [誕生日 (たんじょうび) おめでとう](https://projects.raspberrypi.org/en/projects/happy-birthday?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)では、HTML と CSS を学びます。
