@@ -1,12 +1,12 @@
-## Challenge: improve your game!
-Now that you've made the basic game, see what you can do to improve it. Here are some ideas, but feel free to use your own ideas too.
+## チャレンジ: ゲームをもっと面白くしよう！
+これで基本のゲームはできたので、ゲームをもっと面白くしてみましょう。 こんなアイデアがありますが、自分のアイデアも自由に使ってください。
 
-+ Add a winter backdrop to your project.
-+ Change the numbers in your code, to make the snowball move faster, higher or further
-+ Change the graphics
-+ Add music and sound effects
-+ Change sprite costumes when the target is hit
-+ Add a score and a high score
-+ The reindeer could move around so that it's harder to hit
-+ You could add snowflakes or birds that stop the snowball
-+ You could add a second player, so that you could both throw snowballs at the reindeer...or each other!
++ プロジェクトに冬の背景 (はいけい) を追加する
++ コード内の数値 (すうち) をかえて、雪玉の動きを速くしたり、より高くまたは遠くにとぶようにする
++ グラフィックをかえる
++ 音楽や効果音 (こうかおん) を追加する
++ 雪玉があたったときにスプライトのコスチュームをかえる
++ スコアとハイスコアを追加する
++ トナカイが動き回ることで、雪玉をあてにくくする
++ 雪玉を止める雪のけっしょうや鳥を追加する
++ 2人目のプレーヤーを追加する。2人でトナカイに雪玉を投げたり、雪玉を投げ合ったりすることができます。
