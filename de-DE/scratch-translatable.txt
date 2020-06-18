@@ -1,13 +1,13 @@
-snowball-aim
+Schneeball-zielen
 
-normal
+Normal
 
-power
+Kraft
 
-throw
+werfen
 
-snowball
+Schneeball
 
-You got me!
+Du hast mich getroffen!
 
-new shot
+neuer Schuss
