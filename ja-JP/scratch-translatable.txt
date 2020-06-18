@@ -1,13 +1,13 @@
-snowball-aim
+雪玉 (ねらい)
 
-normal
+ふつう
 
-power
+力
 
-throw
+投げる
 
-snowball
+雪玉
 
-You got me!
+やられた！
 
-new shot
+新しい雪玉
