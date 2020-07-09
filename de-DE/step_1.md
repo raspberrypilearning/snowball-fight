@@ -12,7 +12,7 @@ In diesem Projekt wirst du ein Spiel erstellen, in dem du Schneebälle auf ein Z
 
 --- no-print ---
 
-Benutze die Maus um den Wurfwinkel des Schneeballs festzulegen und halte die Maustaste gedrückt, um mehr Kraft in den Wurf zu legen.
+Benutze die Maus, um den Wurfwinkel des Schneeballs festzulegen und halte die Maustaste gedrückt, um mehr Kraft in den Wurf zu legen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
