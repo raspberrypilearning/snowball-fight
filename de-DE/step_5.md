@@ -41,7 +41,7 @@ Teste deinen neuen Code.
 
 Lass uns ein paar Dinge tun, um das Spiel schwieriger zu machen. Lass uns zuerst das Rentier jedes Mal bewegen, wenn der Spieler einen Schneeball geworfen hat.
 
-Um dies zu tun füge zuerst einen `sende Nachricht`{:class="block3control"}-Block zu deinem Schneeball, neben den Kopf deiner `wiederhole fortlaufend`{:class="block3control"} Schleife, hinzu. Das wird dein Rentier wissen lassen, dass ein neuer Schuss bevorsteht.
+Um dies zu tun, füge zuerst einen `sende Nachricht`{:class="block3control"}-Block zu deinem Schneeball, neben den Kopf deiner `wiederhole fortlaufend`{:class="block3control"} Schleife, hinzu. Das wird dein Rentier wissen lassen, dass ein neuer Schuss bevorsteht.
 
 ![Schneeball Figur](images/snowball-sprite.png)
 
@@ -115,7 +115,7 @@ hide
 
 --- task ---
 
-Schließlich kannst du dein Spiel schwerer machen, indem du dein Schneeball und dein Rentier verkleinerst.
+Schließlich kannst du dein Spiel schwerer machen, indem du deinen Schneeball und dein Rentier verkleinerst.
 
 ![kleiner Schneeball und Ziel-Figur](images/snow-small.png)
 
