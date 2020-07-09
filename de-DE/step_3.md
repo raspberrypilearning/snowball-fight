@@ -2,7 +2,7 @@
 
 --- task ---
 
-Füge einen Block zum _end_ (Ende) deines Schneeballcodes hinzu, um `eine Nachricht zu senden`{:class="block3control"}, dass du einen Schneeball wirfst:
+Füge einen Block zum _Ende_ deines Schneeballcodes hinzu, um `eine Nachricht zu senden`{:class="block3control"}, dass du einen Schneeball wirfst:
 
 ![Schneeball Figur](images/snowball-sprite.png)
 
