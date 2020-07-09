@@ -1,4 +1,4 @@
-## Wie geht's weiter?
+## Wie geht es weiter?
 
 Probiere die folgenden Prohekte, um deine Kenntnisse in anderen Programmiersprachen aufzubauen.
 
