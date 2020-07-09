@@ -6,7 +6,7 @@ Lass uns einen Schneeball machen, den du auf deiner Bühne herum werfen kannst.
 
 Öffne das Scratch Start-Projekt.
 
-**Online**: Öffne das [Starter-Projekt](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: Öffne das [Start-Projekt](http://rpf.io/snowball-fight-on){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
@@ -14,13 +14,13 @@ Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **R
 
 Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-Im Startprojekt solltest du eine leere Bühne und eine Schneeball-Figur sehen.
+Im Start-Projekt solltest du eine leere Bühne und eine Schneeball-Figur sehen.
 
 --- /task ---
 
 --- task ---
 
-Die "Schneeball"-Figur hat 2 Kostüme, ein normales Kostüm und eines, das zeigt in welche Richttung der Schneeball zeigt.
+Die "Schneeball"-Figur hat 2 Kostüme, ein normales Kostüm und eines, das zeigt, in welche Richtung der Schneeball zeigt.
 
 ![Schneeballkostüme](images/snow-costume.png)
 
@@ -55,7 +55,7 @@ Teste dein Projekt, indem du auf die grüne Flagge klickst. Du solltest sehen, d
 
 --- task ---
 
-Lass uns dem Spieler auch erlauben, darüber zu entscheiden, wie kräftig der Schneeball geworfen werden soll. Erstelle eine neue Variable namens `Kraft`{:class="block3variable"}.
+Lass uns dem Spieler auch erlauben, darüber zu entscheiden, wie kräftig der Schneeball geworfen werden soll. Erstelle eine neue Variable namens `Kraft`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -105,7 +105,7 @@ Dieser Code bedeutet, dass du _die Maustaste gedrückt halten_ musst, nachdem du
 
 --- task ---
 
-Teste deinen Schneeball, um zu sehen, ob du seinen Winkel und deine Kraft wählen kannst.
+Teste deinen Schneeball, um zu sehen, ob du seinen Winkel und seine Kraft wählen kannst.
 
 ![Kraft-Variabel bei 35 neben dem zielenden Schneeball](images/snow-test.png)
 
