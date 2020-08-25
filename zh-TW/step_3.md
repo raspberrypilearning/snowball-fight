@@ -14,10 +14,10 @@ go to x:(-200) y:(-130)
 point in direction (90)
 switch costume to (雪球瞄準 v)
 repeat until <mouse down?>
-    point towards (mouse-pointer v)
+    point towards (鼠標 v)
 end
 repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
+    point towards (鼠標 v)
     change [力量 v] by (1)
     wait (0.1) seconds
 end
@@ -41,7 +41,7 @@ end
 hide
 ```
 
-這個程式碼使用`力量`{:class="block3variables"} 變數來決定移動的速度：
+這個程式碼使用`力量`{:class="block3variables"} 變數來決定移動的速度。
 
 --- /task ---
 
@@ -60,10 +60,10 @@ point in direction (90)
 switch costume to (雪球瞄準 v)
 +show
 repeat until <mouse down?>
-    point towards (mouse-pointer v)
+    point towards (鼠標 v)
 end
 repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
+    point towards (鼠標 v)
     change [力量 v] by (1)
     wait (0.1) seconds
 end
@@ -94,10 +94,10 @@ point in direction (90)
 switch costume to (雪球瞄準 v)
 show
 repeat until <mouse down?>
-    point towards (mouse-pointer v)
+    point towards (鼠標 v)
 end
 repeat until < not <mouse down?> >
-    point towards (mouse-pointer v)
+    point towards (鼠標 v)
     change [力量 v] by (1)
     wait (0.1) seconds
 end
