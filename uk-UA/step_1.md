@@ -38,11 +38,11 @@ title: Що тобі знадобиться
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](https://rpf.io/scratchon){:target="_blank"}, або [офлайн](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-Початковий проєкт можна знайти [тут](http://rpf.io/p/uk-UA/snowball-fight-go){:target="_blank"}.
+Початковий проєкт можна знайти [тут](https://rpf.io/p/uk-UA/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: Додаткова інформація для викладачів
 
 --- /no-print ---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/uk-UA/snowball-fight-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/uk-UA/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---

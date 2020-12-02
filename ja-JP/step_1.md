@@ -38,11 +38,11 @@ title: 必要 (ひつよう) なもの
 
 ### ソフトウェア
 
-+ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ダウンロード
 
-基本 (きほん) のプロジェクトは [こちら](http://rpf.io/p/ja-JP/snowball-fight-go){:target="_blank"}にあります。
+基本 (きほん) のプロジェクトは [こちら](https://rpf.io/p/ja-JP/snowball-fight-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: 指導者向けの追加情報
 
 --- /no-print ---
 
-[完成したプロジェクトはここ](http://rpf.io/p/ja-JP/snowball-fight-get){:target="_blank"}にあります。
+[完成したプロジェクトはここ](https://rpf.io/p/ja-JP/snowball-fight-get){:target="_blank"}にあります。
 
 --- /collapse ---
