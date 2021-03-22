@@ -1,14 +1,14 @@
-## Realistic movement
+## Реалистичное движение
 
-You now have a snowball, but let's make it move a bit more realistically.
+Теперь, когда у тебя есть снежок, давай сделаем его движение более реалистичным.
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+Для начала, давай зададим максимальный уровень силы, чтобы нельзя было бросить снежок слишком сильно.
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+В части твоего кода для блока `когда нажат флажок`{:class="block3events"} нам необходимо указать увеличение силы только если она меньше 20. Измени свой код на представленный ниже:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -23,24 +23,24 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+Снова проверь свой снежок, и ты увидишь, что мощность никогда не превышает 20.
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+Теперь, когда максимальная сила броска 20, ты можешь задать данное значение как максимальное для рычажка переменной. Щелкни правой кнопкой мыши на переменной сила и выбери «изменить диапазон рычажка».
 
-![min max of slider range](images/snow-minmax.png)
+![диапазон рычажка](images/snow-minmax.png)
 
 
 --- /task ---
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+Также ты можешь замедлить снежок, слегка уменьшая силу, когда он летит по воздуху. Добавь следующий блок кода в код твоего снежка `когда я получу [throw]`{:class="block3events"}:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -57,11 +57,11 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+Протестируй получившийся код. Работает ли он, как предполагалось? Ты можешь заметить, что сила продолжает уменьшатся, и в итоге снежок летит обратно!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+Чтобы это исправить, ты можешь добавить блок `если`{:class="block3control"} к своему коду, таким образом сила уменьшается только в случае, когда ее значение больше 0:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+Почти все готово, но осталось добавить влияние гравитации, чтобы снежок падал на землю. Ты можешь добавить данный эффект, просто обеспечив непрерывное движение снежка вниз с помощью следующего кода:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+Повтори испытание снежка, ты должен заметить, что снежок стал двигаться намного реалистичнее.
 
 --- /task ---
 
