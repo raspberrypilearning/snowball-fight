@@ -38,11 +38,11 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (либо [онлайн](https://rpf.io/scratchon){:target="_blank"} или [оффлайн](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-The starter project can be found [here](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+Начальный проект можно найти [здесь](https://rpf.io/p/en/snowball-fight-go){:target="_ blank"}.
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: Дополнительная информация для преподав
 
 --- /no-print ---
 
-You can find the [completed project here](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+Здесь Вы можете найти [завершённый проект](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
