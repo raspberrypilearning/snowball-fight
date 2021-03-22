@@ -1,0 +1,18 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Битва снежками
+description: Создай игру, в которой необходимо бросать снежки в цель
+version: 4
+last_tested: 2018-04-11
+steps:
+  - title: Введение
+  - title: Подготовка снежка
+  - title: Метание снежка
+  - title: Реалистичное движение
+  - title: Цель
+  - title: "Задание: улучши свою игру!"
+    challenge: true
+  - title: Что дальше?
