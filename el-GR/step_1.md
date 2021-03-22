@@ -38,11 +38,11 @@ title: Τι θα χρειαστείς
 
 ### Λογισμικό
 
-+ Scratch 3 (είτε [σε σύνδεση](http://rpf.io/scratchon){:target="_blank"} είτε [εκτός σύνδεσης](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Λήψεις
 
-Το αρχικό έργο μπορεί να βρεθεί [εδώ](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+The starter project can be found [here](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: Πρόσθετες πληροφορίες για εκπαιδευτικο
 
 --- /no-print ---
 
-Μπορείς να βρεις [ολοκληρωμένο το έργο εδώ](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
