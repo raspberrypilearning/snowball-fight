@@ -1,13 +1,13 @@
-snowball-aim
+прицеливание снежка
 
-normal
+нормальный
 
-power
+сила
 
-throw
+бросок
 
-snowball
+снежок
 
-You got me!
+Ты попал!
 
-new shot
+новый бросок
