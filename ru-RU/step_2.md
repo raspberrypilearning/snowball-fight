@@ -1,36 +1,36 @@
-## Making a snowball
+## Подготовка снежка
 
-Let's make a snowball, that you can throw around your stage.
+Давай сделаем снежок, который можно бросить в пределах сцены.
 
 --- task ---
 
-Open the Scratch starter project.
+Открой стартовый проект Scratch.
 
-**Online**: open the [starter project](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Онлайн**: открыть [стартовый проект](http://rpf.io/snowball-fight-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Если у тебя есть учётная запись в Scratch, то ты можешь сделать копию проекта, нажав **Ремикс**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Оффлайн**: открыть [стартовый проект](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} в оффлайн-редакторе.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Если тебе необходимо скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+В стартовом проекте ты должен увидеть пустую сцену и спрайт снежка.
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+Спрайт "Снежок" содержит 2 костюма: обычный костюм и тот, который указывает направление броска снежка.
 
-![snowball costumes](images/snow-costume.png)
+![костюмы снежка](images/snow-costume.png)
 
---- /task ---
+--- /задача ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+Для начала, давай дадим игроку возможность изменять угол броска. Добавь этот код в спрайт "Снежок":
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+Проверь свой проект, нажав на зеленый флажок. Ты должен увидеть, что твой снежок следует за указателем мыши, пока ты удерживаешь кнопку мыши.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![спрайт прицеливание снежка указывающий на указатель мыши](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Давай также дадим игроку возможность выбирать с какой силой будет брошен снежок. Создай новую переменную `сила`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Перемести созданное окно с переменной сила в нижнюю часть сцены вблизи снежка. Щелкни правой кнопкой мыши по окну с переменной и нажми «рычажок».
 
-![variable changed to slider](images/snow-slider.png)
+![переменная изменена на рычажок](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Добавь следующий код чтобы установить значение 0 для переменной `сила`{:class="block3variables"} при нажатии на флажок.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Теперь, когда задана переменная `сила`{:class="block3variables"}, ты можешь увеличить силу броска _после_ того, как было выбрано направление броска с помощью следующего кода:
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежка](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Данный код означает, что ты должен _удерживать нажатой кнопку мыши_ после выбора направления броска, чтобы определить силу с которой он будет брошен.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Проверь снежок, чтобы убедиться, что ты можешь выбирать направление и силу броска.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![переменная сила установлена на 35 рядом с прицеливанием снежка](images/snow-test.png)
 
 --- /task ---
