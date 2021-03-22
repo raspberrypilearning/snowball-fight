@@ -1,12 +1,12 @@
-## The target
+## Цель
 
-Let's add in a target for your snowballs!
+Давай добавим цель для твоих снежков!
 
 --- task ---
 
-Add in another sprite to your project.
+Добавь ещё один спрайт в свой проект.
 
-![a target sprite on the stage](images/snow-deer.png)
+![спрайт мишень на сцене](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+Добавь следующий код к новому спрайту, теперь он говорит "Ты попал!" при удачном попадании снежка:
 
-![target sprite](images/target-sprite.png)
+![спрайт мишень](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+Проверь свой новый код.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![спрайт мишень, говорящий что ты попал!](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+Давай добавим пару деталей, чтобы сделать игру сложнее. Для начала, пускай олень будет перемещаться каждый раз, когда игрок бросает снежок.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+Для этого в верхней части `бесконечного`{:class="block3control"} цикла добавь команду `передать`{:class="block3control"} для снежка. Это позволит твоему оленю понять, что скоро произойдет выстрел.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежок](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+Добавь следующий код, чтобы переместить оленя в случайную позицию, после того, как он получит сообщение:
 
-![target sprite](images/target-sprite.png)
+![спрайт мишень](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+Проверь свой проект, бросив несколько снежков. Перемещается ли цель после каждого броска?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+Ты также можешь усложнить свою игру, добавив перед снежком препятствие в виде камня.
 
-![rock sprite on the stage](images/snow-rock.png)
+![спрайт камень на сцене](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+Теперь ты можешь изменить код снежка таким образом, чтобы он останавливался при касании края экрана _или_ камня.
 
-![snowball sprite](images/snowball-sprite.png)
+![спрайт снежок](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+Наконец, уменьшение снежка и оленя сделает твою игру еще более сложной.
 
-![small snowball and target sprite](images/snow-small.png)
+![маленький спрайт снежка и мишени](images/snow-small.png)
 
 --- /task ---
