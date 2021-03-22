@@ -24,7 +24,7 @@
 
 ![костюмы снежка](images/snow-costume.png)
 
---- /задача ---
+--- /task ---
 
 --- task ---
 
