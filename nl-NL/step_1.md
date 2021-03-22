@@ -38,11 +38,11 @@ title: Wat heb je nodig
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-Het startproject kan [hier](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} gevonden worden.
+The starter project can be found [here](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](h
 
 --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/en/snowball-fight-get){:target="_blank"} vinden.
+You can find the [completed project here](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
