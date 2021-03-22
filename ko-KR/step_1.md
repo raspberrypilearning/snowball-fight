@@ -38,11 +38,11 @@ title: 준비물
 
 ### 소프트웨어
 
-+ 스크래치 3 ([온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드
 
-스타터 프로젝트는 [여기](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}를 클릭하면 열 수 있습니다.
+The starter project can be found [here](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: 교육자를 위한 추가 정보
 
 --- /no-print ---
 
-완성된 프로젝트는 [여기](http://rpf.io/p/en/snowball-fight-get){:target="_ blank"}에서 확인할 수 있습니다.
+You can find the [completed project here](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
