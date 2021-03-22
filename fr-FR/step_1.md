@@ -38,11 +38,11 @@ title: Ce qu'il te faut
 
 ### Logiciel
 
-+ Scratch 3 (soit [en ligne](http://rpf.io/scratchon){:target="_blank"} soit [hors-ligne](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-Le projet de démarrage peut être trouvé [ici](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+The starter project can be found [here](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ Si vous avez besoin d'imprimer ce projet, veuillez utiliser la [version imprimab
 
 --- /no-print ---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
