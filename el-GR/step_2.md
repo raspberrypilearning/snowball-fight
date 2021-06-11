@@ -6,11 +6,11 @@
 
 Άνοιξε το αρχικό έργο Scratch.
 
-**Σε σύνδεση**: άνοιξε το [αρχικό έργο](https://scratch.mit.edu/projects/399207135){:target="_blank"}.
+**Σε σύνδεση**: άνοιξε το [αρχικό έργο]https://scratch.mit.edu/projects/399207135){:target="_blank"}.
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/el-GR/snowball-fight-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
+**Εκτός σύνδεσης**: άνοιξε το [αρχικό έργο](http://rpf.io/p/el-GR/snowball-fight-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
 
 Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
