@@ -8,11 +8,13 @@ description: 製作一個遊戲，您必須向目標扔雪球
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: 介紹
-  - title: 製作雪球
-  - title: 扔雪球
-  - title: 真實的移動
-  - title: 目標物
-  - title: "挑戰：遊戲改良！"
-    challenge: true
-  - title: 然後呢？
+- title: 介紹
+  completion: engaged
+- title: 製作雪球
+- title: 扔雪球
+- title: 真實的移動
+  completion: internal
+- title: 目標物
+- title: 挑戰：遊戲改良！
+  challenge: true
+- title: 然後呢？

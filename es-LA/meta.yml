@@ -8,11 +8,13 @@ description: Crea un juego en el que tienes que lanzar bolas de nieve a un blanc
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: Introducción
-  - title: Hacer una bola de nieve
-  - title: Lanzar una bola de nieve
-  - title: Movimiento realista
-  - title: El blanco
-  - title: "Desafío: ¡mejora tu juego!"
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Hacer una bola de nieve
+- title: Lanzar una bola de nieve
+- title: Movimiento realista
+  completion: internal
+- title: El blanco
+- title: 'Desafío: ¡mejora tu juego!'
+  challenge: true
+- title: "¿Qué sigue?"

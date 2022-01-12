@@ -8,11 +8,13 @@ description: まとに雪玉を当てるゲームを作ろう
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: はじめに
-  - title: 雪玉を作る
-  - title: 雪玉を投げる
-  - title: リアルな動き
-  - title: まと
-  - title: "チャレンジ: ゲームをもっと面白くしよう！"
-    challenge: true
-  - title: 次は何をしましょうか？
+- title: はじめに
+  completion: engaged
+- title: 雪玉を作る
+- title: 雪玉を投げる
+- title: リアルな動き
+  completion: internal
+- title: まと
+- title: 'チャレンジ: ゲームをもっと面白くしよう！'
+  challenge: true
+- title: 次は何をしましょうか？

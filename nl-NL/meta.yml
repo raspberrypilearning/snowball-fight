@@ -8,11 +8,13 @@ description: Maak een spel waarin je sneeuwballen naar een doel moet gooien
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: Inleiding
-  - title: Een sneeuwbal maken
-  - title: Een sneeuwbal gooien
-  - title: Realistische beweging
-  - title: Het doelwit
-  - title: "Uitdaging: verbeter je spel!"
-    challenge: true
-  - title: Wat kun je verder nog doen?
+- title: Inleiding
+  completion: engaged
+- title: Een sneeuwbal maken
+- title: Een sneeuwbal gooien
+- title: Realistische beweging
+  completion: internal
+- title: Het doelwit
+- title: 'Uitdaging: verbeter je spel!'
+  challenge: true
+- title: Wat kun je verder nog doen?

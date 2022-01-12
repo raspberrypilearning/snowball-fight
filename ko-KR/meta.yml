@@ -8,11 +8,13 @@ description: 목표물에 눈덩이를 던지는 게임 만들기
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: 소개
-  - title: 눈덩이 만들기
-  - title: 눈덩이 던지기
-  - title: 사실적인 움직임
-  - title: 목표물
-  - title: "도전과제: 더 멋진 게임 만들기!"
-    challenge: true
-  - title: 더 나아가기
+- title: 소개
+  completion: engaged
+- title: 눈덩이 만들기
+- title: 눈덩이 던지기
+- title: 사실적인 움직임
+  completion: internal
+- title: 목표물
+- title: '도전과제: 더 멋진 게임 만들기!'
+  challenge: true
+- title: 더 나아가기

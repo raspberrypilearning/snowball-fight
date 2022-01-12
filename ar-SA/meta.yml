@@ -8,11 +8,13 @@ description: اصنع لعبة عليك فيها رمي كرات الثلج عل
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: المقدمة
-  - title: صنع كرة ثلج
-  - title: رمي كرة ثلج
-  - title: حركة واقعية
-  - title: الهدف
-  - title: "التحدي: قم بتحسين لعبتك!"
-    challenge: true
-  - title: ما التالي؟
+- title: المقدمة
+  completion: engaged
+- title: صنع كرة ثلج
+- title: رمي كرة ثلج
+- title: حركة واقعية
+  completion: internal
+- title: الهدف
+- title: 'التحدي: قم بتحسين لعبتك!'
+  challenge: true
+- title: ما التالي؟
