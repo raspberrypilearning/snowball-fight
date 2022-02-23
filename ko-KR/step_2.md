@@ -10,9 +10,9 @@
 
 스크래치 계정이 있는 경우 **리믹스**를 클릭하여 복사본을 만들 수 있습니다.
 
-**오프라인**: [스타터 프로젝트](http://rpf.io/p/ko-KR/snowball-fight-go){:target="_blank"} 를 오프라인 에디터에서 여세요.
+**오프라인**: [스타터 프로젝트](https://rpf.io/p/ko-KR/snowball-fight-go){:target="_blank"} 를 오프라인 에디터에서 여세요.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} 에서 다운로드 받을 수 있습니다.
+스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} 에서 다운로드 받을 수 있습니다.
 
 스타터 프로젝트에서 빈 배경과 눈덩이 스프라이트를 확인할 수 있을 것입니다.
 
