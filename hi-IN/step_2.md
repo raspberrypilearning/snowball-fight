@@ -6,13 +6,13 @@
 
 Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: [स्टार्टर प्रोजेक्ट खोलें](http://rpf.io/snowball-fight-on){:target="_blank"} ।
+**ऑनलाइन**: [स्टार्टर प्रोजेक्ट खोलें](https://rpf.io/snowball-fight-on){:target="_blank"} ।
 
 यदि आपके पास एक Scratch खाता (account) है तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं ।
 
-**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/hi-IN/snowball-fight-go){:target="_blank"} को ऑफलाइन एडिटर (offline editor) में खोलिये।
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](https://rpf.io/p/hi-IN/snowball-fight-go){:target="_blank"} को ऑफलाइन एडिटर (offline editor) में खोलिये।
 
-यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल (download and install) करने की आवश्यकता है तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
+यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल (download and install) करने की आवश्यकता है तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
 स्टार्टर प्रोजेक्ट में आपको एक खाली स्टेज और बर्फ़गोला स्प्राइट (snowball sprite) दिखना चाहिए।
 

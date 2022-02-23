@@ -10,9 +10,9 @@ Abre el proyecto inicial de Scratch.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Offline**: abre el [proyecto inicial](http://rpf.io/p/es-ES/snowball-fight-go){:target=_blank"} en el editor offline.
+**Offline**: abre el [proyecto inicial](https://rpf.io/p/es-ES/snowball-fight-go){:target=_blank"} en el editor offline.
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto de iniciación deberías ver un escenario en blanco y un objeto de una bola de nieve.
 
