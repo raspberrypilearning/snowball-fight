@@ -77,7 +77,7 @@ end
 
 ```blocks3
 when flag clicked
-+ set [power v] to (0)
++ set [сила v] to (0)
 ```
 
 --- /task ---
