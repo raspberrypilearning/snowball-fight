@@ -8,11 +8,15 @@ description: Haz un juego en el que tengas que lanzar bolas de nieve a un objeti
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: Introducción
-  - title: Haciendo una bola de nieve
-  - title: Lanzando una bola de nieve
-  - title: Movimiento realista
-  - title: El objetivo
-  - title: "Desafío: ¡Mejora tu juego!"
-    challenge: true
-  - title: Y ahora ¿qué?
+- title: Introducción
+- title: Haciendo una bola de nieve
+- title: Lanzando una bola de nieve
+  completion:
+  - engaged
+- title: Movimiento realista
+- title: El objetivo
+  completion:
+  - internal
+- title: 'Desafío: ¡Mejora tu juego!'
+  challenge: true
+- title: Y ahora ¿qué?

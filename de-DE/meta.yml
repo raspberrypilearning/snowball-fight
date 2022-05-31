@@ -3,16 +3,20 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Schneeballschlacht 
+title: Schneeballschlacht
 description: Erstelle ein Spiel, in dem du Schneebälle auf ein Ziel werfen musst
 version: 4
 last_tested: 2018-04-11
 steps:
-  - title: Einleitung
-  - title: Einen Schneeball formen
-  - title: Einen Schneeball werfen
-  - title: Realistische Bewegung
-  - title: Das Ziel
-  - title: "Herausforderung: Verbessere dein Spiel!"
-    challenge: true
-  - title: Wie geht''s weiter?
+- title: Einleitung
+- title: Einen Schneeball formen
+- title: Einen Schneeball werfen
+  completion:
+  - engaged
+- title: Realistische Bewegung
+- title: Das Ziel
+  completion:
+  - internal
+- title: 'Herausforderung: Verbessere dein Spiel!'
+  challenge: true
+- title: Wie geht''s weiter?
