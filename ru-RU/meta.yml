@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: Введение
-  completion: engaged
 - title: Подготовка снежка
 - title: Метание снежка
+  completion:
+  - engaged
 - title: Реалистичное движение
-  completion: internal
 - title: Цель
+  completion:
+  - internal
 - title: 'Задание: улучши свою игру!'
   challenge: true
 - title: Что дальше?

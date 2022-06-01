@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: 소개
-  completion: engaged
 - title: 눈덩이 만들기
 - title: 눈덩이 던지기
+  completion:
+  - engaged
 - title: 사실적인 움직임
-  completion: internal
 - title: 목표물
+  completion:
+  - internal
 - title: '도전과제: 더 멋진 게임 만들기!'
   challenge: true
 - title: 더 나아가기

@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: Introducción
-  completion: engaged
 - title: Hacer una bola de nieve
 - title: Lanzar una bola de nieve
+  completion:
+  - engaged
 - title: Movimiento realista
-  completion: internal
 - title: El blanco
+  completion:
+  - internal
 - title: 'Desafío: ¡mejora tu juego!'
   challenge: true
 - title: "¿Qué sigue?"

@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: はじめに
-  completion: engaged
 - title: 雪玉を作る
 - title: 雪玉を投げる
+  completion:
+  - engaged
 - title: リアルな動き
-  completion: internal
 - title: まと
+  completion:
+  - internal
 - title: 'チャレンジ: ゲームをもっと面白くしよう！'
   challenge: true
 - title: 次は何をしましょうか？

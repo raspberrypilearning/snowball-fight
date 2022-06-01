@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: Introduction
-  completion: engaged
 - title: Making a snowball
 - title: Throwing a snowball
+  completion:
+  - engaged
 - title: Realistic movement
-  completion: internal
 - title: The target
+  completion:
+  - internal
 - title: 'Challenge: improve your game!'
   challenge: true
 - title: What next?

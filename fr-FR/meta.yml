@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: Introduction
-  completion: engaged
 - title: Faire une boule de neige
 - title: Lancer une boule de neige
+  completion:
+  - engaged
 - title: Mouvement réaliste
-  completion: internal
 - title: La cible
+  completion:
+  - internal
 - title: 'Défi: améliore ton jeu!'
   challenge: true
 - title: Et ensuite?

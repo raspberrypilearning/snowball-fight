@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: परिचय
-  completion: engaged
 - title: बर्फ़ का एक गोला बनाना
 - title: बर्फ़गोला फेकना
+  completion:
+  - engaged
 - title: वास्तविक संचलन
-  completion: internal
 - title: लक्ष्य
+  completion:
+  - internal
 - title: 'चुनौती: अपने गेम को सुधारें!'
   challenge: true
 - title: आगे क्या?

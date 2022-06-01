@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: 介紹
-  completion: engaged
 - title: 製作雪球
 - title: 扔雪球
+  completion:
+  - engaged
 - title: 真實的移動
-  completion: internal
 - title: 目標物
+  completion:
+  - internal
 - title: 挑戰：遊戲改良！
   challenge: true
 - title: 然後呢？

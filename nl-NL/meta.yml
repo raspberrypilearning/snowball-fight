@@ -9,12 +9,14 @@ version: 4
 last_tested: 2018-04-11
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Een sneeuwbal maken
 - title: Een sneeuwbal gooien
+  completion:
+  - engaged
 - title: Realistische beweging
-  completion: internal
 - title: Het doelwit
+  completion:
+  - internal
 - title: 'Uitdaging: verbeter je spel!'
   challenge: true
 - title: Wat kun je verder nog doen?
