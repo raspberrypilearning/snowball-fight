@@ -21,7 +21,7 @@ Adicione este código ao seu novo ator, para que ele diga "Você me pegou!" quan
 ```blocks3
 when flag clicked
 forever
-    if < touching [bola-de-neve v]? > then
+    if < touching [bola de neve v]? > then
         say [Você me pegou!] for (1) seconds
     end
 end
@@ -49,11 +49,11 @@ Para fazer isso, primeiro adicione `transmita`{:class="block3control"} à sua bo
 when flag clicked
 forever
 set [energia v] to (0)
-+broadcast (novo-tiro v)
++broadcast (novo tiro v)
 wait (0.5) seconds
 go to x:(-200) y:(-130)
 point in direction (90)
-switch costume to (mira-da-bola-de-neve v)
+switch costume to (mira da bola de neve v)
 show
 repeat until <mouse down?>
     point towards (mouse-pointer v)
@@ -72,7 +72,7 @@ Quando sua rena receber essa mensagem, mova-a para uma nova posição aleatória
 ![ator alvo](images/target-sprite.png)
 
 ```blocks3
-when I receive [novo-tiro v]
+when I receive [novo tiro v]
 set x to (pick random (0) to (200))
 ```
 
@@ -100,7 +100,7 @@ Agora você pode alterar seu código da bola de neve, para parar quando tocar na
 
 ```blocks3
 when I receive [atirar v]
-switch costume to (bola-de-neve v)
+switch costume to (bola de neve v)
 + repeat until << touching [edge v]? > or <touching [Rocks v]?>>
     change y by (-5)
     move (energia) steps

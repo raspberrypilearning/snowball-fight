@@ -8,7 +8,7 @@ Primeiro, vamos definir um nível máximo de energia, para que a bola de neve n�
 
 No código da sua bola de neve `quando ⚑ for clicado`{:class="block3events"}, precisamos aumentar a energia somente se for menor que 20. Mude seu código para:
 
-![ator bola-de-neve](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -38,13 +38,13 @@ Agora que a energia máxima da sua bola de neve é 20, você também pode defini
 
 --- task ---
 
-Você também pode diminuir a velocidade da bola de neve, reduzindo a energia levemente enquanto ela voa pelo ar. Adicione este bloco de código ao código da sua bola de neve `quando eu receber [throw]`{:class="block3events"}:
+Você também pode diminuir a velocidade da bola de neve, reduzindo a energia levemente enquanto ela voa pelo ar. Adicione este bloco de código ao código da sua bola de neve `quando eu receber [atirar]`{:class="block3events"}:
 
-![ator bola-de-neve](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [atirar v]
-switch costume to (bola-de-neve v)
+switch costume to (bola de neve v)
 repeat until < touching [edge v]? >
     move (energia) steps
 +   change [energia v] by (-0.25)
@@ -61,11 +61,11 @@ Teste este novo código - ele funciona como você esperava? Você pode notar que
 
 Para corrigir isso, você pode adicionar um bloco `se`{:class="block3control"} ao seu código, para que a energia só seja reduzida se ela estiver acima de 0:
 
-![ator bola-de-neve](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [atirar v]
-switch costume to (bola-de-neve v)
+switch costume to (bola de neve v)
 repeat until < touching [edge v]? >
     move (energia) steps
 +   if < (energia) > (0) > then
@@ -81,11 +81,11 @@ hide
 
 Você está quase lá, mas também precisa adicionar um pouco de gravidade à sua bola de neve para que ela caia no chão. Você pode adicionar gravidade apenas movendo a bola de neve continuamente para baixo com este código:
 
-![ator bola-de-neve](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [atirar v]
-switch costume to (bola-de-neve v)
+switch costume to (bola de neve v)
 repeat until < touching [edge v]? >
 +   change y by (-5)
     move (energia) steps

@@ -6,13 +6,13 @@ Vamos fazer uma bola de neve que você pode atirar ao redor de seu palco.
 
 Abra o projeto inicial do Scratch.
 
-**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: abra o [projeto inicial](https://scratch.mit.edu/projects/883756223/editor/){:target="_blank"}.
 
 Se você tiver uma conta do Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline**: open the [starter project](https://rpf.io/p/pt-BR/snowball-fight-go){:target="_blank"} in the offline editor.
+**Offline**: abra o [projeto inicial](https://rpf.io/p/pt-BR/snowball-fight-go){:target="_blank"} no editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Se você precisa baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 No projeto inicial, você deve ver um palco em branco e um ator bola de neve.
 
@@ -37,7 +37,7 @@ when flag clicked
 wait (0.5) seconds
 go to x:(-200) y:(-130)
 point in direction (90)
-switch costume to (mira-da-bola-de-neve v)
+switch costume to (mira da bola de neve v)
 repeat until <mouse down?>
     point towards (mouse-pointer v)
 end
@@ -86,7 +86,7 @@ when flag clicked
 
 Agora que você tem uma variável `energia`{:class="block3variables"}, você pode aumentar a força com que a bola de neve é atirada _depois_ que a direção foi escolhida com este código:
 
-![ator bola-de-neve](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
