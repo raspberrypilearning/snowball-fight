@@ -14,12 +14,16 @@ steps:
     title: Einen Schneeball formen
   - 
     title: Einen Schneeball werfen
+    completion:
+      - engaged
   - 
     title: Realistische Bewegung
   - 
     title: Das Ziel
+    completion:
+      - internal
   - 
-    title: "Herausforderung: Verbessere dein Spiel!"
+    title: 'Herausforderung: Verbessere dein Spiel!'
     challenge: true
   - 
     title: Wie geht es weiter?
