@@ -86,7 +86,7 @@ when flag clicked
 
 Agora que você tem uma variável `energia`{:class="block3variables"}, você pode aumentar a força com que a bola de neve é atirada _depois_ que a direção foi escolhida com este código:
 
-![ator bola de neve](images/snowball-sprite.png)
+![ator bola-de-neve](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
