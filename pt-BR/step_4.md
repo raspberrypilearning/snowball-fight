@@ -1,14 +1,14 @@
-## Realistic movement
+## Movimento realista
 
-You now have a snowball, but let's make it move a bit more realistically.
+Você agora tem uma bola de neve, mas vamos fazer com que ela se mova de maneira mais realista.
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+Primeiro, vamos definir um nível máximo de energia, para que a bola de neve não possa ser atirada com muita força.
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+No código da sua bola de neve `quando ⚑ for clicado`{:class="block3events"}, precisamos aumentar a energia somente se for menor que 20. Mude seu código para:
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -23,24 +23,24 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+Teste sua bola de neve novamente e você verá que a energia nunca fica acima de 20.
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+Agora que a energia máxima da sua bola de neve é 20, você também pode definir isso como o valor máximo para o controle deslizante da variável. Clique com o botão direito sobre sua variável energia e clique em 'mudar alcance deslizante'.
 
-![min max of slider range](images/snow-minmax.png)
+![mudar alcance deslizante](images/snow-minmax.png)
 
 
 --- /task ---
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+Você também pode diminuir a velocidade da bola de neve, reduzindo a energia levemente enquanto ela voa pelo ar. Adicione este bloco de código ao código da sua bola de neve `quando eu receber [throw]`{:class="block3events"}:
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -57,11 +57,11 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+Teste este novo código - ele funciona como você esperava? Você pode notar que a energia continua diminuindo, e chega um momento que a bola de neve se move para trás!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+Para corrigir isso, você pode adicionar um bloco `se`{:class="block3control"} ao seu código, para que a energia só seja reduzida se ela estiver acima de 0:
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+Você está quase lá, mas também precisa adicionar um pouco de gravidade à sua bola de neve para que ela caia no chão. Você pode adicionar gravidade apenas movendo a bola de neve continuamente para baixo com este código:
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+Teste sua bola de neve novamente e você verá que ela se move muito mais realisticamente.
 
 --- /task ---
 
