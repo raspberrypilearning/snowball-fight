@@ -14,12 +14,16 @@ steps:
     title: صنع كرة ثلج
   - 
     title: رمي كرة ثلج
+    completion:
+      - engaged
   - 
     title: حركة واقعية
   - 
     title: الهدف
+    completion:
+      - internal
   - 
-    title: "التحدي: قم بتحسين لعبتك!"
+    title: 'التحدي: قم بتحسين لعبتك!'
     challenge: true
   - 
     title: ما التالي؟
