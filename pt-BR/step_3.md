@@ -1,10 +1,10 @@
-## Throwing a snowball
+## Atirando uma bola de neve
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+Adicione um bloco ao _final_ do seu código da bola de neve para `transmitir`{:class="block3control"} que você está atirando uma bola de neve:
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+Adicione esse código à sua bola de neve para mover até que atinja a borda do palco:
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+O código usa a variável `energia`{:class="block3variables"} para decidir com que rapidez se mover.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+Agora que você está escondendo a bola de neve quando ela toca a borda, adicione código para que `mostre`{:class="block3looks"} a bola de neve quando a bandeira é clicada, _apenas_ depois que a bola de neve muda para a fantasia `mira da bola de neve`{:class="block3looks"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+Teste sua bola de neve algumas vezes. Ela se move em diferentes ângulos e diferentes velocidades?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+Se você quiser ser capaz de atirar sua bola de neve muitas vezes, basta adicionar um loop `sempre`{:class="block3control"} ao redor do código `quando ⚑ for clicado`{:class="block3events"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![ator bola de neve](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
