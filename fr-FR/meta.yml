@@ -14,12 +14,16 @@ steps:
     title: Faire une boule de neige
   - 
     title: Lancer une boule de neige
+    completion:
+      - engaged
   - 
     title: Mouvement réaliste
   - 
     title: La cible
+    completion:
+      - internal
   - 
-    title: "Défi : améliore ton jeu !"
+    title: 'Défi : améliore ton jeu !'
     challenge: true
   - 
     title: Et ensuite ?
