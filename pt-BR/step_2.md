@@ -6,13 +6,13 @@ Vamos fazer uma bola de neve que você pode atirar ao redor de seu palco.
 
 Abra o projeto inicial do Scratch.
 
-**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: Abra o [projeto inicial](https://rpf.io/snowball-fight-on){:target="_ blank"}.
 
 Se você tiver uma conta do Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Offline**: abra o [projeto inicial](https://rpf.io/p/en/snowball-fight-go){:target="_ blank"} no editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Se você precisa baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 No projeto inicial, você deve ver um palco em branco e um ator bola de neve.
 
