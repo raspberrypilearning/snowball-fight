@@ -14,12 +14,16 @@ steps:
     title: बर्फ़ का एक गोला बनाना
   - 
     title: बर्फ़गोला फेकना
+    completion:
+      - engaged
   - 
     title: वास्तविक संचलन
   - 
     title: लक्ष्य
+    completion:
+      - internal
   - 
-    title: "चुनौती: अपने गेम को सुधारें!"
+    title: 'चुनौती: अपने गेम को सुधारें!'
     challenge: true
   - 
     title: आगे क्या?
