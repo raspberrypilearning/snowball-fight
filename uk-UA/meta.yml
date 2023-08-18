@@ -14,12 +14,16 @@ steps:
     title: Створення сніжки
   - 
     title: Кидання сніжки
+    completion:
+      - engaged
   - 
     title: Реалістичний рух
   - 
     title: Ціль
+    completion:
+      - internal
   - 
-    title: "Завдання: вдоскональ свою гру!"
+    title: 'Завдання: вдоскональ свою гру!'
     challenge: true
   - 
     title: Що далі?
