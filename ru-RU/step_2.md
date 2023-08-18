@@ -6,13 +6,13 @@
 
 Открой стартовый проект Scratch.
 
-**Онлайн**: открыть [стартовый проект](http://rpf.io/snowball-fight-on){:target="_ blank"}.
+**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
 
 Если у тебя есть учётная запись в Scratch, то ты можешь сделать копию проекта, нажав **Ремикс**.
 
-**Оффлайн**: открыть [стартовый проект](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} в оффлайн-редакторе.
+**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
 
-Если тебе необходимо скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 В стартовом проекте ты должен увидеть пустую сцену и спрайт снежка.
 
