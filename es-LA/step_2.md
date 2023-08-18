@@ -6,13 +6,13 @@ Hagamos una bola de nieve que puedas lanzar por todo el escenario.
 
 Abre el proyecto inicial de Scratch.
 
-**En línea**: abre el [proyecto inicial](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
 
 Si tienes una cuenta Scratch puedes hacer una copia al hacer clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto inicial](http://rpf.io/p/en/snowball-fight-go){:target=_blank"} en el editor sin conexión.
+**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
 
-Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 En el proyecto inicial, deberías ver un escenario en blanco y un objeto bola de nieve.
 
