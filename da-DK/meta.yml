@@ -14,12 +14,16 @@ steps:
     title: Making a snowball
   - 
     title: Throwing a snowball
+    completion:
+      - engaged
   - 
     title: Realistic movement
   - 
     title: The target
+    completion:
+      - internal
   - 
-    title: "Challenge: improve your game!"
+    title: 'Challenge: improve your game!'
     challenge: true
   - 
     title: What next?
