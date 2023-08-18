@@ -6,13 +6,13 @@
 
 Відкрий початковий проєкт у Скретч.
 
-**Онлайн**: відкрий [початковий проєкт](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
 
 Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Офлайн**: відкрий [початковий проєкт](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} в офлайн-редакторі.
+**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
 
-Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 В початковому проєкті ти маєш побачити порожню сцену та спрайт сніжки.
 
