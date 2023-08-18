@@ -6,13 +6,13 @@
 
 打開Scratch入門專案。
 
-**線上版**: 開啟 [入門專案](http://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版**：在離線編輯器裡開啟[入門專案](http://rpf.io/p/en/snowball-fight-go){:target="_blank"}。
+**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
 
-如果你需要 Scratch 離線版編輯器，可以在這找到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 在入門專案中，你應該可以看到空白的舞台以及雪球角色。
 
