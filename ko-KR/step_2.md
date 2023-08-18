@@ -6,13 +6,13 @@
 
 스크래치 스타터 프로젝트를 엽니다.
 
-**온라인**: [스타터 프로젝트](http://rpf.io/snowball-fight-on){:target="_ blank"}을 엽니다.
+**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
 
 스크래치 계정이 있는 경우 **리믹스**를 클릭하여 복사본을 만들 수 있습니다.
 
-**오프라인**: [스타터 프로젝트](http://rpf.io/p/en/snowball-fight-go){:target="_blank"} 를 오프라인 에디터에서 여세요.
+**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} 에서 다운로드 받을 수 있습니다.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 스타터 프로젝트에서 빈 배경과 눈덩이 스프라이트를 확인할 수 있을 것입니다.
 
