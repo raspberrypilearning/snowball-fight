@@ -14,12 +14,16 @@ steps:
     title: Подготовка снежка
   - 
     title: Метание снежка
+    completion:
+      - engaged
   - 
     title: Реалистичное движение
   - 
     title: Цель
+    completion:
+      - internal
   - 
-    title: "Задание: улучши свою игру!"
+    title: 'Задание: улучши свою игру!'
     challenge: true
   - 
     title: Что дальше?
