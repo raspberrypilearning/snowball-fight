@@ -14,12 +14,16 @@ steps:
     title: Een sneeuwbal maken
   - 
     title: Een sneeuwbal gooien
+    completion:
+      - engaged
   - 
     title: Realistische beweging
   - 
     title: Het doelwit
+    completion:
+      - internal
   - 
-    title: "Uitdaging: verbeter je spel!"
+    title: 'Uitdaging: verbeter je spel!'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
