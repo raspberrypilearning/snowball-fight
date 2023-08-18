@@ -14,12 +14,16 @@ steps:
     title: Δημιουργώντας μία χιονόμπαλα
   - 
     title: Πετώντας μία χιονόμπαλα
+    completion:
+      - engaged
   - 
     title: Ρεαλιστική κίνηση
   - 
     title: Ο στόχος
+    completion:
+      - internal
   - 
-    title: "Πρόκληση: βελτίωσε το παιχνίδι σου!"
+    title: 'Πρόκληση: βελτίωσε το παιχνίδι σου!'
     challenge: true
   - 
     title: Τι υπάρχει στη συνέχεια;
