@@ -14,12 +14,16 @@ steps:
     title: 雪玉を作る
   - 
     title: 雪玉を投げる
+    completion:
+      - engaged
   - 
     title: リアルな動き
   - 
     title: まと
+    completion:
+      - internal
   - 
-    title: "チャレンジ: ゲームをもっと面白くしよう！"
+    title: 'チャレンジ: ゲームをもっと面白くしよう！'
     challenge: true
   - 
     title: 次は何をしましょうか？
