@@ -1,0 +1,22 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Guerra de bolas de neve
+description: Faça um jogo no qual você tem que atirar bolas de neve em um alvo
+version: 4
+last_tested: 2018-04-11
+steps:
+- title: Introdução
+- title: Fazendo uma bola de neve
+- title: Atirando uma bola de neve
+  completion:
+  - engaged
+- title: Movimento realista
+- title: O alvo
+  completion:
+  - internal
+- title: 'Desafio: melhore seu jogo!'
+  challenge: true
+- title: E agora?
