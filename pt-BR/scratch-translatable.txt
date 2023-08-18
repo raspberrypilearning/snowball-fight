@@ -1,13 +1,13 @@
-snowball-aim
+mira da bola de neve
 
 normal
 
-power
+energia
 
-throw
+atirar
 
-snowball
+bola de neve
 
-You got me!
+Você me pegou!
 
-new shot
+novo tiro
