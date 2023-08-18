@@ -14,12 +14,16 @@ steps:
     title: Hacer una bola de nieve
   - 
     title: Lanzar una bola de nieve
+    completion:
+      - engaged
   - 
     title: Movimiento realista
   - 
     title: El blanco
+    completion:
+      - internal
   - 
-    title: "Desafío: mejora tu juego!"
+    title: 'Desafío: mejora tu juego!'
     challenge: true
   - 
     title: '¿Qué sigue?'
