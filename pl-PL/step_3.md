@@ -1,10 +1,10 @@
-## Throwing a snowball
+## Rzucanie śnieżką
 
 --- task ---
 
-Add a block to the _end_ of your snowball code, to `broadcast`{:class="block3control"} that you're throwing a snowball:
+Dodaj blok na _końcu_ swojego kodu śnieżki, by `nadać komunikat`{:class="block3control"}, że rzucasz śnieżką:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -28,9 +28,9 @@ end
 
 --- task ---
 
-Add this code to your snowball, to move until it reaches the edge of the stage:
+Dodaj ten kod do śnieżki, aby poruszać się, aż do krawędzi sceny:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -41,15 +41,15 @@ end
 hide
 ```
 
-The code uses the `power`{:class="block3variables"} variable to decide how fast to move.
+Kod wykorzystuje zmienną `moc`{:class="block3variables"} aby decydować o tym, jak szybko się poruszać.
 
 --- /task ---
 
 --- task ---
 
-Now that you're hiding the snowball when it touches the edge, add code to `show`{:class="block3looks"} the snowball when the flag is clicked, _just_ after the snowball switches to the `snowball-aim`{:class="block3looks"} costume.
+Teraz, gdy ukrywasz śnieżkę, gdy dotknie krawędzi, dodaj kod aby `pokazac`{:class="block3looks"} śnieżkę po kliknięciu flagi, _zaraz po tym_ jak śnieżka przełączy się na kostium `cel śnieżki`{:class="block3looks"}.
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -74,15 +74,15 @@ broadcast (throw v) and wait
 
 --- task ---
 
-Test out your snowball a few times. Does it move at different angles and different speeds?
+Przetestuj swoją śnieżkę kilka razy. Czy porusza się pod różnymi kątami i z różnymi prędkościami?
 
 --- /task ---
 
 --- task ---
 
-If you want to be able to throw your snowball lots of times, just add a `forever`{:class="block3control"} loop around your snowball `when flag clicked`{:class="block3events"} code.
+Jeśli chcesz być w stanie rzucić śnieżką wiele razy, po prostu dodaj `zawsze`{:class="block3control"} wokół twojej śnieżki `kiedy kliknięnto flagę`{:class=„block3events”} Kod.
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
