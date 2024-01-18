@@ -3,27 +3,27 @@ hero_image: images/banner.png
 listed: true
 ingredient: false
 copyedit: false
-title: Snowball fight
-description: Make a game in which you have to throw snowballs at a target
+title: Bitwa Na Śnieżki
+description: Stwórz grę, w której będziesz rzucać śnieżkami w cel
 version: 4
 last_tested: 2018-04-11
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: Making a snowball
+    title: Lepienie śnieżek
   - 
-    title: Throwing a snowball
+    title: Rzucanie śnieżką
     completion:
       - engaged
   - 
-    title: Realistic movement
+    title: Realistyczny ruch
   - 
-    title: The target
+    title: Cel
     completion:
       - internal
   - 
-    title: 'Challenge: improve your game!'
+    title: 'Wyzwanie: udoskonal swoją grę!'
     challenge: true
   - 
-    title: What next?
+    title: Co dalej?
