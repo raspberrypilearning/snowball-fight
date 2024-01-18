@@ -1,14 +1,14 @@
-## Realistic movement
+## Realistyczny ruch
 
-You now have a snowball, but let's make it move a bit more realistically.
+Masz teraz śnieżkę, ale sprawmy, aby poruszała się bardziej realistycznie.
 
 --- task ---
 
-First, let's set a maximum power level, so that the snowball can't be thrown too hard.
+Najpierw ustawmy maksymalny poziom mocy, aby śnieżka nie mogła być rzucana zbyt mocno.
 
-In your snowball's `when flag clicked`{:class="block3events"} code, we need to increase the power only if it's less than 20. Change your code to:
+W kodzie twojej śnieżnej kuli `kiedy kliknięnto flagę`{:class="block3events"}, musimy zwiększyć moc tylko wtedy, gdy jest mniejsza niż 20. Zmień kod na:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 repeat until< not <mouse down?> >
@@ -23,24 +23,24 @@ end
 
 --- task ---
 
-Test out your snowball again, and you'll see that the power never gets above 20.
+Ponownie przetestuj swoją śnieżkę, a zobaczysz, że moc nigdy nie osiągnie wartości powyżej 20.
 
 --- /task ---
 
 --- task ---
 
-Now that your snowball's maximum power is 20, you can set this as the maximum value for the variable's slider too. Right-click on your power variable, and click 'set slider min and max'.
+Teraz, gdy maksymalna moc twojej śnieżki wynosi 20, możesz ustawić tę wartość jako maksymalną wartość suwaka zmiennej. Kliknij prawym przyciskiem myszy na zmienną mocy i kliknij 'ustaw suwak min. i maks'.
 
-![min max of slider range](images/snow-minmax.png)
+![min maks. zakresu suwaka](images/snow-minmax.png)
 
 
 --- /task ---
 
 --- task ---
 
-You can also slow down the snowball, by reducing the power slightly as it flies through the air. Add this code block to your snowball's `when I receive [throw]`{:class="block3events"} code:
+Możesz także spowolnić śnieżkę, zmniejszając nieco moc, gdy leci w powietrzu. Dodaj ten blok kodu do śnieżki `kiedy otrzymam [rzucać]`{:class="block3events"}:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -57,11 +57,11 @@ hide
 
 --- task ---
 
-Test this new code - does it work as you expected? You may notice that the power keeps reducing, and eventually the snowball moves backwards!
+Przetestuj ten nowy kod - czy działa zgodnie z oczekiwaniami? Możesz zauważyć, że moc zmniejsza się, i ostatecznie śnieżka porusza się do tyłu!
 
-To fix this, you can add an `if`{:class="block3control"} block to your code, so that the power is only lowered if it is above 0:
+Aby to naprawić, możesz dodać blok `jeżeli`{:class="block3control"} do twojego kodu, aby moc była obniżona tylko wtedy, gdy jest powyżej 0:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -79,9 +79,9 @@ hide
 
 --- task ---
 
-You're nearly there, but you also need to add some gravity to your snowball, so that it falls to the ground. You can add gravity by just moving the snowball down continuously with this code:
+Już prawie gotowe, ale musisz także dodać trochę grawitacji do śnieżki, aby spadła na ziemię. Możesz dodać grawitację, po prostu przesuwając śnieżkę w dół za pomocą tego kodu:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -100,7 +100,7 @@ hide
 
 --- task ---
 
-Test out your snowball again, and you should see that your snowball moves much more realistically.
+Ponownie przetestuj śnieżkę i zauważysz, że śnieżka porusza się o wiele bardziej realistycznie.
 
 --- /task ---
 
