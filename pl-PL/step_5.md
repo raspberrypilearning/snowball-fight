@@ -1,12 +1,12 @@
-## The target
+## Cel
 
-Let's add in a target for your snowballs!
+Dodajmy cel dla twoich śnieżek!
 
 --- task ---
 
-Add in another sprite to your project.
+Dodaj inną ikonę do projektu.
 
-![a target sprite on the stage](images/snow-deer.png)
+![ikona celu na scenie](images/snow-deer.png)
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add in another sprite to your project.
 
 --- task ---
 
-Add this code to your new sprite, so that it says "You got me!" when it gets hit:
+Dodaj ten kod do nowej ikony/duszka, tak, aby mówił: „Masz mnie!”, kiedy zostanie trafiony:
 
-![target sprite](images/target-sprite.png)
+![ikona/duszek celu](images/target-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -31,19 +31,19 @@ end
 
 --- task ---
 
-Test out your new code.
+Przetestuj swój nowy kod.
 
-![target sprite saying you got me!](images/snow-hit.png)
+![ikona cel mówiący, masz mnie!](images/snow-hit.png)
 
 --- /task ---
 
 --- task ---
 
-Let's do a couple of things to make the game harder. First, let's move the reindeer each time the player throws the snowball.
+Zróbmy kilka rzeczy, aby gra była trudniejsza. Najpierw poruszajmy reniferami za każdym razem, gdy gracz rzuca śnieżką.
 
-To do this, first add a `broadcast`{:class="block3control"} to your snowball, near the top of your `forever`{:class="block3control"} loop. This will let your reindeer know that a new shot is about to be taken.
+Aby to zrobić, najpierw dodaj `komunikat`{:class="block3control"} na śnieżkę, obok górnej części pętli `zawsze` {:class="block3control"}. Dzięki temu Twój renifer będzie wiedział, że wkrótce zostanie wystrzelony nowy strzał.
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -67,9 +67,9 @@ broadcast (throw v) and wait
 end
 ```
 
-When your reindeer receives this message, move it to a new random position with this code:
+Gdy renifer otrzyma tę wiadomość, przenieś ją na nową losową pozycję za pomocą tego kodu:
 
-![target sprite](images/target-sprite.png)
+![ikona celu](images/target-sprite.png)
 
 ```blocks3
 when I receive [new shot v]
@@ -80,23 +80,23 @@ set x to (pick random (0) to (200))
 
 --- task ---
 
-Test your project by throwing a few snowballs. Does your target move position each time?
+Przetestuj swój projekt, rzucając kilka śnieżek. Czy Twój cel zmienia pozycję za każdym razem?
 
 --- /task ---
 
 --- task ---
 
-You can also make your game harder by adding a rock in front of your snowball.
+Możesz również utrudnić swoją grę dodając kamień przed swoją śnieżką.
 
-![rock sprite on the stage](images/snow-rock.png)
+![ikona/duszek kamień na scenie](images/snow-rock.png)
 
 --- /task ---
 
 --- task ---
 
-You can now change your snowball code, to stop when it touches the edge of the screen _or_ when it touches the rock.
+Możesz teraz zmienić swój kod śnieżki, aby zatrzymać się, gdy dotknie krawędzi ekranu _lub_ gdy dotknie skały.
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when I receive [throw v]
@@ -115,8 +115,8 @@ hide
 
 --- task ---
 
-Finally, you can make your game harder by making your snowball and your reindeeer smaller.
+Wreszcie, możesz utrudnić grę, zmniejszając swoją śnieżkę i renifera.
 
-![small snowball and target sprite](images/snow-small.png)
+![mała śnieżka i ikona celu](images/snow-small.png)
 
 --- /task ---
