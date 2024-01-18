@@ -1,36 +1,36 @@
-## Making a snowball
+## Lepienie śnieżek
 
-Let's make a snowball, that you can throw around your stage.
+Zróbmy śnieżną kulę, którą możesz rzucać po całej scenie.
 
 --- task ---
 
-Open the Scratch starter project.
+Otwórz projekt startowy Scratch.
 
-**Online**: open the [starter project](https://rpf.io/snowball-fight-on){:target="_blank"}.
+**Online**: otwórz [projekt początkowy](https://rpf.io/snowball-fight-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline**: open the [starter project](https://rpf.io/p/en/snowball-fight-go){:target="_blank"} in the offline editor.
+**Offline**: otwórz[ startowy projekt](https://rpf.io/p/en/snowball-fight-go){:target="_ blank"} w edytorze offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-In the starter project, you should see a blank stage and snowball sprite.
+W projekcie startowym powinno być widoczne puste tło i ikona "śnieżka".
 
 --- /task ---
 
 --- task ---
 
-The 'Snowball' sprite contains 2 costumes, a normal costume, and one that shows which direction the snowball is facing.
+Ikona "Śnieżka" zawiera 2 kostiumy, normalny kostium i taki, który pokazuje kierunek, w który skierowana jest śnieżka.
 
-![snowball costumes](images/snow-costume.png)
+![kostiumy śnieżki](images/snow-costume.png)
 
 --- /task ---
 
 --- task ---
 
-First, let's allow the player to change the angle of the snowball. Add this code to your snowball sprite:
+Po pierwsze, pozwólmy graczowi zmienić kąt śnieżki. Dodaj ten kod do ikon ze śnieżkami:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ end
 
 --- task ---
 
-Test out your project by clicking the green flag. You should see that your snowball follows the mouse, until you press the mouse button.
+Przetestuj swój projekt, klikając zieloną flagę. Zobacz, że śnieżka podąża za myszą, dopóki nie naciśniesz przycisku myszy.
 
-![snow ball aim sprite pointing at mouse pointed](images/snow-mouse.png)
+![ikona Śnieżka celująca śnieżną kulą we wskazane myszką miejsce](images/snow-mouse.png)
 
 --- /task ---
 
 --- task ---
 
-Let's also allow the player to decide on how powerful the snowball should be thrown. Create a new variable called `power`{:class="block3variables"}.
+Pozwólmy również graczowi zdecydować o tym, jak potężna powinna być rzucona śnieżka. Utwórz nową zmienną o nazwie `moc`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -63,17 +63,17 @@ Let's also allow the player to decide on how powerful the snowball should be thr
 
 --- task ---
 
-Drag your new variable display to the bottom of the stage, near the snowball. Right-click on the variable display and click 'slider'.
+Przeciągnij twój nowy wyświetlacz zmiennych na dół sceny, w pobliżu śnieżki. Kliknij prawym przyciskiem myszy na ekranie zmiennej i kliknij przycisk 'suwak'.
 
-![variable changed to slider](images/snow-slider.png)
+![zmienna zmieniona na suwak](images/snow-slider.png)
 
 --- /task ---
 
 --- task ---
 
-Add code to set your new `power`{:class="block3variables"} variable to 0 when the flag is clicked.
+Dodaj kod, aby ustawić nową zmienną `moc`{:class="block3variables"} na 0 po kliknięciu flagi.
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -84,9 +84,9 @@ when flag clicked
 
 --- task ---
 
-Now that you have a `power`{:class="block3variables"} variable, you can increase the power of the snowball _after_ the direction has been chosen with this code:
+Teraz, gdy masz zmienną `moc`{:class="block3variables"}, możesz później zwiększyć moc śnieżki _po_ wybraniu kierunku za pomocą tego kodu:
 
-![snowball sprite](images/snowball-sprite.png)
+![ikona śnieżki](images/snowball-sprite.png)
 
 ```blocks3
 repeat until <mouse down?>
@@ -99,14 +99,14 @@ end
 end
 ```
 
-This code means that you have to _keep the mouse button held down_ after choosing the direction, to choose the snowball's power.
+Ten kod oznacza, że musisz _przytrzymać przycisk myszy _ po wybraniu kierunku, aby wybrać siłę śnieżki.
 
 --- /task ---
 
 --- task ---
 
-Test your snowball, to see if you can choose its angle and power.
+Przetestuj swoją śnieżkę, aby zobaczyć, czy możesz wybrać jej kąt i moc.
 
-![power variable at 35 next to snowball aim](images/snow-test.png)
+![zmienna moc na 35 obok celu śnieżki](images/snow-test.png)
 
 --- /task ---
