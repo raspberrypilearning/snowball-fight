@@ -1,13 +1,13 @@
-snowball-aim
+cel śnieżki
 
-normal
+normalny
 
-power
+moc
 
-throw
+rzucać
 
-snowball
+śnieżka
 
-You got me!
+Masz mnie!
 
-new shot
+nowy strzał
