@@ -1,18 +1,18 @@
 --- no-print ---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
+To jest **Scratch 3** wersja projektu. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/snowball-fight-scratch2).
 
 --- /no-print ---
 
-## Introduction
+## Wprowadzenie
 
-In this project you're going to make a game in which you have to throw snowballs at a target.
+W tym projekcie stworzysz grę, w której będziesz rzucać śnieżkami w cel.
 
-### What you will make
+### Co stworzysz
 
 --- no-print ---
 
-Use the mouse pointer to angle the snowball and hold down the mouse button to choose the snowball's power.
+Użyj kursora myszy, aby ustawić kąt śnieżki i przytrzymaj przycisk myszy, aby wybrać moc kuli śnieżnej.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/302159331/?autostart=true" frameborder="0" scrolling="no"></iframe>
@@ -23,51 +23,51 @@ Use the mouse pointer to angle the snowball and hold down the mouse button to ch
 
 --- print-only ---
 
-![complete project](images/snow-final.png)
+![skończony projekt](images/snow-final.png)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Czego będziesz potrzebować
 ---
 
-### Hardware
+### Sprzęt
 
-+ A computer capable of running Scratch
++ Komputer, na którym można uruchomić Scratch
 
-### Software
+### Oprogramowanie
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon) {:target="_blank"} lub [offline](https://rpf.io/scratchoff) {:target="_blank"})
 
-### Downloads
+### Pliki do pobrania
 
-The starter project can be found [here](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
+Projekt początkowy można znaleźć [tutaj](https://rpf.io/p/en/snowball-fight-go){:target="_blank"}.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Czego się nauczysz
 ---
 
-- How to animated sprites
-- How to react to mouse input
-- how to use broadcasts
+- Jak animować ikony
+- Jak reagować na kliknięcia myszą
+- jak korzystać z transmisji
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Dodatkowe informacje dla nauczycieli
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/snowball-fight/print){:target="_blank"}.
 
 --- /no-print ---
 
-You can find the [completed project here](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
+Możesz znaleźć [ukończoną wersję projektu tutaj](https://rpf.io/p/en/snowball-fight-get){:target="_blank"}.
 
 --- /collapse ---
