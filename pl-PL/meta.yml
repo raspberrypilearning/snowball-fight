@@ -1,0 +1,22 @@
+---
+hero_image: images/banner.png
+listed: true
+ingredient: false
+copyedit: false
+title: Bitwa na śnieżki
+description: Stwórz grę, w której będziesz rzucać śnieżkami w cel
+version: 4
+last_tested: 2018-04-11
+steps:
+  - title: Wprowadzenie
+  - title: Lepienie śnieżek
+  - title: Rzucanie śnieżką
+    completion:
+      - engaged
+  - title: Realistyczny ruch
+  - title: Cel
+    completion:
+      - internal
+  - title: 'Wyzwanie: udoskonal swoją grę!'
+    challenge: true
+  - title: Co dalej?
