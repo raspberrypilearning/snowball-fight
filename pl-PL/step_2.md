@@ -6,11 +6,11 @@ Zróbmy śnieżną kulę, którą możesz rzucać po całej scenie.
 
 Otwórz projekt startowy Scratch.
 
-**Online**: otwórz [projekt początkowy](https://rpf.io/snowball-fight-on){: target = "_ blank"}.
+**Online**: otwórz [projekt początkowy](https://rpf.io/snowball-fight-on){:target ="_ blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline**: otwórz[ startowy projekt](https://rpf.io/p/en/snowball-fight-go){:target="_ blank"} w edytorze offline.
+**Offline**: otwórz [startowy projekt](https://rpf.io/p/en/snowball-fight-go){:target="_ blank"} w edytorze offline.
 
 Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
