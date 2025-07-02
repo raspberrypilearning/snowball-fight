@@ -19,6 +19,5 @@ steps:
   - internal
 - title: 'Challenge: improve your game!'
   challenge: true
-- title: What next?
   completion:
   - external
