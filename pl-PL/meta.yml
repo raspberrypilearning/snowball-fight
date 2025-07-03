@@ -19,4 +19,3 @@ steps:
       - internal
   - title: 'Wyzwanie: udoskonal swoją grę!'
     challenge: true
-  - title: Co dalej?
