@@ -25,5 +25,5 @@ steps:
   - 
     title: 'チャレンジ: ゲームをもっと面白くしよう！'
     challenge: true
-  - 
-    title: 次は何をしましょうか？
+    completion:
+      - external
