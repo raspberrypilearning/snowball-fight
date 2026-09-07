@@ -25,5 +25,5 @@ steps:
   - 
     title: 'Desafio: melhore seu jogo!'
     challenge: true
-  - 
-    title: E agora?
+    completion:
+      - external
