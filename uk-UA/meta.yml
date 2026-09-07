@@ -25,5 +25,5 @@ steps:
   - 
     title: 'Завдання: вдоскональ свою гру!'
     challenge: true
-  - 
-    title: Що далі?
+    completion:
+      - external
