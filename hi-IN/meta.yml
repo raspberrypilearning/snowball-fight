@@ -25,5 +25,5 @@ steps:
   - 
     title: 'चुनौती: अपने गेम को सुधारें!'
     challenge: true
-  - 
-    title: आगे क्या?
+    completion:
+      - external
