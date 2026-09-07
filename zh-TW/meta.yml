@@ -25,5 +25,5 @@ steps:
   - 
     title: '挑戰：遊戲改良！'
     challenge: true
-  - 
-    title: 然後呢？
+    completion:
+      - external
