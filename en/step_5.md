@@ -60,8 +60,10 @@ repeat until <mouse down?>
 end
 repeat until < not <mouse down?> >
 	point towards (mouse-pointer v)
-	change [power v] by (1)
-	wait (0.1) seconds
+	if < (power) < [20] > then
+		change [power v] by (1)
+		wait (0.1) seconds
+	end
 end
 broadcast (throw v) and wait
 end
